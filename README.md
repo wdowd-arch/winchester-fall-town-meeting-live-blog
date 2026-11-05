@@ -31,7 +31,7 @@ Start with `status: "upcoming"` and an empty `updates` array. When the meeting o
 }
 ```
 
-`id`, `at`, `title`, and `body` are required; `article` (1–45), `sourceUrl` (https only), and `sourceLabel` are optional. Entries with a missing field or an unreadable `at` time are skipped. Times display in Eastern time in AP style ("Nov. 5, 7:05 p.m. ET"), newest first. Never post an unverified vote, quote, or floor update.
+`id`, `at`, `title`, and `body` are required; `article` (1–45), `sourceUrl` (https only), and `sourceLabel` are optional. Entries with a missing field or an unreadable `at` time are skipped. Times display in Eastern time in AP style ("7:05 p.m. Nov. 5," "7 p.m.," noon, midnight) with no time-zone label, newest first. An optional `dek` shows under the headline and must not repeat any headline word. Never post an unverified vote, quote, or floor update.
 
 `body` is plain text with a few line-based conventions (in JSON, write a line break as `\n`):
 
@@ -56,7 +56,7 @@ An entry may also carry an optional photo, shown under the headline. Put image f
   ],
   "alt": "What the photo shows, for screen-reader users.",
   "caption": "Caption text.",
-  "credit": "Photographer or source"
+  "credit": "COURTESY PHOTO / NAME"
 }
 ```
 
@@ -71,3 +71,7 @@ python -m http.server 8000
 ```
 
 Then open http://localhost:8000/ and http://localhost:8000/?embed=1.
+
+## Live video
+
+The top of the page shows the YouTube live video named in `stream.youtubeId` (the 11-character ID from the YouTube link), with a link to WinCAM’s government channel underneath. Change the ID for each session, or set `"stream": null` to hide the player. Changing it reloads the player; other feed updates do not.

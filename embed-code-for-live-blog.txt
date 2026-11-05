@@ -15,11 +15,11 @@
     height: 650px;
     min-height: 320px;
     border: 0;
-    background: #fff5ee;
+    background: #ffffff;
   }
-  .wtm-live-embed .wtm-live-notice { display: none; padding: 12px; background: #ebf0f7; font: 15px/1.5 Arial,sans-serif; }
+  .wtm-live-embed .wtm-live-notice { display: none; padding: 12px; background: #ffffff; border: 1px solid #cfcfce; font: 15px/1.5 Georgia,'Times New Roman',serif; }
   .wtm-live-embed.wtm-live-no-connect .wtm-live-notice { display: block; }
-  .wtm-live-embed .wtm-live-fallback { font: 14px/1.5 Arial,sans-serif; margin: 8px 0; }
+  .wtm-live-embed .wtm-live-fallback { font: 15px/1.5 Georgia,'Times New Roman',serif; margin: 8px 0; }
 </style>
 <div class="kg-card kg-width-full wtm-live-embed" id="wtm-live-embed">
   <p class="wtm-live-notice" role="status">The live feed has not connected. <a href="https://wdowd-arch.github.io/winchester-fall-town-meeting-live-blog/">Open it in a separate page</a>.</p>
@@ -27,6 +27,7 @@
     src="https://wdowd-arch.github.io/winchester-fall-town-meeting-live-blog/?embed=1"
     title="Winchester 2026 Fall Town Meeting live updates"
     width="960" height="650" loading="eager"
+    allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen
     referrerpolicy="strict-origin-when-cross-origin"></iframe>
   <p class="wtm-live-fallback"><a href="https://wdowd-arch.github.io/winchester-fall-town-meeting-live-blog/" target="_blank" rel="noopener">Open the live blog in a separate page</a>.</p>
 </div>

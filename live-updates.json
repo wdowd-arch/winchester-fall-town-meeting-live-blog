@@ -1,12 +1,16 @@
 {
   "status": "upcoming",
   "updatedAt": "2026-11-05T17:55:00-05:00",
-  "note": "Live coverage begins when Town Meeting opens Thursday, Nov. 5, at 7 p.m. Eastern. The warrant tracker remains available for article details and recorded results.",
+  "note": "Live coverage begins when Town Meeting opens at 7 p.m. The warrant tracker has details on every article and the results as they are recorded.",
+  "stream": {
+    "youtubeId": "YkvANFR7Cyw",
+    "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
+  },
   "updates": [
     {
       "id": "nov5-1755-intro",
       "at": "2026-11-05T17:55:00-05:00",
-      "title": "Fall Town Meeting opens tonight: what's on the floor",
+      "title": "Fall Town Meeting opens tonight: What’s on the floor",
       "image": {
         "src": "images/town-meeting-file-photo-1226.jpg",
         "width": 1226,
@@ -23,11 +27,12 @@
         ],
         "alt": "Town Meeting members seated in a school auditorium facing the stage, where officials sit at tables beneath a projected slide.",
         "caption": "Winchester Town Meeting in session at a previous meeting.",
-        "credit": "File photo via WinCAM Government"
+        "credit": "COURTESY PHOTO / WINCAM"
       },
-      "body": "Town Meeting begins tonight at 7 p.m. at Winchester High School. Members will work through 45 articles over as many as four nights: Nov. 5, 9 and 12, with Nov. 16 in reserve.\n\n## The big picture\nMost of the warrant is about money, and most of it is routine. The biggest piece is about $4.8 million in capital requests, including a $1.1 million fire engine, $900,000 for walkways and stairs at Lincoln School, and road and sidewalk work.\n\nThe rest covers Community Preservation projects, zoning and land deals, and bylaw changes ranging from dog license fees to sidewalk snow removal.\n\n## What to watch\n• Forest Ridge (Article 26): A proposed eminent domain taking of about 13 acres for conservation, appraised at up to $2.85 million.\n• Citizen petitions (Articles 39–43): Rezonings at 114 Church St. and 18 Raymond Place, a new home lot at the Ledges, and a call for separate override votes. The Church Street petitioner has said they won't pursue it this fall.\n• Sanborn Carriage House (Article 30): A $50,000 study, and the only article the Select Board opposes.\n• Special education reserve (Article 29): $400,000, backed 3-1 by the Select Board.\n\n## Where things stand\nThe Select Board has backed 18 articles and opposed one; the rest have no recommendation yet. Every vote is still ahead, and we'll post results here as they happen.",
+      "body": "Town Meeting begins tonight at 7 p.m. at Winchester High School. Members will work through 45 articles over as many as four nights: Nov. 5, 9 and 12, with Nov. 16 in reserve.\n\n## The big picture\nMost of the warrant is about money, and most of it is routine. The biggest piece is about $4.8 million in capital requests, including a $1.1 million fire engine, road and sidewalk work and $900,000 for walkways and stairs at Lincoln School.\n\nThe rest covers Community Preservation projects; zoning and land deals; and bylaw changes ranging from dog license fees to sidewalk snow removal.\n\n## What to watch\n• Forest Ridge (Article 26): A proposed eminent domain taking of about 13 acres for conservation, with a $2.85 million appraisal ceiling in the draft motion.\n• Citizen petitions (Articles 39–43): Rezonings at 114 Church St. and 18 Raymond Place; a new home lot at the Ledges; and a call for separate override votes. The Church Street petitioner has said they won’t pursue it this fall.\n• Sanborn Carriage House (Article 30): A $50,000 study, and the only article the Select Board opposes.\n• Special education reserve (Article 29): $400,000, backed 3-1 by the Select Board.\n\n## Where things stand\nThe Select Board has backed 18 articles and opposed one. Winchester News has not confirmed its position on the other 26. Every vote is still ahead, and we’ll post results here as they happen.",
       "sourceUrl": "https://winchesternews.org/20261106_winchester-town-meeting-tracker-all-45-warrant-articles-explained/",
-      "sourceLabel": "Warrant tracker: all 45 articles"
+      "sourceLabel": "Warrant tracker: all 45 articles",
+      "dek": "Members face 45 articles, from a Forest Ridge land taking to dog license fees"
     }
   ]
 }
