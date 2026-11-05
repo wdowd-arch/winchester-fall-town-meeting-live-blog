@@ -43,6 +43,25 @@ Start with `status: "upcoming"` and an empty `updates` array. When the meeting o
 
 Everything is inserted as text, never as HTML, so entries cannot inject markup or scripts.
 
+An entry may also carry an optional photo, shown under the headline. Put image files in `images/` (JPEG, so older iPhones can show them) and give the real pixel size so the page does not jump while it loads:
+
+```json
+"image": {
+  "src": "images/town-meeting-file-photo-1226.jpg",
+  "width": 1226,
+  "height": 693,
+  "srcset": [
+    { "src": "images/town-meeting-file-photo-800.jpg", "width": 800 },
+    { "src": "images/town-meeting-file-photo-1226.jpg", "width": 1226 }
+  ],
+  "alt": "What the photo shows, for screen-reader users.",
+  "caption": "Caption text.",
+  "credit": "Photographer or source"
+}
+```
+
+Only `src` is required; `srcset` is optional and lets phones load a smaller file. `src` must be a path in this repository or an https address.
+
 GitHub Pages republishes about a minute after a push to `main`, so updates are not instant. `.github/workflows/pages.yml` publishes through GitHub Actions, which avoids the 10-builds-an-hour limit of branch publishing. It requires Settings > Pages > Source set to **GitHub Actions**; until then it skips deployment and the branch publishing continues, under that limit.
 
 ## Local preview
