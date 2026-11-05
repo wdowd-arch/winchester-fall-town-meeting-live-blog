@@ -1,0 +1,52 @@
+<!-- Winchester News Ghost HTML card: paste everything below into a new post's HTML card. -->
+<style>
+  .gh-content.gh-canvas > .wtm-live-embed {
+    grid-column: full-start / full-end;
+    justify-self: center;
+    box-sizing: border-box;
+    width: min(960px, calc(100% - 32px));
+    max-width: none;
+    min-width: 0;
+    margin-inline: 0;
+  }
+  .wtm-live-embed iframe {
+    display: block;
+    width: 100%;
+    height: 650px;
+    min-height: 320px;
+    border: 0;
+    background: #fff5ee;
+  }
+  .wtm-live-embed .wtm-live-notice { display: none; padding: 12px; background: #ebf0f7; font: 15px/1.5 Arial,sans-serif; }
+  .wtm-live-embed.wtm-live-no-connect .wtm-live-notice { display: block; }
+  .wtm-live-embed .wtm-live-fallback { font: 14px/1.5 Arial,sans-serif; margin: 8px 0; }
+</style>
+<div class="kg-card kg-width-full wtm-live-embed" id="wtm-live-embed">
+  <p class="wtm-live-notice" role="status">The live feed has not connected. <a href="https://wdowd-arch.github.io/winchester-fall-town-meeting-live-blog/">Open it in a separate page</a>.</p>
+  <iframe id="wtm-live-frame"
+    src="https://wdowd-arch.github.io/winchester-fall-town-meeting-live-blog/?embed=1"
+    title="Winchester 2026 Fall Town Meeting live updates"
+    width="960" height="650" loading="eager"
+    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  <p class="wtm-live-fallback"><a href="https://wdowd-arch.github.io/winchester-fall-town-meeting-live-blog/" target="_blank" rel="noopener">Open the live blog in a separate page</a>.</p>
+</div>
+<script>
+  (function () {
+    var origin='https://wdowd-arch.github.io';
+    var wrap=document.getElementById('wtm-live-embed');
+    var frame=document.getElementById('wtm-live-frame');
+    if(!wrap||!frame)return;
+    var connected=false;
+    var timer=setTimeout(function(){if(!connected)wrap.classList.add('wtm-live-no-connect');},10000);
+    function request(){try{frame.contentWindow.postMessage({type:'wtm-live-request-height'},origin);}catch(e){}}
+    window.addEventListener('message',function(event){
+      if(event.origin!==origin||event.source!==frame.contentWindow||!event.data||event.data.type!=='wtm-live-height')return;
+      var height=Number(event.data.height);
+      if(!isFinite(height)||height<=0)return;
+      frame.style.height=Math.max(320,Math.ceil(height))+'px';
+      connected=true;clearTimeout(timer);wrap.classList.remove('wtm-live-no-connect');
+    });
+    frame.addEventListener('load',request);
+    request();
+  })();
+</script>

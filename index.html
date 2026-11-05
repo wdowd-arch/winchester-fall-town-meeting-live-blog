@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Live reporting from Winchester's 2026 Fall Town Meeting, separate from the 45-article warrant tracker.">
+  <title>2026 Fall Town Meeting live blog | Winchester News</title>
+  <script>if (window.self !== window.top || new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embedded');</script>
+  <style>
+    :root { color-scheme: light; --ink:#1e1f21; --muted:#4a4a4a; --navy:#1b3a5c; --paper:#fff5ee; --line:#e8e2d9; --red:#b52727; }
+    * { box-sizing:border-box; }
+    body { max-width:960px; margin:auto; padding:24px 20px 40px; background:var(--paper); color:var(--ink); font:18px/1.55 Georgia,'Times New Roman',serif; }
+    a { color:var(--navy); }
+    a:focus-visible, button:focus-visible { outline:3px solid var(--navy); outline-offset:3px; }
+    .brand { border-bottom:1px solid var(--line); margin-bottom:24px; padding-bottom:12px; font:700 15px/1.3 Arial,sans-serif; letter-spacing:.13em; text-transform:uppercase; }
+    .brand a { text-decoration:none; color:#1e3a2a; }
+    .eyebrow { color:var(--red); font:700 12px/1.3 Arial,sans-serif; letter-spacing:.14em; text-transform:uppercase; }
+    h1 { font-size:clamp(30px,5vw,48px); line-height:1.12; margin:10px 0; }
+    .dek { color:var(--muted); font-size:20px; margin:0 0 10px; }
+    .byline, .meeting, .updated { color:var(--muted); font:14px/1.5 Arial,sans-serif; }
+    .meeting { margin:16px 0 0; }
+    .tracker-link { display:block; padding:15px 18px; margin:22px 0; border-left:4px solid var(--navy); background:#ebf0f7; font:16px/1.5 Arial,sans-serif; }
+    .tracker-link a { font-weight:700; }
+    .feed-heading { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:8px; border-bottom:2px solid var(--ink); padding-bottom:8px; margin-top:30px; }
+    h2 { margin:0; font-size:24px; }
+    .updated { margin:0; }
+    .notice { padding:18px; border:1px solid var(--line); background:#fffaf5; margin:18px 0; }
+    .notice.error { border-left:4px solid var(--red); }
+    .update { border-bottom:1px solid var(--line); padding:24px 0; }
+    .update time, .update .article { font:700 12px/1.4 Arial,sans-serif; letter-spacing:.07em; text-transform:uppercase; }
+    .update time { color:var(--red); }
+    .update .article { color:var(--navy); margin-left:12px; }
+    .update h3 { margin:8px 0; font-size:24px; line-height:1.25; }
+    .update p { margin:0 0 12px; white-space:pre-line; }
+    .update .source { font:14px/1.4 Arial,sans-serif; }
+    .refresh { margin:20px 0 0; color:var(--muted); font:13px/1.5 Arial,sans-serif; }
+    .embedded .brand { display:none; }
+    .embedded body { padding-top:12px; padding-bottom:20px; display:flow-root; }
+    @media(max-width:600px) { body { padding:18px 16px 30px; } .dek { font-size:18px; } .update h3 { font-size:21px; } }
+  </style>
+</head>
+<body>
+  <div class="brand"><a href="https://winchesternews.org/">Winchester News</a></div>
+  <header>
+    <div class="eyebrow" id="statusLabel">Town Meeting coverage</div>
+    <h1>Live from Fall Town Meeting</h1>
+    <p class="dek">Updates from the floor as Winchester considers its 45-article warrant.</p>
+    <p class="byline">By Will Dowd · Winchester News</p>
+    <p class="meeting">Thursday, Nov. 5 · 7 p.m. · Winchester High School auditorium, 80 Skillings Road</p>
+  </header>
+  <aside class="tracker-link">Looking for the proposals and vote results? <a href="https://winchesternews.org/20261106_winchester-town-meeting-tracker-all-45-warrant-articles-explained/" target="_blank" rel="noopener">Open the 45-article warrant tracker</a>.</aside>
+  <section aria-labelledby="feedHeading">
+    <div class="feed-heading"><h2 id="feedHeading">Latest updates</h2><p class="updated" id="updated"></p></div>
+    <div id="feed" aria-live="polite" aria-relevant="additions text"><div class="notice">Loading coverage…</div></div>
+  </section>
+  <p class="refresh">This feed checks for new updates every 30 seconds while the page is open. Times are Eastern.</p>
+  <script>
+    (function () {
+      const feed=document.getElementById('feed');
+      const updated=document.getElementById('updated');
+      const label=document.getElementById('statusLabel');
+      const timeFormat=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+      let lastJson='';
+      function node(tag,cls,value) { const el=document.createElement(tag); if(cls)el.className=cls; if(value!=null)el.textContent=value; return el; }
+      function validUrl(url) { try { const u=new URL(url); return u.protocol==='https:' ? u.href : null; } catch (_) { return null; } }
+      function render(data) {
+        if(!data || !Array.isArray(data.updates) || !['upcoming','live','ended'].includes(data.status)) throw new Error('Invalid feed data');
+        label.textContent={upcoming:'Coverage begins tonight',live:'Live updates',ended:'Coverage concluded'}[data.status];
+        const date=data.updatedAt ? new Date(data.updatedAt) : null;
+        updated.textContent=date && !Number.isNaN(date.getTime()) ? `Updated ${timeFormat.format(date)} ET` : '';
+        const frag=document.createDocumentFragment();
+        if(data.note)frag.append(node('div','notice',data.note));
+        const entries=data.updates.slice().sort((a,b)=>Date.parse(b.at)-Date.parse(a.at));
+        for(const item of entries) {
+          if(!item || !item.id || !item.at || !item.title || !item.body || Number.isNaN(Date.parse(item.at))) continue;
+          const article=node('article','update'); article.id='update-'+String(item.id).replace(/[^a-zA-Z0-9_-]/g,'');
+          const stamp=node('time','',timeFormat.format(new Date(item.at))+' ET'); stamp.dateTime=item.at; article.append(stamp);
+          if(Number.isInteger(item.article) && item.article>=1 && item.article<=45)article.append(node('span','article','Article '+item.article));
+          article.append(node('h3','',item.title),node('p','',item.body));
+          const source=validUrl(item.sourceUrl);
+          if(source) { const p=node('p','source'); const a=node('a','',item.sourceLabel||'Source'); a.href=source; a.target='_blank'; a.rel='noopener'; p.append(a); article.append(p); }
+          frag.append(article);
+        }
+        if(!entries.length)frag.append(node('div','notice','No floor updates have been posted yet. Check back when the meeting begins.'));
+        feed.replaceChildren(frag);
+      }
+      async function refresh() {
+        if(document.hidden) return;
+        try {
+          const response=await fetch('live-updates.json?t='+Date.now(),{cache:'no-store',credentials:'omit'});
+          if(!response.ok)throw new Error('Feed unavailable');
+          const raw=await response.text();
+          if(raw===lastJson)return;
+          const data=JSON.parse(raw); render(data); lastJson=raw;
+        } catch (_) { if(!lastJson)feed.replaceChildren(node('div','notice error','Updates could not be loaded. Please try again shortly or open this feed in a separate page.')); }
+      }
+      refresh(); setInterval(refresh,30000); document.addEventListener('visibilitychange',()=>{ if(!document.hidden)refresh(); });
+      if(window.parent!==window) {
+        let previous=0;
+        function send(force) { const height=Math.ceil(document.body.getBoundingClientRect().height)+2; if(force||height!==previous){previous=height;window.parent.postMessage({type:'wtm-live-height',height},'*');} }
+        if('ResizeObserver' in window)new ResizeObserver(()=>send(false)).observe(document.body);
+        window.addEventListener('load',()=>send(true));
+        window.addEventListener('message',event=>{if(event.source===window.parent && event.data?.type==='wtm-live-request-height')send(true);});
+        send(true);
+      }
+    })();
+  </script>
+</body>
+</html>
