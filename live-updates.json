@@ -1,6 +1,16 @@
 {
   "status": "upcoming",
-  "updatedAt": null,
-  "note": "Live coverage begins when Town Meeting opens Thursday, Nov. 5, at 7 p.m. Eastern. The warrant tracker remains available for article details and recorded results.",
-  "updates": []
+  "updatedAt": "2026-11-05T17:45:00-05:00",
+  "note": "Live coverage begins when Town Meeting opens at 7 p.m.",
+  "updates": [
+    {
+      "id": "nov5-intro",
+      "at": "2026-11-05T17:45:00-05:00",
+      "title": "Winchester Town Meeting to weigh 45 articles starting tonight",
+      "dek": "Sessions continue Nov. 9 and 12, with Nov. 16 held in reserve",
+      "body": "Town Meeting members convene at 7 p.m. in the Winchester High School auditorium, 80 Skillings Road, to start on a warrant that runs from the receipt of town reports to a proposed eminent domain taking at Forest Ridge.\n\n## Two prices for Forest Ridge\n\nArticle 26 would authorize the town to take about 13.4 acres at Forest Ridge for conservation. The draft motion sets a $2.85 million appraisal ceiling. A separately posted February appraisal valued the land at $3.275 million.\n\nThe Select Board discussed the article Nov. 2, including correspondence from the developer and public comments, but took no vote and agreed to revisit it Nov. 5.\n\n## Where the boards stand\n\nThe Select Board has recommended favorable action on 18 articles. It voted 4-0 on Nov. 2 to recommend unfavorable action on Article 30, a $50,000 study of the Sanborn Carriage House.\n\nWinchester News had not confirmed a Finance Committee recommendation on any article as of Nov. 3.\n\n## Following along\n\nEach update here reports a floor action or vote after it happens. The warrant tracker has every article’s summary, cost, sponsor, board positions and recorded result.",
+      "sourceUrl": "https://winchesternews.org/20261106_winchester-town-meeting-tracker-all-45-warrant-articles-explained/",
+      "sourceLabel": "Open the warrant tracker for all 45 articles"
+    }
+  ]
 }

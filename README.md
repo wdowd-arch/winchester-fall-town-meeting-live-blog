@@ -25,13 +25,14 @@ Start with `status: "upcoming"` and an empty `updates` array. When the meeting o
   "at": "2026-11-05T19:05:00-05:00",
   "article": 1,
   "title": "A reported headline",
+  "dek": "A second line that shares no words with the headline",
   "body": "A concise, verified update. Plain text and line breaks are supported.",
   "sourceUrl": "https://www.winchester.us/example",
   "sourceLabel": "Town document"
 }
 ```
 
-`id`, `at`, `title`, and `body` are required; `article` (1–45), `sourceUrl`, and `sourceLabel` are optional. Times display in Eastern time, newest first. Text is rendered as text, so entries cannot inject HTML. Never post an unverified vote, quote, or floor update.
+`id`, `at`, `title`, and `body` are required; `dek`, `article` (1–45), `sourceUrl`, and `sourceLabel` are optional. In `body`, separate paragraphs with a blank line (`\n\n`) and start a paragraph with `## ` to make it a breaker headline. Times display in Eastern time in AP style (7:05 p.m. Nov. 5, noon, midnight) with no time-zone label, newest first. Text is rendered as text, so entries cannot inject HTML. Never post an unverified vote, quote, or floor update.
 
 GitHub Pages republishes about a minute after a push to `main`, so updates are not instant. `.github/workflows/pages.yml` publishes through GitHub Actions, which avoids the 10-builds-an-hour limit of branch publishing. It requires Settings > Pages > Source set to **GitHub Actions**; until then it skips deployment and the branch publishing continues, under that limit.
 
