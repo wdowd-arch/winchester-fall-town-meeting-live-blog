@@ -27,6 +27,7 @@
     src="https://wdowd-arch.github.io/winchester-fall-town-meeting-live-blog/?embed=1"
     title="Winchester 2026 Fall Town Meeting live updates"
     width="960" height="650" loading="eager"
+    allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen
     referrerpolicy="strict-origin-when-cross-origin"></iframe>
   <p class="wtm-live-fallback"><a href="https://wdowd-arch.github.io/winchester-fall-town-meeting-live-blog/" target="_blank" rel="noopener">Open the live blog in a separate page</a>.</p>
 </div>

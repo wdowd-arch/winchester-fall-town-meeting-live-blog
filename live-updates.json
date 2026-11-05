@@ -2,6 +2,10 @@
   "status": "upcoming",
   "updatedAt": "2026-11-05T17:45:00-05:00",
   "note": "Live coverage begins when Town Meeting opens at 7 p.m.",
+  "stream": {
+    "youtubeId": "YkvANFR7Cyw",
+    "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
+  },
   "updates": [
     {
       "id": "nov5-intro",

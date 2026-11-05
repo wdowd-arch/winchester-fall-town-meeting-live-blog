@@ -32,7 +32,9 @@ Start with `status: "upcoming"` and an empty `updates` array. When the meeting o
 }
 ```
 
-`id`, `at`, `title`, and `body` are required; `dek`, `article` (1–45), `sourceUrl`, and `sourceLabel` are optional. In `body`, separate paragraphs with a blank line (`\n\n`) and start a paragraph with `## ` to make it a breaker headline. Times display in Eastern time in AP style (7:05 p.m. Nov. 5, noon, midnight) with no time-zone label, newest first. Text is rendered as text, so entries cannot inject HTML. Never post an unverified vote, quote, or floor update.
+`id`, `at`, `title`, and `body` are required; `dek`, `article` (1–45), `sourceUrl`, and `sourceLabel` are optional. In `body`, separate paragraphs with a blank line (`\n\n`) and start a paragraph with `## ` to make it a breaker headline. Times display in Eastern time in AP style (7:05 p.m. Nov. 5, noon, midnight) with no time-zone label, newest first. Text is rendered as text, so entries cannot inject HTML.
+
+The top of the page shows the YouTube live video named in `stream.youtubeId` (the 11-character ID from the YouTube link), with a link to WinCAM’s government channel underneath. Change the ID for each session, or set `"stream": null` to hide the player. Changing it reloads the player; other feed updates do not. Never post an unverified vote, quote, or floor update.
 
 GitHub Pages republishes about a minute after a push to `main`, so updates are not instant. `.github/workflows/pages.yml` publishes through GitHub Actions, which avoids the 10-builds-an-hour limit of branch publishing. It requires Settings > Pages > Source set to **GitHub Actions**; until then it skips deployment and the branch publishing continues, under that limit.
 
