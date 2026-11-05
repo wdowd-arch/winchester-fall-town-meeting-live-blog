@@ -4,39 +4,94 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Live reporting from Winchester's 2026 Fall Town Meeting, separate from the 45-article warrant tracker.">
+  <meta name="theme-color" content="#fff5ee">
   <title>2026 Fall Town Meeting live blog | Winchester News</title>
-  <script>if (window.self !== window.top || new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embedded');</script>
+  <script>
+    (function () {
+      var embedded = false;
+      try { embedded = window.self !== window.top; } catch (e) { embedded = true; }
+      if (embedded || /[?&]embed(=|&|$)/.test(location.search)) document.documentElement.className += ' embedded';
+    })();
+  </script>
   <style>
-    :root { color-scheme: light; --ink:#1e1f21; --muted:#4a4a4a; --navy:#1b3a5c; --paper:#fff5ee; --line:#e8e2d9; --red:#b52727; }
-    * { box-sizing:border-box; }
-    body { max-width:960px; margin:auto; padding:24px 20px 40px; background:var(--paper); color:var(--ink); font:18px/1.55 Georgia,'Times New Roman',serif; }
-    a { color:var(--navy); }
-    a:focus-visible, button:focus-visible { outline:3px solid var(--navy); outline-offset:3px; }
-    .brand { border-bottom:1px solid var(--line); margin-bottom:24px; padding-bottom:12px; font:700 15px/1.3 Arial,sans-serif; letter-spacing:.13em; text-transform:uppercase; }
-    .brand a { text-decoration:none; color:#1e3a2a; }
-    .eyebrow { color:var(--red); font:700 12px/1.3 Arial,sans-serif; letter-spacing:.14em; text-transform:uppercase; }
-    h1 { font-size:clamp(30px,5vw,48px); line-height:1.12; margin:10px 0; }
-    .dek { color:var(--muted); font-size:20px; margin:0 0 10px; }
-    .byline, .meeting, .updated { color:var(--muted); font:14px/1.5 Arial,sans-serif; }
-    .meeting { margin:16px 0 0; }
-    .tracker-link { display:block; padding:15px 18px; margin:22px 0; border-left:4px solid var(--navy); background:#ebf0f7; font:16px/1.5 Arial,sans-serif; }
-    .tracker-link a { font-weight:700; }
-    .feed-heading { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:8px; border-bottom:2px solid var(--ink); padding-bottom:8px; margin-top:30px; }
-    h2 { margin:0; font-size:24px; }
-    .updated { margin:0; }
-    .notice { padding:18px; border:1px solid var(--line); background:#fffaf5; margin:18px 0; }
-    .notice.error { border-left:4px solid var(--red); }
-    .update { border-bottom:1px solid var(--line); padding:24px 0; }
-    .update time, .update .article { font:700 12px/1.4 Arial,sans-serif; letter-spacing:.07em; text-transform:uppercase; }
-    .update time { color:var(--red); }
-    .update .article { color:var(--navy); margin-left:12px; }
-    .update h3 { margin:8px 0; font-size:24px; line-height:1.25; }
-    .update p { margin:0 0 12px; white-space:pre-line; }
-    .update .source { font:14px/1.4 Arial,sans-serif; }
-    .refresh { margin:20px 0 0; color:var(--muted); font:13px/1.5 Arial,sans-serif; }
-    .embedded .brand { display:none; }
-    .embedded body { padding-top:12px; padding-bottom:20px; display:flow-root; }
-    @media(max-width:600px) { body { padding:18px 16px 30px; } .dek { font-size:18px; } .update h3 { font-size:21px; } }
+    :root {
+      color-scheme: light;
+      --ink: #1e1f21; --muted: #4a4a4a; --navy: #1b3a5c; --green: #1e3a2a;
+      --paper: #fff5ee; --card: #fffaf5; --tint: #ebf0f7; --line: #e8e2d9; --red: #b52727;
+      --serif: Georgia, 'Times New Roman', serif;
+      --sans: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+      --measure: 42rem;
+      --gutter: 20px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; background: var(--paper); }
+    body {
+      max-width: 960px; margin: 0 auto; padding: 24px var(--gutter) 40px;
+      background: var(--paper); color: var(--ink);
+      font: 18px/1.55 var(--serif);
+      overflow-wrap: break-word; word-wrap: break-word;
+    }
+    a { color: var(--navy); text-underline-offset: 2px; }
+    a:hover { color: var(--ink); }
+    a:focus-visible { outline: 3px solid var(--navy); outline-offset: 3px; border-radius: 1px; }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+
+    .brand { border-bottom: 1px solid var(--line); margin-bottom: 24px; padding-bottom: 12px; font: 700 15px/1.3 var(--sans); letter-spacing: .13em; text-transform: uppercase; }
+    .brand a { text-decoration: none; color: var(--green); }
+    .eyebrow { color: var(--red); font: 700 12px/1.3 var(--sans); letter-spacing: .14em; text-transform: uppercase; }
+    h1 { font-size: clamp(30px, 5vw, 48px); line-height: 1.12; margin: 10px 0; text-wrap: balance; }
+    .dek { color: var(--muted); font-size: 20px; line-height: 1.45; margin: 0 0 10px; max-width: var(--measure); }
+    .byline, .meeting, .updated { color: var(--muted); font: 14px/1.5 var(--sans); }
+    .byline { margin: 0; }
+    .meeting { margin: 12px 0 0; }
+    .tracker-link { padding: 15px 18px; margin: 22px 0; border-left: 4px solid var(--navy); background: var(--tint); font: 16px/1.5 var(--sans); }
+    .tracker-link a { font-weight: 700; }
+
+    .feed-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 12px; border-bottom: 2px solid var(--ink); padding-bottom: 8px; margin-top: 30px; }
+    h2 { margin: 0; font-size: 24px; line-height: 1.2; }
+    .updated { margin: 0; }
+    .notice { padding: 16px 18px; border: 1px solid var(--line); background: var(--card); margin: 18px 0; }
+    .notice.error { border-left: 4px solid var(--red); }
+
+    .update { border-bottom: 1px solid var(--line); padding: 24px 0; }
+    .update:last-child { border-bottom: 0; }
+    .update-meta { display: flex; flex-wrap: wrap; gap: 2px 12px; font: 700 12px/1.4 var(--sans); letter-spacing: .07em; text-transform: uppercase; }
+    .update-meta time { color: var(--red); }
+    .update-meta .article { color: var(--navy); }
+    .update h3 { margin: 8px 0 12px; font-size: 24px; line-height: 1.25; max-width: var(--measure); text-wrap: balance; }
+    .update-body { max-width: var(--measure); }
+    .update-body > :last-child { margin-bottom: 0; }
+    .update-body p { margin: 0 0 14px; white-space: pre-line; }
+    .update-body h4 { margin: 24px 0 8px; font: 700 13px/1.4 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--navy); }
+    .update-body ul { margin: 0 0 14px; padding-left: 1.25em; }
+    .update-body ul ul { margin: 6px 0 4px; padding-left: 1.2em; list-style-type: '– '; }
+    .update-body li { margin: 0 0 8px; padding-left: .15em; }
+    .update-body ul ul li { margin-bottom: 3px; }
+    .update-body li > p { margin: 6px 0 0; }
+    .update .source { margin: 14px 0 0; font: 14px/1.4 var(--sans); }
+
+    .refresh { margin: 20px 0 0; color: var(--muted); font: 13px/1.5 var(--sans); }
+
+    .embedded .brand { display: none; }
+    .embedded body { padding-top: 12px; padding-bottom: 20px; display: flow-root; }
+
+    @media (max-width: 600px) {
+      :root { --gutter: 16px; }
+      body { padding-top: 18px; padding-bottom: 30px; }
+      .dek { font-size: 18px; }
+      h2 { font-size: 22px; }
+      .update { padding: 20px 0; }
+      .update h3 { font-size: 21px; }
+      .update-body ul { padding-left: 1.1em; }
+      .tracker-link { padding: 13px 14px; font-size: 15px; }
+    }
+    @media (max-width: 600px) { .embedded body { padding-left: 12px; padding-right: 12px; } }
+    @media print {
+      body { background: #fff; max-width: none; padding: 0; font-size: 12pt; }
+      .refresh, .tracker-link { display: none; }
+      .update { break-inside: avoid-page; }
+      .update .source a::after { content: ' (' attr(href) ')'; font-size: 10pt; }
+    }
   </style>
 </head>
 <body>
@@ -49,58 +104,214 @@
     <p class="meeting">Thursday, Nov. 5 · 7 p.m. · Winchester High School auditorium, 80 Skillings Road</p>
   </header>
   <aside class="tracker-link">Looking for the proposals and vote results? <a href="https://winchesternews.org/20261106_winchester-town-meeting-tracker-all-45-warrant-articles-explained/" target="_blank" rel="noopener">Open the 45-article warrant tracker</a>.</aside>
-  <section aria-labelledby="feedHeading">
-    <div class="feed-heading"><h2 id="feedHeading">Latest updates</h2><p class="updated" id="updated"></p></div>
-    <div id="feed" aria-live="polite" aria-relevant="additions text"><div class="notice">Loading coverage…</div></div>
-  </section>
+  <main>
+    <section aria-labelledby="feedHeading">
+      <div class="feed-heading"><h2 id="feedHeading">Latest updates</h2><p class="updated" id="updated"></p></div>
+      <div id="feed"><div class="notice">Loading coverage…</div></div>
+      <noscript><div class="notice">This live feed needs JavaScript. <a href="live-updates.json">Read the raw update feed</a> or open the <a href="https://winchesternews.org/20261106_winchester-town-meeting-tracker-all-45-warrant-articles-explained/">warrant tracker</a>.</div></noscript>
+      <p class="visually-hidden" id="announcer" role="status" aria-live="polite"></p>
+    </section>
+  </main>
   <p class="refresh">This feed checks for new updates every 30 seconds while the page is open. Times are Eastern.</p>
   <script>
     (function () {
-      const feed=document.getElementById('feed');
-      const updated=document.getElementById('updated');
-      const label=document.getElementById('statusLabel');
-      const timeFormat=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
-      let lastJson='';
-      function node(tag,cls,value) { const el=document.createElement(tag); if(cls)el.className=cls; if(value!=null)el.textContent=value; return el; }
-      function validUrl(url) { try { const u=new URL(url); return u.protocol==='https:' ? u.href : null; } catch (_) { return null; } }
-      function render(data) {
-        if(!data || !Array.isArray(data.updates) || !['upcoming','live','ended'].includes(data.status)) throw new Error('Invalid feed data');
-        label.textContent={upcoming:'Coverage begins tonight',live:'Live updates',ended:'Coverage concluded'}[data.status];
-        const date=data.updatedAt ? new Date(data.updatedAt) : null;
-        updated.textContent=date && !Number.isNaN(date.getTime()) ? `Updated ${timeFormat.format(date)} ET` : '';
-        const frag=document.createDocumentFragment();
-        if(data.note)frag.append(node('div','notice',data.note));
-        const entries=data.updates.slice().sort((a,b)=>Date.parse(b.at)-Date.parse(a.at));
-        for(const item of entries) {
-          if(!item || !item.id || !item.at || !item.title || !item.body || Number.isNaN(Date.parse(item.at))) continue;
-          const article=node('article','update'); article.id='update-'+String(item.id).replace(/[^a-zA-Z0-9_-]/g,'');
-          const stamp=node('time','',timeFormat.format(new Date(item.at))+' ET'); stamp.dateTime=item.at; article.append(stamp);
-          if(Number.isInteger(item.article) && item.article>=1 && item.article<=45)article.append(node('span','article','Article '+item.article));
-          article.append(node('h3','',item.title),node('p','',item.body));
-          const source=validUrl(item.sourceUrl);
-          if(source) { const p=node('p','source'); const a=node('a','',item.sourceLabel||'Source'); a.href=source; a.target='_blank'; a.rel='noopener'; p.append(a); article.append(p); }
-          frag.append(article);
+      'use strict';
+      var FEED_URL = 'live-updates.json';
+      var POLL_MS = 30000;
+      var TIMEOUT_MS = 15000;
+      var STATUS_LABELS = { upcoming: 'Coverage begins tonight', live: 'Live updates', ended: 'Coverage concluded' };
+      var AP_MONTHS = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
+
+      var feed = document.getElementById('feed');
+      var updated = document.getElementById('updated');
+      var label = document.getElementById('statusLabel');
+      var announcer = document.getElementById('announcer');
+
+      var lastJson = '';
+      var seenIds = null;
+      var inFlight = false;
+
+      // Eastern time parts, formatted in AP style: "Nov. 5, 7:05 p.m."
+      var partsFormat = null;
+      try {
+        partsFormat = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true });
+      } catch (e) { partsFormat = null; }
+
+      function apTime(date) {
+        var month, day, hour, minute, period;
+        if (partsFormat && partsFormat.formatToParts) {
+          var p = {};
+          partsFormat.formatToParts(date).forEach(function (part) { p[part.type] = part.value; });
+          month = Number(p.month) - 1; day = p.day; hour = p.hour; minute = p.minute;
+          period = String(p.dayPeriod || p.dayperiod || '').toLowerCase();
+        } else {
+          month = date.getMonth(); day = date.getDate(); minute = ('0' + date.getMinutes()).slice(-2);
+          hour = date.getHours() % 12 || 12; period = date.getHours() < 12 ? 'am' : 'pm';
         }
-        if(!entries.length)frag.append(node('div','notice','No floor updates have been posted yet. Check back when the meeting begins.'));
-        feed.replaceChildren(frag);
+        var ap = period.charAt(0) === 'a' ? 'a.m.' : 'p.m.';
+        return AP_MONTHS[month] + ' ' + day + ', ' + hour + ':' + minute + ' ' + ap;
       }
-      async function refresh() {
-        if(document.hidden) return;
-        try {
-          const response=await fetch('live-updates.json?t='+Date.now(),{cache:'no-store',credentials:'omit'});
-          if(!response.ok)throw new Error('Feed unavailable');
-          const raw=await response.text();
-          if(raw===lastJson)return;
-          const data=JSON.parse(raw); render(data); lastJson=raw;
-        } catch (_) { if(!lastJson)feed.replaceChildren(node('div','notice error','Updates could not be loaded. Please try again shortly or open this feed in a separate page.')); }
+
+      function el(tag, cls, text) {
+        var node = document.createElement(tag);
+        if (cls) node.className = cls;
+        if (text != null) node.textContent = text;
+        return node;
       }
-      refresh(); setInterval(refresh,30000); document.addEventListener('visibilitychange',()=>{ if(!document.hidden)refresh(); });
-      if(window.parent!==window) {
-        let previous=0;
-        function send(force) { const height=Math.ceil(document.body.getBoundingClientRect().height)+2; if(force||height!==previous){previous=height;window.parent.postMessage({type:'wtm-live-height',height},'*');} }
-        if('ResizeObserver' in window)new ResizeObserver(()=>send(false)).observe(document.body);
-        window.addEventListener('load',()=>send(true));
-        window.addEventListener('message',event=>{if(event.source===window.parent && event.data?.type==='wtm-live-request-height')send(true);});
+      function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
+      function safeUrl(url) {
+        if (typeof url !== 'string') return null;
+        try { var u = new URL(url, location.href); return u.protocol === 'https:' ? u.href : null; } catch (e) { return null; }
+      }
+      function validTime(value) { return typeof value === 'string' && !isNaN(Date.parse(value)); }
+
+      // Plain-text body to safe DOM. Everything goes through textContent.
+      //   blank line          new paragraph
+      //   "## Heading"        section heading
+      //   "• item" / "- item" bulleted item
+      //   "  – sub" (indented) sub-item under the previous bullet
+      //   indented plain text continuation paragraph inside the previous bullet
+      function renderBody(text) {
+        var wrap = el('div', 'update-body');
+        var blocks = String(text).replace(/\r\n?/g, '\n').split(/\n[ \t]*\n/);
+        blocks.forEach(function (block) {
+          var list = null, lastItem = null, para = [];
+          function flushPara() {
+            if (para.length) { wrap.appendChild(el('p', '', para.join('\n'))); para = []; }
+          }
+          block.split('\n').forEach(function (line) {
+            if (!line.trim()) return;
+            var m;
+            if ((m = /^##\s+(.+)$/.exec(line))) {
+              flushPara(); list = null; lastItem = null;
+              wrap.appendChild(el('h4', '', m[1].trim()));
+            } else if ((m = /^[ \t]+[–—•*-][ \t]+(.+)$/.exec(line)) && lastItem) {
+              var sub = lastItem.querySelector('ul');
+              if (!sub) { sub = el('ul'); lastItem.appendChild(sub); }
+              sub.appendChild(el('li', '', m[1].trim()));
+            } else if ((m = /^[ \t]*[•*-][ \t]+(.+)$/.exec(line))) {
+              flushPara();
+              if (!list) { list = el('ul'); wrap.appendChild(list); }
+              lastItem = el('li');
+              lastItem.appendChild(document.createTextNode(m[1].trim()));
+              list.appendChild(lastItem);
+            } else if (/^[ \t]+\S/.test(line) && lastItem) {
+              lastItem.appendChild(el('p', '', line.trim()));
+            } else {
+              list = null; lastItem = null;
+              para.push(line.trim());
+            }
+          });
+          flushPara();
+        });
+        return wrap;
+      }
+
+      function render(data) {
+        if (!data || typeof data !== 'object' || !Array.isArray(data.updates) || !STATUS_LABELS.hasOwnProperty(data.status)) {
+          throw new Error('Invalid feed data');
+        }
+        label.textContent = STATUS_LABELS[data.status];
+        updated.textContent = validTime(data.updatedAt) ? 'Updated ' + apTime(new Date(data.updatedAt)) + ' ET' : '';
+
+        var entries = data.updates.filter(function (item) {
+          return item && item.id != null && validTime(item.at) && typeof item.title === 'string' && item.title.trim() && typeof item.body === 'string' && item.body.trim();
+        }).sort(function (a, b) { return Date.parse(b.at) - Date.parse(a.at); });
+
+        var frag = document.createDocumentFragment();
+        if (typeof data.note === 'string' && data.note.trim()) frag.appendChild(el('div', 'notice', data.note.trim()));
+
+        var ids = {};
+        var fresh = 0;
+        entries.forEach(function (item) {
+          var id = String(item.id);
+          ids[id] = true;
+          if (seenIds && !seenIds[id]) fresh++;
+          var article = el('article', 'update');
+          var domId = id.replace(/[^a-zA-Z0-9_-]/g, '');
+          if (domId) article.id = 'update-' + domId;
+
+          var meta = el('div', 'update-meta');
+          var stamp = el('time', '', apTime(new Date(item.at)) + ' ET');
+          stamp.setAttribute('datetime', item.at);
+          meta.appendChild(stamp);
+          var num = Number(item.article);
+          if (item.article != null && num % 1 === 0 && num >= 1 && num <= 45) meta.appendChild(el('span', 'article', 'Article ' + num));
+          article.appendChild(meta);
+
+          article.appendChild(el('h3', '', item.title.trim()));
+          article.appendChild(renderBody(item.body));
+
+          var href = safeUrl(item.sourceUrl);
+          if (href) {
+            var p = el('p', 'source');
+            var a = el('a', '', (typeof item.sourceLabel === 'string' && item.sourceLabel.trim()) || 'Source');
+            a.href = href; a.target = '_blank'; a.rel = 'noopener';
+            p.appendChild(a);
+            article.appendChild(p);
+          }
+          frag.appendChild(article);
+        });
+        if (!entries.length) frag.appendChild(el('div', 'notice', 'No floor updates have been posted yet. Check back when the meeting begins.'));
+
+        clear(feed);
+        feed.appendChild(frag);
+
+        if (seenIds && fresh) announcer.textContent = fresh === 1 ? '1 new update posted.' : fresh + ' new updates posted.';
+        seenIds = ids;
+      }
+
+      function showError() {
+        clear(feed);
+        var box = el('div', 'notice error', 'Updates could not be loaded. Please try again shortly or ');
+        var a = el('a', '', 'open this feed in a separate page');
+        a.href = location.href.split('?')[0]; a.target = '_blank'; a.rel = 'noopener';
+        box.appendChild(a);
+        box.appendChild(document.createTextNode('.'));
+        feed.appendChild(box);
+      }
+
+      function refresh() {
+        if (document.hidden || inFlight || !window.fetch) { if (!window.fetch && !lastJson) showError(); return; }
+        inFlight = true;
+        var controller = window.AbortController ? new AbortController() : null;
+        var timer = setTimeout(function () { if (controller) controller.abort(); }, TIMEOUT_MS);
+        fetch(FEED_URL + '?t=' + Date.now(), { cache: 'no-store', credentials: 'omit', signal: controller ? controller.signal : undefined })
+          .then(function (response) {
+            if (!response.ok) throw new Error('Feed unavailable');
+            return response.text();
+          })
+          .then(function (raw) {
+            if (raw === lastJson) return;
+            render(JSON.parse(raw));
+            lastJson = raw;
+          })
+          .catch(function () { if (!lastJson) showError(); })
+          .then(function () { clearTimeout(timer); inFlight = false; });
+      }
+
+      refresh();
+      setInterval(refresh, POLL_MS);
+      document.addEventListener('visibilitychange', function () { if (!document.hidden) refresh(); });
+      window.addEventListener('pageshow', function (event) { if (event.persisted) refresh(); });
+
+      // Inside an iframe, report this page's height so the host page can size the frame.
+      if (window.parent !== window) {
+        var previous = 0;
+        var send = function (force) {
+          var height = Math.ceil(document.body.getBoundingClientRect().height) + 2;
+          if (force || height !== previous) {
+            previous = height;
+            window.parent.postMessage({ type: 'wtm-live-height', height: height }, '*');
+          }
+        };
+        if ('ResizeObserver' in window) new ResizeObserver(function () { send(false); }).observe(document.body);
+        else setInterval(function () { send(false); }, 1000);
+        window.addEventListener('load', function () { send(true); });
+        window.addEventListener('resize', function () { send(false); });
+        window.addEventListener('message', function (event) {
+          if (event.source === window.parent && event.data && event.data.type === 'wtm-live-request-height') send(true);
+        });
         send(true);
       }
     })();

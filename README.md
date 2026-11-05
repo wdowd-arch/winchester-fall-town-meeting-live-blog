@@ -31,7 +31,17 @@ Start with `status: "upcoming"` and an empty `updates` array. When the meeting o
 }
 ```
 
-`id`, `at`, `title`, and `body` are required; `article` (1–45), `sourceUrl`, and `sourceLabel` are optional. Times display in Eastern time, newest first. Text is rendered as text, so entries cannot inject HTML. Never post an unverified vote, quote, or floor update.
+`id`, `at`, `title`, and `body` are required; `article` (1–45), `sourceUrl` (https only), and `sourceLabel` are optional. Entries with a missing field or an unreadable `at` time are skipped. Times display in Eastern time in AP style ("Nov. 5, 7:05 p.m. ET"), newest first. Never post an unverified vote, quote, or floor update.
+
+`body` is plain text with a few line-based conventions (in JSON, write a line break as `\n`):
+
+- A blank line starts a new paragraph. A single line break stays a line break.
+- `## Heading` makes a small section heading.
+- A line starting with `• ` or `- ` is a bullet.
+- An indented line starting with `– ` or `- ` (for example `  – item`) is a sub-bullet under the bullet above it.
+- Any other indented line continues the bullet above it as a new paragraph.
+
+Everything is inserted as text, never as HTML, so entries cannot inject markup or scripts.
 
 GitHub Pages republishes about a minute after a push to `main`, so updates are not instant. `.github/workflows/pages.yml` publishes through GitHub Actions, which avoids the 10-builds-an-hour limit of branch publishing. It requires Settings > Pages > Source set to **GitHub Actions**; until then it skips deployment and the branch publishing continues, under that limit.
 
