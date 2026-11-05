@@ -33,7 +33,7 @@ Start with `status: "upcoming"` and an empty `updates` array. When the meeting o
 
 `id`, `at`, `title`, and `body` are required; `article` (1–45), `sourceUrl`, and `sourceLabel` are optional. Times display in Eastern time, newest first. Text is rendered as text, so entries cannot inject HTML. Never post an unverified vote, quote, or floor update.
 
-GitHub Pages republishes about a minute after a push to `main`. Batch updates during the meeting rather than expecting instant delivery.
+GitHub Pages republishes about a minute after a push to `main`, so updates are not instant. `.github/workflows/pages.yml` publishes through GitHub Actions, which avoids the 10-builds-an-hour limit of branch publishing. It requires Settings > Pages > Source set to **GitHub Actions**; until then it skips deployment and the branch publishing continues, under that limit.
 
 ## Local preview
 
