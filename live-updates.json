@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T20:03:00-05:00",
+  "updatedAt": "2026-11-05T20:20:00-05:00",
   "note": "Town Meeting is under way at Winchester High School. Updates appear below, newest first. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
@@ -8,19 +8,27 @@
   },
   "updates": [
     {
-      "id": "nov5-2003-planning",
-      "at": "2026-11-05T20:03:00-05:00",
+      "id": "nov5-2020-art456",
+      "at": "2026-11-05T20:20:00-05:00",
+      "article": 4,
+      "title": "Planning Board presents three zoning articles together",
+      "dek": "Lot width, design review and permit steps get streamlined",
+      "body": "Planning Board Chair Jack LeMenager presented Articles 4, 5 and 6 together. All three are minor zoning bylaw changes. Moderator Philip Frattaroli then asked Select Board Chair Anthea Brady for the board's recommendation. Votes on the three articles had not been announced when this update was posted.\n\n## Article 4: lot width\nPlanning Board member Brian Vernaglia presented it. One change would let a conforming addition go ahead by right on a lot that is too narrow, as already allowed when a lot's area or frontage falls short. The other would lower the minimum lot width in the RDA district from 120 feet to 100 feet to match its frontage rule. Vernaglia said a full rewrite of the bylaw section on pre-existing nonconforming structures could come as early as spring 2027.\n\n“I think he got his Ph.D. in 3.5, didn't you?” LeMenager joked about Vernaglia's expertise in that section.\n\n## Article 5: downtown design review\nThe article would strike the Center Business District Review Subcommittee, created in the 2015 downtown bylaw. LeMenager said applicants have gone through four reviews instead of the intended two, because the Design Review Committee and Historical Commission also review projects independently. Both voted unanimously last month to support the change. The Design Review Committee asked to stay involved in later design phases.\n\n## Article 6: Zoning Board of Appeals process\nThe article would drop an old requirement for up to 16 paper copies of plans, extend the time to send materials to advisory boards from three days to five, and combine site plan review and a special permit into one hearing and one decision."
+    },
+    {
+      "id": "nov5-2012-planning",
+      "at": "2026-11-05T20:12:00-05:00",
       "article": 2,
-      "title": "Planning Board chair previews three zoning articles",
-      "dek": "LeMenager's report is still under way",
-      "body": "Planning Board Chair Jack LeMenager previewed the board's three zoning bylaw articles coming up tonight, Articles 4 through 6. His Article 2 report was still going, and members had not voted on it."
+      "title": "Planning Board chair reports 194 new housing units in the works",
+      "dek": "Report is received and filed; three zoning articles are next",
+      "body": "Planning Board Chair Jack LeMenager, a Precinct 6 Town Meeting member, reported on the board's work since the spring meeting. The board has held 13 meetings and handled four main projects, and he highlighted three older ones that are moving forward. Members then voted to receive and file the report; the motion carried with no opposition heard.\n\n## Four projects since spring\n• 972 Main St., the former Meineke Muffler site, is under construction plans for a building with 13 rental units, one of them affordable, one ground-floor commercial unit and 15 below-grade parking spaces. The Historical Commission cleared demolition last month. A design subcommittee will settle details left open in the special permit, including the fourth floor and window designs, and construction is expected to take about 18 months.\n• 1016 Mount Vernon St. won approval Oct. 6 for a third floor that adds four downtown rentals. An elevator will make all nine units accessible.\n• 910 Main St., at Canal Street, is still being negotiated. The plan is three floors with about 14 rentals, 14 or more underground spaces and one or two commercial spaces. LeMenager hopes to settle remaining details by the end of the year or early next year.\n\n## Three older projects\n• The friendly 40B on Cross Street is nine rental townhouses and is nearly built. LeMenager corrected himself during the meeting: it has two affordable units, not one.\n• 25 Waterfield, beside the train station, could break ground as soon as January. It would have 56 rentals, 40 of them affordable, and 119 parking spaces, 71 of them public.\n• The Washington and Swanton streets project is finishing its contract language. LeMenager expects ground to be broken in mid-2027 for 64 rentals, 16 of them affordable, and 104 parking spaces.\n\nTogether, the seven projects add about 194 housing units, 63 of them affordable, he said. A total of 111 count toward the state's subsidized housing inventory, which he said would bring Winchester to about 6.29 percent, a figure he credited to the town planner. “But don't quote me,” he said.\n\n## What's next\nThe board plans more bylaw changes in the spring and will start work on the next master plan. LeMenager said a statewide ballot question that would have forced major zoning rewrites appeared headed for defeat as of this afternoon. The board meets the first Tuesday of each month at 7 p.m. in the Select Board Room and is broadcast on WinCAM."
     },
     {
       "id": "nov5-2000-reconvene",
       "at": "2026-11-05T20:00:00-05:00",
       "title": "Town Meeting reconvenes as new members are sworn in",
-      "dek": "Planning Board chair opens Article 2 report",
-      "body": "Town Meeting reconvened after the precinct meetings, and new Town Meeting members were sworn in. Members then took up Article 2, the Planning Board report, which Planning Board Chair Jack LeMenager is presenting."
+      "dek": "Moderator swears in new members, then turns to Article 2",
+      "body": "Town Meeting reconvened after the precinct meetings, and Moderator Philip Frattaroli administered the oath of office to the new Town Meeting members. “Congratulations, you all! Welcome to the party,” he told them.\n\nMembers' clickers were being programmed for electronic voting as the meeting moved to Article 2, the Planning Board report."
     },
     {
       "id": "nov5-1950-eyden",
