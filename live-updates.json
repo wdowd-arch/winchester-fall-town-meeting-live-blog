@@ -1,12 +1,20 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T19:15:00-05:00",
+  "updatedAt": "2026-11-05T19:20:00-05:00",
   "note": "Live coverage begins when Town Meeting opens at 7 p.m. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
     "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
   },
   "updates": [
+    {
+      "id": "nov5-1920-brady",
+      "at": "2026-11-05T19:20:00-05:00",
+      "article": 1,
+      "title": "Brady cites health insurance, inflation as budget pressures",
+      "dek": "Select Board chair also notes culvert work and new crossing beacons",
+      "body": "Select Board Chair Anthea Brady opened the Article 1 reports with a brief update on town projects, then turned to budget pressures. The board has installed several rapid flashing beacons at pedestrian crossings around town, and work on the Muraco School culvert began in earnest late this summer. Brady said she hopes it will be largely finished by early next year.\n\n## Budget pressures\nHealth insurance remains a major cost driver, Brady said, and the year-to-year increases are hard to predict. Construction-material inflation, higher energy costs and tariffs add to the strain. The town also has to offer competitive pay to keep staff, and it carries long-term liabilities such as retiree health care, known as OPEB.\n\n“It is often a very large increase that we need to manage,” Brady said of health insurance.\n\n## Managing costs\nThe board reviewed fees in other towns with department heads and updated several of Winchester's, including parking fees. Some had not changed in more than 10 years, Brady said. The board is also working on efficiencies, liabilities and staff retention.\n\nShe asked members to support the articles the Select Board is presenting tonight."
+    },
     {
       "id": "nov5-1915-table",
       "at": "2026-11-05T19:15:00-05:00",
