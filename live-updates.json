@@ -1,12 +1,20 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T19:35:00-05:00",
+  "updatedAt": "2026-11-05T19:40:00-05:00",
   "note": "Live coverage begins when Town Meeting opens at 7 p.m. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
     "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
   },
   "updates": [
+    {
+      "id": "nov5-1940-art1",
+      "at": "2026-11-05T19:40:00-05:00",
+      "article": 1,
+      "title": "Town Meeting accepts Article 1 reports",
+      "dek": "Select Board, Finance Committee, manager and long-range panel spoke first",
+      "body": "Town Meeting members voted to pass Article 1, which accepts the reports of town officials, boards, committees and commissions. Members heard from the Select Board, the Finance Committee, the town manager and the Long Range Financial Planning Committee before the vote. The article needed a majority."
+    },
     {
       "id": "nov5-1935-prior",
       "at": "2026-11-05T19:35:00-05:00",
