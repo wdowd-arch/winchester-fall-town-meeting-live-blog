@@ -1,12 +1,36 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T20:35:00-05:00",
+  "updatedAt": "2026-11-05T20:58:00-05:00",
   "note": "Town Meeting is under way at Winchester High School. Updates appear below, newest first. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
     "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
   },
   "updates": [
+    {
+      "id": "nov5-2058-art12",
+      "at": "2026-11-05T20:58:00-05:00",
+      "article": 12,
+      "title": "Capital Planning presents four vehicle replacements",
+      "dek": "Fire engine tops $1.73 million request",
+      "body": "A Capital Planning Committee member presented Article 12, which would replace four vehicles using the Capital Stabilization Fund. Members had not voted on it when this update was posted.\n\nHe introduced it, with apologies to children's author Richard Scarry, as “Winchester's cars and trucks and things that used to go or sort of go.”\n\n• Transfer station tractor cab, $275,000: The current cab is from 2004 and has more than 450,000 miles. The town would keep the old cab for use at the transfer station, where it would replace a 35-year-old truck.\n• Facilities utility vehicle, $115,000: A new F550 would replace a 2009 Ford that is rusting and needs significant work. The new vehicle would carry a plow so it can serve double duty.\n• Highway asphalt truck and hot box, $240,000: The existing truck needs significant work, including a $30,000 broken differential, and its hot box is out of service. The old truck may be kept as a backup or scrapped.\n• Fire Engine 4, $1.1 million: The new engine would replace an 18-year-old truck at the end of its life, and the current frontline engine would move into reserve service. The town has been setting money aside for it for the last two years, he said."
+    },
+    {
+      "id": "nov5-2052-art11",
+      "at": "2026-11-05T20:52:00-05:00",
+      "article": 11,
+      "title": "Town Meeting approves $170,000 for high school, Lincoln and Mystic design work",
+      "dek": "Mystic's cracking columns already have temporary shoring",
+      "body": "Town Meeting approved all three Article 11 motions, a total of $170,000 for building and field design work, by voice vote. Each carried unanimously with no questions from the floor. The money comes from the Building Stabilization Fund.\n\nCapital Planning Committee Chair Enzo Rascionato said all three projects have future costs, about $1.65 million in total.\n\n• High school exterior concrete, $30,000: The mortar and masonry at the stairs are crumbling, he said. Bricks are missing under the granite cap, railings are loose and a section is propped up with two-by-fours. An engineer would identify why the work is failing much sooner than it should have and produce a design and cost estimate.\n• Lincoln School field and play area, $40,000: The field does not drain or hold grass, and the play surface is cracked, pitted and at the end of its useful life. The study would look at drainage, new surface materials and replacement options. “This field looks a lot like my lawn,” Rascionato said.\n• Mystic School shoring, $100,000: Concrete columns that hold up two large classrooms are cracking, and exposed reinforcing steel is breaking away. Temporary shoring is in place. The money would pay for testing, a permanent repair design, construction documents and a cost estimate.\n\nThe Select Board and School Committee each voted unanimously for favorable action, and Frattaroli noted the Finance Committee did too. School Committee Chair Timothy Matthews noted that Mystic School is now under the Select Board's control, not the School Committee's, after the committee surplused it to the town."
+    },
+    {
+      "id": "nov5-2045-art10-pass",
+      "at": "2026-11-05T20:45:00-05:00",
+      "article": 10,
+      "title": "Town Meeting approves $410,000 for school HVAC and controls design",
+      "dek": "Questions focus on Ambrose's failing pipes and state repair funding",
+      "body": "Town Meeting approved all three Article 10 motions, a total of $410,000 for HVAC and building controls design, by voice vote. The Ambrose School design ($300,000), districtwide building controls ($60,000) and the McCall and Vinson-Owen cooling study ($50,000) each carried unanimously.\n\n## Recommendations\nThe Select Board voted unanimously for favorable action, joking that it appreciated Capital Planning's humor. Finance Committee Chair Catherine Hughes said the committee voted favorable action on Articles 10 through 14 and praised the Capital Planning Committee's analysis. The School Committee also voted unanimously for favorable action.\n\n## Questions from the floor\nOne member said the deteriorating pipes at Ambrose bothered him most. Piping should last about 100 years, he said, and he asked whether the town should expect the same problem at other newer schools. A town facilities official said Ambrose is a one-off. The general contractor went bankrupt during construction, and the town has no record that the heating water system received the chemical flush it needs before use. Corrosion has built up inside the pipes, and the town has been managing it, but the system could eventually fail catastrophically. Other buildings have water treatment programs, he said.\n\nA Precinct 6 member asked about the state School Building Authority's Accelerated Repair Program, which the design money might help the town pursue. Superintendent Frank Hackett said the town has used it before and that reimbursement rates are similar to a full building project. It covers HVAC, doors, windows and roofs, but the process takes longer and adds fees, so the district wants to weigh whether the reimbursement is worth it. Applications open in early spring, and he was not sure these projects would qualify. A building official added that the town last used the program for the old Lynch School roof, and switching to it midway through the design forced the project to restart and delayed the work."
+    },
     {
       "id": "nov5-2035-art10",
       "at": "2026-11-05T20:35:00-05:00",
