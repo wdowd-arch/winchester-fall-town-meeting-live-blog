@@ -1,12 +1,20 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T19:30:00-05:00",
+  "updatedAt": "2026-11-05T19:35:00-05:00",
   "note": "Live coverage begins when Town Meeting opens at 7 p.m. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
     "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
   },
   "updates": [
+    {
+      "id": "nov5-1935-prior",
+      "at": "2026-11-05T19:35:00-05:00",
+      "article": 1,
+      "title": "Long-range finance panel studies how other towns plan budgets",
+      "dek": "Select Board member Prior says group is 'not the override accelerator committee'",
+      "body": "Select Board member Michelle Prior updated Town Meeting on the Long Range Financial Planning Committee, which is building a shared financial framework for the town. The committee is looking at revenue and expense targets, an operating reserve forecast, how to split money between general stabilization and free cash, and a multi-year plan.\n\n## What it is studying\nPrior said other AAA-rated communities have done this for years. Brookline's town-school partnership dates to 1995, Arlington's to 2005 and Shrewsbury's to 2010. The committee is talking with those towns and hearing ideas that include:\n• Setting minimums for capital spending.\n• Using a predictable share of free cash in the budget; some towns use up to half.\n• Setting year-over-year spending targets.\n• Taking shared costs such as capital, health insurance and pensions off the top of revenue and splitting what is left.\n• Making regular deposits into the stabilization fund. Winchester made its first in 15 years last spring, she said.\n• Creating a process for positive and negative surprises.\n\n## The problem\nWinchester has a structural deficit, Prior said. The town expected a $5 million gap at the spring meeting and ended up needing $3.4 million of free cash to balance the budget. She said the gap is larger heading into next year. Capital needs persist, she said, and there is still no solution for Town Hall.\n\n## Next steps\nThe committee plans to agree on the facts, identify outcomes, explore efficiencies, discuss trade-offs and move from targets to rules, such as a growth target or a rule to spend only the revenue left after shared expenses.\n\n“Good relationships matter,” Prior said. “Durable, enforceable policies might just matter more.”\n\nShe said officials in Andover told the committee their budget process is boring. “That sounds terrific to me,” Prior said.\n\n“We are not the override accelerator committee,” she said. “We are here to take the long view.”"
+    },
     {
       "id": "nov5-1930-senior",
       "at": "2026-11-05T19:30:00-05:00",
