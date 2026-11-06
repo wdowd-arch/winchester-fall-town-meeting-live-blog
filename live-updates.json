@@ -1,12 +1,19 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T19:50:00-05:00",
+  "updatedAt": "2026-11-05T20:00:00-05:00",
   "note": "Town Meeting is under way at Winchester High School. Updates appear below, newest first. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
     "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
   },
   "updates": [
+    {
+      "id": "nov5-2000-reconvene",
+      "at": "2026-11-05T20:00:00-05:00",
+      "title": "Town Meeting reconvenes as new members are sworn in",
+      "dek": "Planning Board chair gives an update",
+      "body": "Town Meeting reconvened after the precinct meetings, and new members were sworn in. The Planning Board chair is now giving an update."
+    },
     {
       "id": "nov5-1950-eyden",
       "at": "2026-11-05T19:50:00-05:00",
@@ -68,8 +75,8 @@
       "id": "nov5-1941-recess",
       "at": "2026-11-05T19:41:00-05:00",
       "title": "Town Meeting breaks for precinct meetings",
-      "dek": "Members head to assigned rooms; session resumes at 8 p.m.",
-      "body": "Moderator Philip Frattaroli announced a recess so members can hold precinct meetings, as the bylaws require. Each of the eight precincts has an assigned meeting room, and members were told to go there now. Town Meeting is in recess until 8 p.m."
+      "dek": "Members went to assigned rooms; session was set to resume at 8 p.m.",
+      "body": "Moderator Philip Frattaroli announced a recess so members could hold precinct meetings, as the bylaws require. Each of the eight precincts had an assigned meeting room, and members were told to go there. Town Meeting was in recess until 8 p.m."
     },
     {
       "id": "nov5-1940-art1",
