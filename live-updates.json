@@ -1,12 +1,20 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T21:05:00-05:00",
+  "updatedAt": "2026-11-05T21:25:00-05:00",
   "note": "Town Meeting is under way at Winchester High School. Updates appear below, newest first. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
     "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
   },
   "updates": [
+    {
+      "id": "nov5-2125-art15",
+      "at": "2026-11-05T21:25:00-05:00",
+      "article": 15,
+      "title": "Town Meeting approves $900,000 for Lincoln School walkways and stairs",
+      "dek": "Leftover Muraco bond money has a deadline and a promise attached",
+      "body": "Town Meeting approved Article 15, $900,000 to repair and replace concrete walkways and stairs at Lincoln School on the Mystic Valley Parkway side, by unanimous voice vote. Frattaroli took the article out of order because the Article 14 presenter's slides were not ready, and said the meeting would return to Article 14.\n\n## The project and the money\nTown Manager Christopher Senior presented the article, which is his because of its complicated funding. The concrete, stairs and retaining walls developed problems soon after the school was built. Staff have patched them for many years, he said, and permanent shoring is needed to anchor the stairs and walls at an active school.\n\nOf the $900,000, $488,125.20 comes from the Building Stabilization Fund. The other $411,874.80 is leftover bond money from completed projects: about $338,800 from the 2021 Muraco repairs and about $73,100 from the high school project. Senior said federal tax rules and the town's bond counsel require the money to be spent soon on a project with a long useful life, and the town is past the original deadline. Concrete work can be financed for up to 50 years, he said, and this project can be done this spring and stays with the schools. He said the town looked at every option, including the Muraco culvert, which is already fully funded.\n\nThe School Committee voted unanimously for favorable action. The moderator said the Finance Committee's favorable action covered Articles 10 through 15.\n\n## Questions from the floor\n• Why not use the money at Muraco? Terence Tirella of Precinct 2 asked why leftover Muraco money isn't going to the school's remaining needs, such as HVAC and windows. Senior said the remaining work is ordinary repair, not the extraordinary repair that met the bond threshold, and that design problems at the building cannot be fixed. He said work on the Muraco site could begin within about 36 months if the new-school study goes forward.\n• Should the stairs be replaced at all? Pamela Cort of Precinct 5 asked whether the town was simply replacing what existed, noting that the stair design was not the safest. Senior said the town weighed other projects, but the others are studies that can't be financed over any length of time.\n• A promise on Muraco repairs: Marilyn Gagalis of Precinct 1, speaking for Muraco families and teachers, asked for a commitment that the remaining items, such as working toilets and sinks, will be done promptly. Senior said facilities staff are authorized to prioritize Muraco work and that new sinks are installed in every classroom. Superintendent Frank Hackett said the bond project's scope is complete, remaining items fall under regular facilities work and the budget is closed.\n\nSchool Committee member Chris Nixon, who backed the article, said the 2021 Muraco plan found about $6 million in urgent needs, but the town asked voters for $3.7 million because the Muraco culvert also needed funding. He said a new Muraco could mean a debt exclusion override vote between December 2028 and January 2029. The Lincoln walkway design, he added, would simplify the layout with fewer stairs and paths, built correctly."
+    },
     {
       "id": "nov5-2105-art13",
       "at": "2026-11-05T21:05:00-05:00",
