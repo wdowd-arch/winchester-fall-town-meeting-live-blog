@@ -31,7 +31,7 @@ Start with `status: "upcoming"` and an empty `updates` array. When the meeting o
 }
 ```
 
-`id`, `at`, `title`, and `body` are required; `article` (1–45), `sourceUrl` (https only), and `sourceLabel` are optional. Entries with a missing field or an unreadable `at` time are skipped. Times display in Eastern time in AP style ("7:05 p.m. Nov. 5," "7 p.m.," noon, midnight) with no time-zone label, newest first. An optional `dek` shows under the headline and must not repeat any headline word. Never post an unverified vote, quote, or floor update.
+`id`, `at`, `title`, and `body` are required; `article` (1–45), `sourceUrl` (https only), and `sourceLabel` are optional. Entries with a missing field or an unreadable `at` time are skipped. Times display in Eastern time in AP style ("7:05 p.m.," noon, midnight) with no time-zone label, newest first. Posts from the same day as the newest post show only the time; posts from earlier days add the date ("7:05 p.m. Nov. 5"). An optional `dek` shows under the headline and must not repeat any headline word. Never post an unverified vote, quote, or floor update.
 
 `body` is plain text with a few line-based conventions (in JSON, write a line break as `\n`):
 
