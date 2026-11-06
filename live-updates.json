@@ -1,12 +1,19 @@
 {
-  "status": "upcoming",
-  "updatedAt": "2026-11-05T17:55:00-05:00",
+  "status": "live",
+  "updatedAt": "2026-11-05T19:10:00-05:00",
   "note": "Live coverage begins when Town Meeting opens at 7 p.m. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
     "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
   },
   "updates": [
+    {
+      "id": "nov5-1910-uyterhoeven",
+      "at": "2026-11-05T19:10:00-05:00",
+      "title": "State Rep. Uyterhoeven introduces herself to Town Meeting",
+      "dek": "Newly elected lawmaker pledges openness and promotes a weekly newsletter",
+      "body": "State Rep. Erika Uyterhoeven, who takes office in January to represent Winchester in the Massachusetts House of Representatives, introduced herself to Town Meeting members. She said she publishes a weekly newsletter on State House business; her most recent issue covered the nine statewide ballot questions.\n\n“One of my grounding principles running for office is more transparency and more accessibility to state government,” Uyterhoeven said.\n\nShe said the issues Town Meeting handles overlap with her work. “Something I'm really passionate about is really fighting to lower the cost of living, ensure that we're funding our schools,” she said. “All things that I know you all deal with in town meeting, you know, intersects with what we do in the state house.”"
+    },
     {
       "id": "nov5-1755-intro",
       "at": "2026-11-05T17:55:00-05:00",
