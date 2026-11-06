@@ -170,7 +170,16 @@
         partsFormat = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', month: 'numeric', day: 'numeric', hour: 'numeric', minute: '2-digit', hourCycle: 'h23' });
       } catch (e) { partsFormat = null; }
 
-      function apTime(date) {
+      // omitDayKey: when the entry falls on this day ("month-day"), the date is left off.
+      function dayKeyOf(date) {
+        if (partsFormat && partsFormat.formatToParts) {
+          var p = {};
+          partsFormat.formatToParts(date).forEach(function (part) { p[part.type] = part.value; });
+          return (Number(p.month) - 1) + '-' + Number(p.day);
+        }
+        return date.getMonth() + '-' + date.getDate();
+      }
+      function apTime(date, omitDayKey) {
         var month, day, h, m;
         if (partsFormat && partsFormat.formatToParts) {
           var p = {};
@@ -181,6 +190,7 @@
         }
         var time = (m === 0 && h === 12) ? 'noon' : (m === 0 && h === 0) ? 'midnight'
           : (h % 12 || 12) + (m ? ':' + (m < 10 ? '0' : '') + m : '') + (h < 12 ? ' a.m.' : ' p.m.');
+        if (omitDayKey && omitDayKey === month + '-' + day) return time;
         return time + ' ' + AP_MONTHS[month] + ' ' + day;
       }
 
@@ -290,6 +300,9 @@
         var frag = document.createDocumentFragment();
         if (typeof data.note === 'string' && data.note.trim()) frag.appendChild(el('div', 'notice', data.note.trim()));
 
+        // Posts from the newest post's day show only the time; earlier days keep their date.
+        var newestDayKey = entries.length ? dayKeyOf(new Date(entries[0].at)) : null;
+
         var ids = {};
         var fresh = 0;
         entries.forEach(function (item) {
@@ -301,7 +314,7 @@
           if (domId) article.id = 'update-' + domId;
 
           var meta = el('div', 'update-meta');
-          var stamp = el('time', '', apTime(new Date(item.at)));
+          var stamp = el('time', '', apTime(new Date(item.at), newestDayKey));
           stamp.setAttribute('datetime', item.at);
           meta.appendChild(stamp);
           var num = Number(item.article);
