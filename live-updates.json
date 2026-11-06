@@ -1,12 +1,20 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T21:25:00-05:00",
+  "updatedAt": "2026-11-05T21:40:00-05:00",
   "note": "Town Meeting is under way at Winchester High School. Updates appear below, newest first. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
     "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
   },
   "updates": [
+    {
+      "id": "nov5-2140-art14",
+      "at": "2026-11-05T21:40:00-05:00",
+      "article": 14,
+      "title": "Columbarium funding passes by two-thirds as water motions remain",
+      "dek": "Questions center on oak trees, design approval and visibility",
+      "body": "Town Meeting approved the first of Article 14's motions, $140,000 from the Cemetery Perpetual Care Fund for the first phase of a new columbarium at Wildwood Cemetery, by voice vote with a two-thirds majority. That means some members voted no. Results on the article's two water and sewer motions were not available when this update was posted.\n\nThe Select Board voted unanimously for favorable action, and Frattaroli said the Finance Committee supports the article. The article was taken out of order, with the moderator joking that its presenter's slide was “well worth it.”\n\n## What the article funds\n• Columbarium, $140,000: The existing columbarium is about 95 percent full, the presenter said. The next phase would give families more choice and a dignified memorial setting using less land.\n• Raw water pump building, $600,000: Paid from the water and sewer fund, the money would repair the building's roof, facade, walls, brick and doors. The building, the first step in moving water from the reservoir to the treatment plant, has not been touched for decades and leaks, the presenter said.\n• Water treatment plant backwash design, $100,000: The design would line the settling pools that recover water used in treatment. Construction would follow next year at an estimated $500,000, give or take. The lining would let the town recover about 110,000 gallons a day, roughly the use of 350 households.\n\n“This is an easy one, at least the way I see it,” the presenter said. Frattaroli replied, “Famous last words. I'll refer you to the leaf blower debate of 2023.”\n\n## Questions about the columbarium design\nPrecinct 7 member Jennifer Haefeli said residents had raised concerns that the current design would remove six mature oak trees, add flower beds and hedges the cemetery does not maintain now, and sit in a wetlands area. She asked whether construction is normally funded before a design is final and whether the conservation commission, tree committee and cemetery committee would sign off.\n\nRobert LaBossiere of the Department of Public Works said the Cemetery Commission voted on a design from a hired landscape and cemetery designer, and that the final design still has to go to the Select Board. Because construction money has not been approved, conservation and tree reviews have not happened yet.\n\nWith Town Meeting's consent, a non-member who recently joined a cemetery advisory committee said the design should change. She called removing six mature oaks unnecessary and the design inconsistent with the rest of the cemetery, and she worried about maintaining annual beds and hedges. She supports funding the project.\n\nComptroller Stacie Ward noted that Town Meeting approved $15,000 for columbarium engineering in spring 2024, most of which was spent. Precinct 7 member Elizabeth Schreiber asked whether the structure would be visible from the causeway. LaBossiere said it is near the pond, possibly beyond the 100-foot wetlands limit, with tree cover in between. Frattaroli said cemetery design belongs to the Cemetery Commission and the meeting was voting only on the appropriation."
+    },
     {
       "id": "nov5-2125-art15",
       "at": "2026-11-05T21:25:00-05:00",
