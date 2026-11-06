@@ -1,12 +1,44 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T19:45:00-05:00",
+  "updatedAt": "2026-11-05T19:50:00-05:00",
   "note": "Live coverage begins when Town Meeting opens at 7 p.m. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
     "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
   },
   "updates": [
+    {
+      "id": "nov5-1950-eyden",
+      "at": "2026-11-05T19:50:00-05:00",
+      "title": "Shout-out to WinCAM's Allan Eyden for terrific Town Meeting recaps",
+      "dek": "Recess briefing walks viewers through consent agenda",
+      "body": "While members meet by precinct, WinCAM's Allan Eyden is giving viewers a recap of the night so far, including the opening, the three members honored and the consent agenda article by article. Thank you, Allan, for the terrific recaps. Eyden says a wrap-up of tonight's session will follow when the meeting ends.",
+      "image": {
+        "src": "images/eyden-1226.jpg",
+        "width": 1226,
+        "height": 660,
+        "srcset": [
+          {
+            "src": "images/eyden-800.jpg",
+            "width": 800
+          },
+          {
+            "src": "images/eyden-1226.jpg",
+            "width": 1226
+          }
+        ],
+        "alt": "A gray-haired man in a light blue collared shirt speaks to the camera in a virtual news studio with a blue world-map backdrop and a screen showing the Winchester town seal.",
+        "caption": "WinCAM's Allan Eyden gives a recap during the precinct-meeting recess Thursday.",
+        "credit": "WINCAM GOVERNMENT"
+      }
+    },
+    {
+      "id": "nov5-1948-consent",
+      "at": "2026-11-05T19:48:00-05:00",
+      "title": "Consent agenda, article by article: 12 pass, one postponed, one pulled",
+      "dek": "Plain-English rundown of what members approved without debate",
+      "body": "Town Meeting approved the consent agenda without debate. Here is what each article does, using the amounts printed in the motion book.\n\n• Article 3: Housekeeping about seats of members who miss too many sessions. The motion book calls for indefinite postponement, so no seats were declared vacant.\n• Article 8: Returns $18,277.30 in unspent capital money to the capital stabilization fund and $8,587.24 to cemetery perpetual care.\n• Article 9: Rescinds $1.15 million in 2021 borrowing authority for Muraco School repairs that was not needed.\n• Article 16: Adjusts fiscal 2027 budgets approved in the spring, including $193,250 for debt interest.\n• Article 17: Adds $62,664 to water and sewer expenses.\n• Article 18: Replaces $343,000 of estimated recreation receipts with the department's retained earnings.\n• Article 20: Spends $19,000 from the parking meter fund on the Town Center and Wedgemere parking lots.\n• Article 21: Moves $148,000 of free cash into the health insurance stabilization fund.\n• Article 22: Appropriates about $225,650 from the cable access fund, including $45,000 for capital needs.\n• Article 27: Raises dog license fees by $10, to $30 for most dogs and $25 for spayed or neutered dogs.\n• Article 28: Creates a school transportation revolving fund.\n• Articles 31 and 32: Accept state laws that let the town place liens for unpaid water and sewer bills.\n\nModerator Philip Frattaroli pulled Article 19, a $350,000 free cash transfer toward retiree health costs, so members will debate it separately."
+    },
     {
       "id": "nov5-1945-thanks",
       "at": "2026-11-05T19:45:00-05:00",
