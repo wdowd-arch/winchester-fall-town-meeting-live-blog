@@ -12,8 +12,54 @@
       "at": "2026-11-05T19:40:00-05:00",
       "article": 1,
       "title": "Town Meeting accepts Article 1 reports",
-      "dek": "Select Board, Finance Committee, manager and long-range panel spoke first",
-      "body": "Town Meeting members voted to pass Article 1, which accepts the reports of town officials, boards, committees and commissions. Members heard from the Select Board, the Finance Committee, the town manager and the Long Range Financial Planning Committee before the vote. The article needed a majority."
+      "dek": "Reports from Select Board, schools and others came first",
+      "body": "Town Meeting members voted to pass Article 1, which accepts the reports of town officials, boards, committees and commissions. Members heard from the Select Board, the Finance Committee, the town manager, the Long Range Financial Planning Committee and the school superintendent and School Committee chair before the vote. The article needed a majority."
+    },
+    {
+      "id": "nov5-1938-schools",
+      "at": "2026-11-05T19:38:00-05:00",
+      "article": 1,
+      "title": "School leaders urge operating override as Muraco advances",
+      "dek": "Chair says last spring's cuts eliminated 32.5 positions",
+      "images": [
+        {
+          "src": "images/schools-superintendent-1226.jpg",
+          "width": 1226,
+          "height": 920,
+          "srcset": [
+            {
+              "src": "images/schools-superintendent-800.jpg",
+              "width": 800
+            },
+            {
+              "src": "images/schools-superintendent-1226.jpg",
+              "width": 1226
+            }
+          ],
+          "alt": "A man in a dark suit speaks from a podium at the right side of a school auditorium while a large screen on stage shows a slide titled Tonight's roadmap.",
+          "caption": "Superintendent Frank Hackett presents the district's Article 1 report Thursday.",
+          "credit": "WINCHESTER NEWS PHOTO"
+        },
+        {
+          "src": "images/schools-chair-1226.jpg",
+          "width": 1226,
+          "height": 920,
+          "srcset": [
+            {
+              "src": "images/schools-chair-800.jpg",
+              "width": 800
+            },
+            {
+              "src": "images/schools-chair-1226.jpg",
+              "width": 1226
+            }
+          ],
+          "alt": "A man in glasses and a dark suit speaks from a podium at the right side of a school auditorium while a large screen on stage shows a slide titled Our FY2028 budget process is well underway.",
+          "caption": "School Committee Chair Timothy Matthews presents the FY2028 budget slide Thursday.",
+          "credit": "WINCHESTER NEWS PHOTO"
+        }
+      ],
+      "body": "Superintendent Frank Hackett and School Committee Chair Timothy Matthews gave the Winchester Public Schools report. They said the district is performing well but still absorbing last spring's cuts, and the committee believes an operating override is urgently needed.\n\n## District update\nHackett said the district is in full implementation of a new literacy curriculum funded by Town Meeting last year. Thirty seniors from the class of 2026 now play collegiate sports, almost 10 percent of the class. Winchester High School had four National Merit finalists.\n\nAbout 90 percent of the district's budget goes to personnel, he said, and about 90 percent of personnel belong to a union. Enrollment has fallen over 10 years and is now relatively flat, but students' needs have grown.\n\nA survey of parents, staff and students identified five priorities, including class size, fee affordability and course access. Elementary parents most often cited math interventionists, and Hackett said higher fees keep some students off athletic teams.\n\n## The cuts and the budget\nMatthews said the failed operating override forced the district to cut $3.2 million from its original budget projection and eliminate 32.5 full-time positions. Athletic fees rose 68 percent and transportation fees 10 percent, and the district drained its special education reserve. Nine more students needed out-of-district placements, and state transportation costs jumped.\n\nThe district concluded agreements with all five Winchester Education Association bargaining units. It began its fiscal 2028 budget process early, and the committee held a workshop on the survey results this past week.\n\n“Instead of entering a process of managed decline,” Matthews said, the committee believes “an operating override is urgently needed to provide stable funding that allows all of Winchester students to grow and to succeed.”\n\n## Muraco and the committee's articles\nMatthews said the Massachusetts School Building Authority board voted unanimously last month to accept Muraco Elementary School into its feasibility phase. It was one of the first three schools in its cohort accepted. The district will next hire a designer and an owner's project manager, then compare repairing, renovating and expanding, or replacing the building. The district has launched a Muraco website for updates.\n\nThe School Committee has three articles. One passed on the consent agenda. Matthews said the committee will return for Article 29, replenishing the special education reserve, and Article 30, next steps for the Sanborn Carriage House. Questions can go to schoolcommittee@winchesterps.org."
     },
     {
       "id": "nov5-1935-prior",

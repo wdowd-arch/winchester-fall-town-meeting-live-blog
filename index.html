@@ -310,8 +310,11 @@
 
           article.appendChild(el('h3', '', item.title.trim()));
           if (typeof item.dek === 'string' && item.dek.trim()) article.appendChild(el('p', 'entry-dek', item.dek.trim()));
-          var photo = renderImage(item.image);
-          if (photo) article.appendChild(photo);
+          var photoList = Array.isArray(item.images) ? item.images : (item.image ? [item.image] : []);
+          photoList.forEach(function (image) {
+            var photo = renderImage(image);
+            if (photo) article.appendChild(photo);
+          });
           article.appendChild(renderBody(item.body));
 
           var href = safeUrl(item.sourceUrl);

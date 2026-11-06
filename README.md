@@ -43,7 +43,7 @@ Start with `status: "upcoming"` and an empty `updates` array. When the meeting o
 
 Everything is inserted as text, never as HTML, so entries cannot inject markup or scripts.
 
-An entry may also carry an optional photo, shown under the headline. Put image files in `images/` (JPEG, so older iPhones can show them) and give the real pixel size so the page does not jump while it loads:
+An entry may also carry an optional photo, shown under the headline (use `"images": [...]` with several of the same objects for more than one). Put image files in `images/` (JPEG, so older iPhones can show them) and give the real pixel size so the page does not jump while it loads:
 
 ```json
 "image": {
