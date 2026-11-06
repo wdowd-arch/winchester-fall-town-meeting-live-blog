@@ -10,9 +10,29 @@
     {
       "id": "nov5-1910-uyterhoeven",
       "at": "2026-11-05T19:10:00-05:00",
-      "title": "State Rep. Uyterhoeven introduces herself to Town Meeting",
-      "dek": "Newly elected lawmaker pledges openness and promotes a weekly newsletter",
-      "body": "State Rep. Erika Uyterhoeven, who takes office in January to represent Winchester in the Massachusetts House of Representatives, introduced herself to Town Meeting members. She said she publishes a weekly newsletter on State House business; her most recent issue covered the nine statewide ballot questions.\n\n“One of my grounding principles running for office is more transparency and more accessibility to state government,” Uyterhoeven said.\n\nShe said the issues Town Meeting handles overlap with her work. “Something I'm really passionate about is really fighting to lower the cost of living, ensure that we're funding our schools,” she said. “All things that I know you all deal with in town meeting, you know, intersects with what we do in the state house.”"
+      "title": "Senator-elect Uyterhoeven introduces herself to Town Meeting",
+      "dek": "Second Middlesex winner pledges openness and promotes a weekly newsletter",
+      "body": "State Rep. Erika Uyterhoeven, who won the Second Middlesex Senate seat unopposed Tuesday, introduced herself to Town Meeting members. The seat covers Winchester Precincts 4, 5, 6 and 7, and she takes office in January. Results are unofficial.\n\nShe said she publishes a weekly newsletter on State House business; her most recent issue covered the nine statewide ballot questions.\n\n“One of my grounding principles running for office is more transparency and more accessibility to state government,” Uyterhoeven said.\n\nShe said the issues Town Meeting handles overlap with her work. “Something I'm really passionate about is really fighting to lower the cost of living, ensure that we're funding our schools,” she said. “All things that I know you all deal with in town meeting, you know, intersects with what we do in the state house.”",
+      "image": {
+        "src": "images/uyterhoeven-1226.jpg",
+        "width": 1226,
+        "height": 920,
+        "srcset": [
+          {
+            "src": "images/uyterhoeven-800.jpg",
+            "width": 800
+          },
+          {
+            "src": "images/uyterhoeven-1226.jpg",
+            "width": 1226
+          }
+        ],
+        "alt": "A woman in a plaid blazer speaks into a microphone from a railing at the side of a school auditorium while Town Meeting members seated in red chairs look on.",
+        "caption": "State Rep. Erika Uyterhoeven speaks to Town Meeting members Thursday.",
+        "credit": "WINCHESTER NEWS PHOTO"
+      },
+      "sourceUrl": "https://winchesternews.org/20261104_-winchester-returns-incumbents-as-both-its-senate-seats-turn-over/",
+      "sourceLabel": "Winchester News election coverage"
     },
     {
       "id": "nov5-1755-intro",
