@@ -58,6 +58,12 @@
     .notice { padding: 16px 18px; border: 1px solid var(--rule); background: var(--card); margin: 18px 0; }
     .notice.error { border-left: 4px solid var(--red); }
 
+    .summary { margin: 22px 0 8px; padding: 22px 0 8px; border-top: 3px solid var(--ink); border-bottom: 1px solid var(--rule); }
+    .summary .kicker { margin: 0 0 8px; font: 700 12px/1.3 var(--serif); letter-spacing: .08em; text-transform: uppercase; color: var(--red); }
+    .summary h2 { margin: 0 0 10px; font-size: 30px; line-height: 1.2; max-width: var(--measure); text-wrap: balance; }
+    .summary .entry-dek { margin-bottom: 16px; }
+    .summary .summary-date { margin: 4px 0 18px; color: var(--muted); font: 13px/1.4 var(--serif); }
+    .feed-label { margin: 26px 0 0; font: 700 12px/1.3 var(--serif); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
     .update { border-bottom: 1px solid var(--line); padding: 24px 0; }
     .update:last-child { border-bottom: 0; }
     .update-meta { display: flex; flex-wrap: wrap; gap: 2px 12px; font: 700 12px/1.4 var(--serif); letter-spacing: .07em; text-transform: uppercase; }
@@ -291,6 +297,20 @@
       //   "• item" / "- item" bulleted item
       //   "  – sub" (indented) sub-item under the previous bullet
       //   indented plain text continuation paragraph inside the previous bullet
+      // Optional night summary shown above the chronological feed.
+      function renderSummary(summary) {
+        if (!summary || typeof summary !== 'object') return null;
+        if (typeof summary.title !== 'string' || !summary.title.trim() || typeof summary.body !== 'string' || !summary.body.trim()) return null;
+        var box = el('section', 'summary');
+        box.setAttribute('aria-label', 'Summary');
+        if (typeof summary.kicker === 'string' && summary.kicker.trim()) box.appendChild(el('p', 'kicker', summary.kicker.trim()));
+        box.appendChild(el('h2', '', summary.title.trim()));
+        if (typeof summary.dek === 'string' && summary.dek.trim()) box.appendChild(el('p', 'entry-dek', summary.dek.trim()));
+        if (validTime(summary.at)) box.appendChild(el('p', 'summary-date', 'Updated ' + apTime(new Date(summary.at))));
+        box.appendChild(renderBody(summary.body));
+        return box;
+      }
+
       function renderBody(text) {
         var wrap = el('div', 'update-body');
         var blocks = String(text).replace(/\r\n?/g, '\n').split(/\n[ \t]*\n/);
@@ -341,6 +361,8 @@
 
         var frag = document.createDocumentFragment();
         if (typeof data.note === 'string' && data.note.trim()) frag.appendChild(el('div', 'notice', data.note.trim()));
+        var summaryBox = renderSummary(data.summary);
+        if (summaryBox) { frag.appendChild(summaryBox); frag.appendChild(el('p', 'feed-label', 'Updates, newest first')); }
 
         // Posts from the newest post's day show only the time; earlier days keep their date.
         var newestDayKey = entries.length ? dayKeyOf(new Date(entries[0].at)) : null;
