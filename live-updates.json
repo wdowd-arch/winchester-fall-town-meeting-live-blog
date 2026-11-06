@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T19:40:00-05:00",
+  "updatedAt": "2026-11-05T19:41:00-05:00",
   "note": "Live coverage begins when Town Meeting opens at 7 p.m. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
@@ -8,12 +8,19 @@
   },
   "updates": [
     {
+      "id": "nov5-1941-recess",
+      "at": "2026-11-05T19:41:00-05:00",
+      "title": "Town Meeting breaks for precinct meetings",
+      "dek": "Members head to assigned rooms; session resumes at 8 p.m.",
+      "body": "Moderator Philip Frattaroli announced a recess so members can hold precinct meetings, as the bylaws require. Each of the eight precincts has an assigned meeting room, and members were told to go there now. Town Meeting is in recess until 8 p.m."
+    },
+    {
       "id": "nov5-1940-art1",
       "at": "2026-11-05T19:40:00-05:00",
       "article": 1,
       "title": "Town Meeting accepts Article 1 reports",
       "dek": "Reports from Select Board, schools and others came first",
-      "body": "Town Meeting members voted to pass Article 1, which accepts the reports of town officials, boards, committees and commissions. Members heard from the Select Board, the Finance Committee, the town manager, the Long Range Financial Planning Committee and the school superintendent and School Committee chair before the vote. The article needed a majority."
+      "body": "Town Meeting members voted to pass Article 1, which accepts the reports of town officials, boards, committees and commissions. Members heard from the Select Board, the Finance Committee, the town manager, the Long Range Financial Planning Committee and the school superintendent and School Committee chair before the vote. The motion carried on a voice vote."
     },
     {
       "id": "nov5-1938-schools",
