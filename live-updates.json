@@ -1,12 +1,38 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T19:20:00-05:00",
+  "updatedAt": "2026-11-05T19:30:00-05:00",
   "note": "Live coverage begins when Town Meeting opens at 7 p.m. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
     "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
   },
   "updates": [
+    {
+      "id": "nov5-1930-senior",
+      "at": "2026-11-05T19:30:00-05:00",
+      "article": 1,
+      "title": "Senior: New fees add revenue, but costs and delays persist",
+      "dek": "Town manager also cites hiring holds, software upgrades and a staff 'fun committee'",
+      "body": "Town Manager Christopher Senior told Town Meeting that the town is raising revenue and holding down costs in small steps, though inflation, tariffs and borrowing costs keep pressure on the budget.\n\n## Revenue\nDowntown parking tags rose from $10 to $50 a year, and Senior said parking revenue is up $40,000 so far over last year as the town manages the machines more actively. The Mystic School's new lease, which includes energy payments, brings in about $16,000 more. Building and zoning fees are running 16 percent above what the old fee schedule would have produced from April to October, he said.\n\n“None of these by themselves changes the needle,” Senior said. “But I want you to understand that we're looking at all of these things.”\n\n## Costs and efficiency\nSenior said he has asked department heads to hold some open positions, including delaying hires until winter in one department. He is also pushing to modernize paperwork. Police are working toward electronic ticketing devices, and the town plans to end paper time sheets. Article 33, the software funding request, would put licensing and permitting on one town-wide platform; it is expected later in the meeting.\n\nThe town's pension is about to be paid off, he said, and more money is going into the OPEB reserve for retiree health care. Health care costs, building-material prices and interest rates remain challenges. Borrowing costs about 5 percent now, up from about 3 percent. Steel prices have made one solar parking-lot project uneconomical, he said.\n\n“It shouldn't take two years to get a fire truck,” Senior said.\n\n## Staff\nSenior said he meets every new hire, including two 21-year-old Winchester High School graduates who interned with the fire department and are now joining it. A compensation and classification study is wrapping up. He also described a staff “fun committee” that organized a pumpkin-carving event, with an employee recognition event planned in a few weeks.\n\n“A staff that works well together and has fun together really works better together,” he said.",
+      "image": {
+        "src": "images/senior-1226.jpg",
+        "width": 1226,
+        "height": 766,
+        "srcset": [
+          {
+            "src": "images/senior-800.jpg",
+            "width": 800
+          },
+          {
+            "src": "images/senior-1226.jpg",
+            "width": 1226
+          }
+        ],
+        "alt": "A man in a suit reads from a sheet of paper at a podium microphone while a slide titled Staff Development appears beside him.",
+        "caption": "Town Manager Christopher Senior gives his Article 1 report Thursday.",
+        "credit": "WINCAM GOVERNMENT"
+      }
+    },
     {
       "id": "nov5-1920-brady",
       "at": "2026-11-05T19:20:00-05:00",
