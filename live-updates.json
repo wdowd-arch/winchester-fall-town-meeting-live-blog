@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T20:20:00-05:00",
+  "updatedAt": "2026-11-05T20:30:00-05:00",
   "note": "Town Meeting is under way at Winchester High School. Updates appear below, newest first. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "YkvANFR7Cyw",
@@ -8,12 +8,28 @@
   },
   "updates": [
     {
+      "id": "nov5-2030-capital",
+      "at": "2026-11-05T20:30:00-05:00",
+      "article": 7,
+      "title": "Capital Planning chair outlines $4.8 million in projects",
+      "dek": "Eight of 17 carry about $8 million more in future costs",
+      "body": "Capital Planning Committee Chair Enzo Rascionato presented the committee's report, which describes $4.8 million in spending across 17 projects. The money comes from several sources:\n• $2.5 million from the Capital Stabilization Fund.\n• $1.5 million from the Building Stabilization Fund.\n• $140,000 for the cemetery.\n• $700,000 for water and sewer.\n\nEight of the projects carry about $8 million more in costs in future years, Rascionato said. The largest is the HVAC project at Ambrose School.\n\nThe capital spending votes, Articles 10 through 15, come after the report."
+    },
+    {
+      "id": "nov5-2025-zoning-pass",
+      "at": "2026-11-05T20:25:00-05:00",
+      "article": 4,
+      "title": "Town Meeting passes all three zoning articles by voice vote",
+      "dek": "Moderator reminded members each needed a two-thirds majority",
+      "body": "Town Meeting approved Articles 4, 5 and 6, the Planning Board's zoning bylaw changes, by voice vote. Moderator Philip Frattaroli reminded members that each needed a two-thirds majority. No clicker counts were taken.\n\n• Article 4, lot width: Frattaroli declared a two-thirds majority. He did not say it was unanimous.\n• Article 5, striking the downtown review subcommittee: carried unanimously.\n• Article 6, streamlining Zoning Board of Appeals procedures: carried unanimously."
+    },
+    {
       "id": "nov5-2020-art456",
       "at": "2026-11-05T20:20:00-05:00",
       "article": 4,
       "title": "Planning Board presents three zoning articles together",
       "dek": "Lot width, design review and permit steps get streamlined",
-      "body": "Planning Board Chair Jack LeMenager presented Articles 4, 5 and 6 together. All three are minor zoning bylaw changes. Moderator Philip Frattaroli then asked Select Board Chair Anthea Brady for the board's recommendation. Votes on the three articles had not been announced when this update was posted.\n\n## Article 4: lot width\nPlanning Board member Brian Vernaglia presented it. One change would let a conforming addition go ahead by right on a lot that is too narrow, as already allowed when a lot's area or frontage falls short. The other would lower the minimum lot width in the RDA district from 120 feet to 100 feet to match its frontage rule. Vernaglia said a full rewrite of the bylaw section on pre-existing nonconforming structures could come as early as spring 2027.\n\n“I think he got his Ph.D. in 3.5, didn't you?” LeMenager joked about Vernaglia's expertise in that section.\n\n## Article 5: downtown design review\nThe article would strike the Center Business District Review Subcommittee, created in the 2015 downtown bylaw. LeMenager said applicants have gone through four reviews instead of the intended two, because the Design Review Committee and Historical Commission also review projects independently. Both voted unanimously last month to support the change. The Design Review Committee asked to stay involved in later design phases.\n\n## Article 6: Zoning Board of Appeals process\nThe article would drop an old requirement for up to 16 paper copies of plans, extend the time to send materials to advisory boards from three days to five, and combine site plan review and a special permit into one hearing and one decision."
+      "body": "Planning Board Chair Jack LeMenager presented Articles 4, 5 and 6 together. All three are minor zoning bylaw changes. Moderator Philip Frattaroli then asked Select Board Chair Anthea Brady for the board's recommendation. All three later passed; see the next update.\n\n## Article 4: lot width\nPlanning Board member Brian Vernaglia presented it. One change would let a conforming addition go ahead by right on a lot that is too narrow, as already allowed when a lot's area or frontage falls short. The other would lower the minimum lot width in the RDA district from 120 feet to 100 feet to match its frontage rule. Vernaglia said a full rewrite of the bylaw section on pre-existing nonconforming structures could come as early as spring 2027.\n\n“I think he got his Ph.D. in 3.5, didn't you?” LeMenager joked about Vernaglia's expertise in that section.\n\n## Article 5: downtown design review\nThe article would strike the Center Business District Review Subcommittee, created in the 2015 downtown bylaw. LeMenager said applicants have gone through four reviews instead of the intended two, because the Design Review Committee and Historical Commission also review projects independently. Both voted unanimously last month to support the change. The Design Review Committee asked to stay involved in later design phases.\n\n## Article 6: Zoning Board of Appeals process\nThe article would drop an old requirement for up to 16 paper copies of plans, extend the time to send materials to advisory boards from three days to five, and combine site plan review and a special permit into one hearing and one decision."
     },
     {
       "id": "nov5-2012-planning",
