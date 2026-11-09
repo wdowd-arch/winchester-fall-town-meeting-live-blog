@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-09T16:00:00-05:00",
+  "updatedAt": "2026-11-09T18:52:00-05:00",
   "byline": "By Will Dowd · Nov. 9, 2026",
   "meeting": "7 p.m. Monday, Nov. 9 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting resumes at 7 p.m. tonight at Winchester High School for its second session. Tonight's updates appear first, newest first. Night one's summary, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -35,6 +35,62 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov9-1852-art26-sb",
+      "at": "2026-11-09T18:52:00-05:00",
+      "article": 26,
+      "title": "Select Board deadlocks 2-2 on Forest Ridge taking",
+      "dek": "Motion for favorable action fails as handout makes Conservation Commission's case",
+      "images": [
+        {
+          "src": "images/select-board-nov9-1226.jpg",
+          "width": 1226,
+          "height": 690,
+          "srcset": [
+            {
+              "src": "images/select-board-nov9-800.jpg",
+              "width": 800
+            },
+            {
+              "src": "images/select-board-nov9-1226.jpg",
+              "width": 1226
+            }
+          ],
+          "alt": "Select Board members and staff sit around a conference table in an office while one member speaks and two people seated along the wall take notes.",
+          "caption": "The Select Board meets in the principal's office at Winchester High School before the second session of Fall Town Meeting Monday.",
+          "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+        },
+        {
+          "src": "images/forest-ridge-handout-1226.jpg",
+          "width": 1226,
+          "height": 1635,
+          "srcset": [
+            {
+              "src": "images/forest-ridge-handout-800.jpg",
+              "width": 800
+            },
+            {
+              "src": "images/forest-ridge-handout-1226.jpg",
+              "width": 1226
+            }
+          ],
+          "alt": "A one-page Winchester Conservation Commission handout titled Fall Town Meeting Article 26: Forest Ridge Eminent Domain, with sections on the project, acquisition and future vision.",
+          "caption": "A Conservation Commission handout on Article 26 circulates before Town Meeting's second session Monday.",
+          "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+        }
+      ],
+      "body": "The Select Board deadlocked 2-2 Monday on a motion to recommend favorable action on Article 26, the proposed eminent domain taking of Forest Ridge, and the motion failed to obtain the majority it needed. Members met in the principal's office at Winchester High School before Town Meeting's second session.\n\n## How members voted\n• Michael Bettencourt: yes\n• Michelle Prior: yes\n• Bill McGonigle: no\n• Anthea Brady: no\n\nBettencourt is a co-sponsor of the article with the Conservation Commission. The board's recommendation is advisory. It put off the question Nov. 2 without a vote. Town Meeting needs a two-thirds vote to authorize a taking, and Town Counsel Karis North wrote in a Nov. 3 memo that the Select Board would then have to vote separately, by majority, to carry it out. In May, Town Meeting rejected a voluntary $3 million purchase of the land, 105-59.\n\n## The Conservation Commission's handout\nA one-page handout from the commission makes the case for Article 26. It describes Forest Ridge as a 13.7-acre privately owned parcel abutting the Middlesex Fells and says taking it would protect wetlands, the North Reservoir watershed and wildlife habitat.\n• Support: The handout says almost 600 people signed a petition to acquire the land for conservation.\n• Why eminent domain: It says the land is under agreement with a developer who is working to buy a house lot on Forest Circle to improve access, so the town cannot buy it directly.\n• Money: It lists a $250,000 state earmark, a $425,000 state grant it says has been awarded and a $1 million federal grant it calls likely. It says annual debt service would take no more than 4 percent to 7 percent of the Winchester Committee on Community Preservation's projected $2 million in fiscal 2027 revenue.\n• After a taking: The commission would oversee the land for passive recreation and arrange trails connecting entrances to the Fells. The handout says improvements would use grants or volunteer labor and no town funds would be requested.\n\n“Forest Ridge is a smart acquisition and a lasting gift to our community, especially our children,” the handout concludes.\n\n## Where earlier reporting differs\n• Assessed value: The handout calls $2.85 million the assessed value. That figure is from a June appraisal, and the town assesses the parcels at about $4.9 million.\n• Federal grant: The handout calls it likely. It is not in hand, and federal rules allow it in an eminent domain taking only with the owner's agreement.\n• Compensation: The handout calls payment at fair market value legally guaranteed. North's memo says the town's offer “is the floor, not the ceiling.” The owner has three years to challenge it, and a jury sets the price.",
+      "documents": [
+        {
+          "title": "Town Counsel memo on eminent domain, Nov. 3",
+          "pdf": "docs/town-counsel-eminent-domain-memo.pdf",
+          "pages": [
+            "docs/town-counsel-eminent-domain-memo-p1.jpg"
+          ],
+          "note": "3 pages. Source: Town of Winchester."
+        }
+      ]
+    },
     {
       "id": "nov9-1530-preview",
       "at": "2026-11-09T15:30:00-05:00",
