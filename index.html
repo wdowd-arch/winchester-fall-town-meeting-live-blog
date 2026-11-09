@@ -100,7 +100,8 @@
     .update-doc .doc-pages a { display: block; flex: 1 1 200px; max-width: 320px; }
     .update-doc .doc-pages img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 2px; background: #fff; }
     .update-doc .doc-note { margin: 4px 0 0; color: var(--muted); font: 13px/1.4 var(--serif); }
-    .update .source { margin: 14px 0 0; font: 14px/1.4 var(--serif); }
+    .update .source, .summary .source { margin: 14px 0 0; font: 14px/1.4 var(--serif); }
+    .summary .source a { font-weight: 700; }
 
     .refresh { margin: 20px 0 0; color: var(--muted); font: 13px/1.5 var(--serif); }
 
@@ -337,6 +338,14 @@
         if (typeof summary.dek === 'string' && summary.dek.trim()) box.appendChild(el('p', 'entry-dek', summary.dek.trim()));
         if (validTime(summary.at)) box.appendChild(el('p', 'summary-date', 'Updated ' + apTime(new Date(summary.at))));
         box.appendChild(renderBody(summary.body));
+        var href = safeUrl(summary.sourceUrl);
+        if (href) {
+          var p = el('p', 'source');
+          var a = el('a', '', (typeof summary.sourceLabel === 'string' && summary.sourceLabel.trim()) || 'Read the full story');
+          a.href = href; a.target = '_blank'; a.rel = 'noopener';
+          p.appendChild(a);
+          box.appendChild(p);
+        }
         return box;
       }
 
