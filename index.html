@@ -63,6 +63,14 @@
     .summary h2 { margin: 0 0 10px; font-size: 30px; line-height: 1.2; max-width: var(--measure); text-wrap: balance; }
     .summary .entry-dek { margin-bottom: 16px; }
     .summary .summary-date { margin: 4px 0 18px; color: var(--muted); font: 13px/1.4 var(--serif); }
+    .session { margin: 0; }
+    .session[hidden] { display: none; }
+    .session + .session { margin-top: 34px; }
+    .session-label { margin: 22px 0 0; padding-top: 10px; border-top: 3px solid var(--ink); font: 700 13px/1.3 var(--serif); letter-spacing: .1em; text-transform: uppercase; color: var(--red); }
+    .session-label + .summary { margin-top: 0; padding-top: 10px; border-top: 0; }
+    .session-video { margin: 22px 0 0; max-width: var(--measure); }
+    .session-video .frame { position: relative; padding-top: 56.25%; background: var(--ink); }
+    .session-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
     .feed-label { margin: 26px 0 0; font: 700 12px/1.3 var(--serif); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
     .update { border-bottom: 1px solid var(--line); padding: 24px 0; }
     .update:last-child { border-bottom: 0; }
@@ -113,7 +121,7 @@
     @media (max-width: 600px) { .embedded body { padding-left: 12px; padding-right: 12px; } }
     @media print {
       body { background: #fff; max-width: none; padding: 0; font-size: 12pt; }
-      .refresh, .tracker-link, .phone-tip, .stream { display: none; }
+      .refresh, .tracker-link, .phone-tip, .stream, .session-video { display: none; }
       .update { break-inside: avoid-page; }
       .update .source a::after { content: ' (' attr(href) ')'; font-size: 10pt; }
     }
@@ -125,13 +133,14 @@
     <div class="eyebrow" id="statusLabel">Town Meeting coverage</div>
     <h1>Live from Fall Town Meeting</h1>
     <p class="dek">Votes and floor action as Winchester works through its 45-article warrant</p>
-    <p class="byline">By Will Dowd · Nov. 5, 2026</p>
-    <p class="meeting">7 p.m. Thursday, Nov. 5 · Winchester High School auditorium, 80 Skillings Road</p>
+    <p class="byline" id="byline">By Will Dowd · Nov. 5, 2026</p>
+    <p class="meeting" id="meeting">7 p.m. Thursday, Nov. 5 · Winchester High School auditorium, 80 Skillings Road</p>
   </header>
   <figure class="stream" id="stream" hidden>
     <div class="frame"><iframe title="Town Meeting live video" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
     <figcaption class="cutline">Winchester Community Access and Media (WinCAM) streams the session live. If the video does not load, watch on <a href="https://wincam.org/watch/government/" target="_blank" rel="noopener">WinCAM’s government channel</a>.</figcaption>
   </figure>
+  <aside class="tracker-link" id="streamPending" hidden>Tonight’s WinCAM video will appear here when the stream is posted. You can also watch on <a href="https://wincam.org/watch/government/" target="_blank" rel="noopener">WinCAM’s government channel</a>.</aside>
   <aside class="phone-tip">Reading on a phone? Turn it sideways for a wider view of the updates.</aside>
   <aside class="tracker-link">Looking for the proposals and vote results? <a href="https://winchesternews.org/20261106_winchester-town-meeting-tracker-all-45-warrant-articles-explained/" target="_blank" rel="noopener">Open the 45-article warrant tracker</a>.</aside>
   <main>
@@ -157,6 +166,7 @@
       var label = document.getElementById('statusLabel');
       var announcer = document.getElementById('announcer');
 
+      var streamPending = document.getElementById('streamPending');
       var stream = document.getElementById('stream');
       var streamFrame = stream.querySelector('iframe');
       var currentStream = null;
@@ -174,6 +184,9 @@
         }
       }
 
+      var bylineLine = document.getElementById('byline');
+      var meetingLine = document.getElementById('meeting');
+
       var lastJson = '';
       var seenIds = null;
       var inFlight = false;
@@ -183,6 +196,22 @@
       try {
         partsFormat = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', month: 'numeric', day: 'numeric', hour: 'numeric', minute: '2-digit', hourCycle: 'h23' });
       } catch (e) { partsFormat = null; }
+      var isoDayFormat = null;
+      try {
+        isoDayFormat = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' });
+      } catch (e) { isoDayFormat = null; }
+      // Eastern calendar date as "YYYY-MM-DD", used to place posts in their session.
+      function isoDayOf(date) {
+        var y, mo, d;
+        if (isoDayFormat && isoDayFormat.formatToParts) {
+          var p = {};
+          isoDayFormat.formatToParts(date).forEach(function (part) { p[part.type] = part.value; });
+          y = p.year; mo = p.month; d = p.day;
+        } else {
+          y = String(date.getFullYear()); mo = ('0' + (date.getMonth() + 1)).slice(-2); d = ('0' + date.getDate()).slice(-2);
+        }
+        return y + '-' + mo + '-' + d;
+      }
 
       // omitDayKey: when the entry falls on this day ("month-day"), the date is left off.
       function dayKeyOf(date) {
@@ -347,29 +376,117 @@
         return wrap;
       }
 
+      function youtubeIdOf(config) {
+        return config && typeof config.youtubeId === 'string' && /^[A-Za-z0-9_-]{11}$/.test(config.youtubeId) ? config.youtubeId : '';
+      }
+
+      // Sessions (meeting nights), newest first. Without a sessions list, everything is one group.
+      function sessionList(data) {
+        var list = Array.isArray(data.sessions) ? data.sessions.filter(function (s) {
+          return s && typeof s.id === 'string' && s.id && typeof s.date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(s.date);
+        }) : [];
+        if (!list.length) return [{ id: 'all', date: '0000-00-00', summary: data.summary }];
+        return list.slice().sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
+      }
+
+      // A recorded video placed inside its session. Built once and kept in place so refreshes do not restart it.
+      function buildSessionVideo(video) {
+        var id = youtubeIdOf(video);
+        if (!id) return null;
+        var figure = el('figure', 'session-video');
+        var frame = el('div', 'frame');
+        var iframe = el('iframe');
+        iframe.src = 'https://www.youtube.com/embed/' + id + '?playsinline=1&rel=0';
+        iframe.title = (typeof video.title === 'string' && video.title) || 'Town Meeting video';
+        iframe.loading = 'lazy';
+        iframe.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture; fullscreen');
+        iframe.setAttribute('allowfullscreen', '');
+        iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+        frame.appendChild(iframe);
+        figure.appendChild(frame);
+        var caption = el('figcaption', 'cutline', (typeof video.caption === 'string' && video.caption.trim()) ? video.caption.trim() + ' ' : '');
+        var a = el('a', '', 'Watch on YouTube');
+        a.href = 'https://www.youtube.com/watch?v=' + id; a.target = '_blank'; a.rel = 'noopener';
+        caption.appendChild(a);
+        caption.appendChild(document.createTextNode('.'));
+        figure.appendChild(caption);
+        return figure;
+      }
+
+      var noteSlot = el('div');
+      var sessionsWrap = el('div');
+      var sessionKey = null;
+      var sessionNodes = {};
+      function ensureSessions(list) {
+        var key = list.map(function (s) { return s.id + '|' + youtubeIdOf(s.video); }).join(',');
+        if (key === sessionKey) return;
+        sessionKey = key;
+        sessionNodes = {};
+        clear(sessionsWrap);
+        list.forEach(function (s) {
+          var root = el('section', 'session');
+          var head = el('div');
+          var video = buildSessionVideo(s.video);
+          var posts = el('div');
+          root.appendChild(head);
+          if (video) root.appendChild(video);
+          root.appendChild(posts);
+          sessionsWrap.appendChild(root);
+          sessionNodes[s.id] = { root: root, head: head, posts: posts, hasVideo: !!video };
+        });
+      }
+
       function render(data) {
         if (!data || typeof data !== 'object' || !Array.isArray(data.updates) || !STATUS_LABELS.hasOwnProperty(data.status)) {
           throw new Error('Invalid feed data');
         }
         renderStream(data.stream);
+        streamPending.hidden = !!youtubeIdOf(data.stream) || data.streamPending !== true;
         label.textContent = STATUS_LABELS[data.status];
         updated.textContent = validTime(data.updatedAt) ? 'Updated ' + apTime(new Date(data.updatedAt)) : '';
+        if (typeof data.byline === 'string' && data.byline.trim()) bylineLine.textContent = data.byline.trim();
+        if (typeof data.meeting === 'string' && data.meeting.trim()) meetingLine.textContent = data.meeting.trim();
 
         var entries = data.updates.filter(function (item) {
           return item && item.id != null && validTime(item.at) && typeof item.title === 'string' && item.title.trim() && typeof item.body === 'string' && item.body.trim();
         }).sort(function (a, b) { return Date.parse(b.at) - Date.parse(a.at); });
 
-        var frag = document.createDocumentFragment();
-        if (typeof data.note === 'string' && data.note.trim()) frag.appendChild(el('div', 'notice', data.note.trim()));
-        var summaryBox = renderSummary(data.summary);
-        if (summaryBox) { frag.appendChild(summaryBox); frag.appendChild(el('p', 'feed-label', 'Updates, newest first')); }
+        if (noteSlot.parentNode !== feed || sessionsWrap.parentNode !== feed) {
+          clear(feed);
+          feed.appendChild(noteSlot);
+          feed.appendChild(sessionsWrap);
+        }
+        clear(noteSlot);
+        if (typeof data.note === 'string' && data.note.trim()) noteSlot.appendChild(el('div', 'notice', data.note.trim()));
+
+        var sessions = sessionList(data);
+        ensureSessions(sessions);
+        var groups = {};
+        sessions.forEach(function (s) { groups[s.id] = []; });
+        entries.forEach(function (item) {
+          var day = isoDayOf(new Date(item.at));
+          var home = sessions[sessions.length - 1];
+          for (var i = 0; i < sessions.length; i++) { if (sessions[i].date <= day) { home = sessions[i]; break; } }
+          groups[home.id].push(item);
+        });
 
         // Posts from the newest post's day show only the time; earlier days keep their date.
         var newestDayKey = entries.length ? dayKeyOf(new Date(entries[0].at)) : null;
 
         var ids = {};
         var fresh = 0;
-        entries.forEach(function (item) {
+        sessions.forEach(function (s) {
+          var node = sessionNodes[s.id];
+          var list = groups[s.id];
+          clear(node.head);
+          clear(node.posts);
+          if (typeof s.label === 'string' && s.label.trim()) node.head.appendChild(el('p', 'session-label', s.label.trim()));
+          var summaryBox = renderSummary(s.summary);
+          if (summaryBox) node.head.appendChild(summaryBox);
+          if (list.length && (summaryBox || node.hasVideo)) node.posts.appendChild(el('p', 'feed-label', 'Updates, newest first'));
+          node.root.hidden = !list.length && !summaryBox && !node.hasVideo;
+          var frag = document.createDocumentFragment();
+          list.forEach(function (item) {
           var id = String(item.id);
           ids[id] = true;
           if (seenIds && !seenIds[id]) fresh++;
@@ -406,11 +523,10 @@
             article.appendChild(p);
           }
           frag.appendChild(article);
+          });
+          node.posts.appendChild(frag);
         });
-        if (!entries.length) frag.appendChild(el('div', 'notice', 'No floor updates have been posted yet. Check back when the meeting begins.'));
-
-        clear(feed);
-        feed.appendChild(frag);
+        if (!entries.length) noteSlot.appendChild(el('div', 'notice', 'No floor updates have been posted yet. Check back when the meeting begins.'));
 
         if (seenIds && fresh) announcer.textContent = fresh === 1 ? '1 new update posted.' : fresh + ' new updates posted.';
         seenIds = ids;

@@ -72,6 +72,12 @@ python -m http.server 8000
 
 Then open http://localhost:8000/ and http://localhost:8000/?embed=1.
 
+## Sessions (meeting nights)
+
+`sessions` splits the feed into one section per night, newest first. Each has an `id`, a `date` (`YYYY-MM-DD`, Eastern) and a `label` ("Night two · Monday, Nov. 9"). Posts go to the latest session whose date is on or before the post's Eastern date. A session may carry a `summary` (same fields as the old top-level `summary`: `kicker`, `title`, `dek`, `at`, `body`) and a recorded `video` (`youtubeId`, `title`, `caption`), shown between the summary and that night's posts. Archived players are kept in place when the feed refreshes, so a replay is not interrupted.
+
+For each new night: add a session at the top of the list, move the previous night's YouTube ID from `stream` into that night's `video`, and put the new ID in `stream`. Optional `byline` and `meeting` strings replace the header lines. `"streamPending": true` with no `stream` shows a "video will appear here" note.
+
 ## Live video
 
 The top of the page shows the YouTube live video named in `stream.youtubeId` (the 11-character ID from the YouTube link), with a link to WinCAM’s government channel underneath. Change the ID for each session, or set `"stream": null` to hide the player. Changing it reloads the player; other feed updates do not.

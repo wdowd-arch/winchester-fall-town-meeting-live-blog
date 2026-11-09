@@ -1,12 +1,57 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-05T22:45:00-05:00",
-  "note": "Town Meeting adjourned for the night and resumes at 7 p.m. Monday, Nov. 9, at Winchester High School. Updates appear below, newest first. The warrant tracker has details on every article and the results as they are recorded.",
+  "updatedAt": "2026-11-09T15:30:00-05:00",
+  "byline": "By Will Dowd · Nov. 9, 2026",
+  "meeting": "7 p.m. Monday, Nov. 9 · Winchester High School auditorium, 80 Skillings Road",
+  "note": "Town Meeting resumes at 7 p.m. tonight at Winchester High School for its second session. Tonight's updates appear first, newest first. Night one's summary, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
-    "youtubeId": "YkvANFR7Cyw",
-    "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026"
+    "youtubeId": "q8JuPSHQ3nE",
+    "title": "Winchester Fall Town Meeting Session 2, Nov. 9, 2026"
   },
+  "sessions": [
+    {
+      "id": "night-2",
+      "date": "2026-11-09",
+      "label": "Night two · Monday, Nov. 9"
+    },
+    {
+      "id": "night-1",
+      "date": "2026-11-05",
+      "label": "Night one · Thursday, Nov. 5",
+      "summary": {
+        "kicker": "Summary",
+        "title": "Town Meeting approves $4.8 million in capital projects and three zoning changes",
+        "dek": "Members adjourn at 10:30 p.m. with Forest Ridge, a $350,000 retiree health transfer and the schools' special education reserve still ahead",
+        "at": "2026-11-05T22:45:00-05:00",
+        "body": "Winchester's Fall Town Meeting approved about $4.8 million in capital projects, three zoning bylaw changes and a slate of routine articles Thursday night, then adjourned at 10:30 p.m. with its most contested questions still ahead. Members resume at 7 p.m. Monday, Nov. 9, at Winchester High School.\n\n## What members decided\n• Capital spending: Members passed all six capital articles, 10 through 15, mostly by unanimous voice vote. They approved $1.73 million for four vehicles, including a $1.1 million replacement for Fire Engine 4; $720,000 for roads, sidewalks and traffic calming; $410,000 to design fixes for Ambrose School's failing heating system, aging building controls and hot classrooms at two other schools; $170,000 for design work at the high school, Lincoln and Mystic; $840,000 for a new columbarium and two water projects; and $900,000 to rebuild Lincoln School's walkways and stairs, paid partly with leftover Muraco bond money. Two traffic motions and the columbarium carried with two-thirds majorities rather than unanimously.\n• Zoning: The Planning Board's three articles passed. They let owners of narrow lots build conforming additions by right, lower the minimum lot width in the RDA district from 120 feet to 100, eliminate the downtown review subcommittee and trim Zoning Board of Appeals paperwork. The lot-width article drew a two-thirds majority, not unanimity.\n• Routine business: Twelve consent agenda articles passed together, including a $10 dog license fee increase, a school transportation revolving fund and the return of $1.15 million in unused Muraco borrowing authority. Article 3 was indefinitely postponed. Members also received the town reports, the Planning Board report and the Capital Planning report, and paid $33,032 in prior-year bills.\n\n## What remains unresolved\n• Article 19: The moderator pulled this $350,000 free cash transfer toward retiree health costs from the consent agenda. The Select Board took no position Nov. 2, when a motion for a favorable recommendation died for lack of a second.\n• Article 26, Forest Ridge: The Conservation Commission wants authority to take about 13.4 acres by eminent domain, which needs a two-thirds vote. The Select Board put off its recommendation until its meeting Thursday before Town Meeting, and Winchester News has not confirmed whether it took a position. Even a yes vote only authorizes a taking; the board would have to vote separately to carry it out.\n• Spending questions: The schools' $400,000 special education reserve (Article 29), a $50,000 Carriage House study the Select Board opposes (Article 30) and $331,466 for permitting and budget software (Article 33) are all still ahead.\n• The budget behind them: The Long Range Financial Planning Committee put next year's deficit at more than $6 million. The Finance Committee warned that the town leans too heavily on free cash. School Committee Chair Timothy Matthews said an operating override is urgently needed.\n\n## What comes Monday\nMembers still have to act on Articles 19, 24 through 26, 29, 30 and 33 through 45. That includes five citizen petitions, Articles 39 through 43, and two articles, 44 and 45, for which no motion had been printed. Select Board Chair Anthea Brady has said she expects Article 26 on the second or third night, Nov. 9 or 12. Nov. 12 is also scheduled, and Nov. 16 is held in reserve.\n\nThe warrant tracker has the status of every article."
+      },
+      "video": {
+        "youtubeId": "YkvANFR7Cyw",
+        "title": "Winchester Fall Town Meeting Session 1, Nov. 5, 2026",
+        "caption": "WinCAM's full recording of night one."
+      }
+    }
+  ],
   "updates": [
+    {
+      "id": "nov9-1530-preview",
+      "at": "2026-11-09T15:30:00-05:00",
+      "title": "Town Meeting returns tonight with Forest Ridge taking still ahead",
+      "dek": "Members face 19 remaining articles, from a $400,000 school reserve to five citizen petitions",
+      "body": "Town Meeting resumes at 7 p.m. at Winchester High School for its second session. Members acted on 26 of the 45 articles Thursday, leaving 19, including the warrant's most contested questions. Thursday, Nov. 12, is also scheduled, and Nov. 16 is held in reserve.\n\n## What to watch\n• Forest Ridge (Article 26): The Conservation Commission wants authority to take about 13.4 acres off Forest Circle by eminent domain, which needs a two-thirds vote. A June appraisal valued the land at $2.85 million. In May, Town Meeting rejected a voluntary $3 million purchase, 105-59. Select Board Chair Anthea Brady has said she expects the article on the second or third night.\n• Retiree health (Article 19): The moderator pulled this $350,000 free cash transfer to the retiree health trust from the consent agenda Thursday. The Select Board took no position Nov. 2, when a motion for a favorable recommendation died for lack of a second.\n• Special education reserve (Article 29): The schools want $400,000. The Select Board backed it 3-1; member Michelle Prior voted no, saying she favored $200,000.\n• Sanborn Carriage House (Article 30): A $50,000 study of refurbishing, replacing or demolishing the building. The Select Board voted 4-0 against it, the only article the board opposes.\n• Software (Article 33): Two motions totaling $331,465.68 for permitting and budget software. The Select Board deferred it Nov. 2 amid disagreement over using about $92,000 in free cash.\n• Community preservation (Article 25): $920,500 for eight projects, including $400,000 to prepare the Packer-Ellis tennis courts for bidding and $300,000 for the Leonard pavilion.\n\n## Also on the warrant\n• Article 24: Police superiors' pay and a new budget director position.\n• Articles 34 through 38: Tougher sidewalk snow-clearing rules; three land items tied to the MBTA station, the Waterfield project and about 16 acres under the Montvale Land settlement; and a standing Committee on Names.\n• Articles 39 through 43, citizen petitions: Rezonings at 114 Church St. and 18 Raymond Place, two Ledges articles for one new house lot and a call for separate override votes. The Church Street petitioner's attorney told the Select Board Nov. 2 that the petitioner would not pursue it this fall.\n• Articles 44 and 45: A fiscal 2027 tax levy reduction and committee housekeeping. No motion had been printed for either.\n\n## What a Forest Ridge vote would do\nTown Counsel Karis North's Nov. 3 memo to Town Meeting lays out the steps:\n• A two-thirds Town Meeting vote only authorizes a taking. The Select Board then decides by majority vote whether to carry it out, and no taking can happen without both.\n• Once the board records an order of taking, the town owns the land and must offer compensation within 30 days.\n• The owner has three years to sue over the price, and a jury sets fair market value. The town would pay any difference plus statutory interest, and the taking cannot be undone.\n\nThe town's offer “is the floor, not the ceiling,” North wrote, adding that a challenge to the valuation is “possible and even likely.”\n\nNight one's summary, full video and coverage follow tonight's posts.",
+      "documents": [
+        {
+          "title": "Town Counsel memo on eminent domain, Nov. 3",
+          "pdf": "docs/town-counsel-eminent-domain-memo.pdf",
+          "pages": [
+            "docs/town-counsel-eminent-domain-memo-p1.jpg"
+          ],
+          "note": "3 pages. Source: Town of Winchester."
+        }
+      ],
+      "sourceUrl": "https://winchesternews.org/20261106_winchester-town-meeting-tracker-all-45-warrant-articles-explained/",
+      "sourceLabel": "Warrant tracker: all 45 articles"
+    },
     {
       "id": "nov5-2235-eyden-recap",
       "at": "2026-11-05T22:35:00-05:00",
@@ -622,12 +667,5 @@
       "sourceLabel": "Warrant tracker: all 45 articles",
       "dek": "Members face 45 articles, from a Forest Ridge land taking to dog license fees"
     }
-  ],
-  "summary": {
-    "kicker": "Night one summary",
-    "title": "Town Meeting approves $4.8 million in capital projects and three zoning changes",
-    "dek": "Members adjourn at 10:30 p.m. with Forest Ridge, a $350,000 retiree health transfer and the schools' special education reserve still ahead",
-    "at": "2026-11-05T22:45:00-05:00",
-    "body": "Winchester's Fall Town Meeting approved about $4.8 million in capital projects, three zoning bylaw changes and a slate of routine articles Thursday night, then adjourned at 10:30 p.m. with its most contested questions still ahead. Members resume at 7 p.m. Monday, Nov. 9, at Winchester High School.\n\n## What members decided\n• Capital spending: Members passed all six capital articles, 10 through 15, mostly by unanimous voice vote. They approved $1.73 million for four vehicles, including a $1.1 million replacement for Fire Engine 4; $720,000 for roads, sidewalks and traffic calming; $410,000 to design fixes for Ambrose School's failing heating system, aging building controls and hot classrooms at two other schools; $170,000 for design work at the high school, Lincoln and Mystic; $840,000 for a new columbarium and two water projects; and $900,000 to rebuild Lincoln School's walkways and stairs, paid partly with leftover Muraco bond money. Two traffic motions and the columbarium carried with two-thirds majorities rather than unanimously.\n• Zoning: The Planning Board's three articles passed. They let owners of narrow lots build conforming additions by right, lower the minimum lot width in the RDA district from 120 feet to 100, eliminate the downtown review subcommittee and trim Zoning Board of Appeals paperwork. The lot-width article drew a two-thirds majority, not unanimity.\n• Routine business: Twelve consent agenda articles passed together, including a $10 dog license fee increase, a school transportation revolving fund and the return of $1.15 million in unused Muraco borrowing authority. Article 3 was indefinitely postponed. Members also received the town reports, the Planning Board report and the Capital Planning report, and paid $33,032 in prior-year bills.\n\n## What remains unresolved\n• Article 19: The moderator pulled this $350,000 free cash transfer toward retiree health costs from the consent agenda. The Select Board took no position Nov. 2, when a motion for a favorable recommendation died for lack of a second.\n• Article 26, Forest Ridge: The Conservation Commission wants authority to take about 13.4 acres by eminent domain, which needs a two-thirds vote. The Select Board put off its recommendation until its meeting Thursday before Town Meeting, and Winchester News has not confirmed whether it took a position. Even a yes vote only authorizes a taking; the board would have to vote separately to carry it out.\n• Spending questions: The schools' $400,000 special education reserve (Article 29), a $50,000 Carriage House study the Select Board opposes (Article 30) and $331,466 for permitting and budget software (Article 33) are all still ahead.\n• The budget behind them: The Long Range Financial Planning Committee put next year's deficit at more than $6 million. The Finance Committee warned that the town leans too heavily on free cash. School Committee Chair Timothy Matthews said an operating override is urgently needed.\n\n## What comes Monday\nMembers still have to act on Articles 19, 24 through 26, 29, 30 and 33 through 45. That includes five citizen petitions, Articles 39 through 43, and two articles, 44 and 45, for which no motion had been printed. Select Board Chair Anthea Brady has said she expects Article 26 on the second or third night, Nov. 9 or 12. Nov. 12 is also scheduled, and Nov. 16 is held in reserve.\n\nThe warrant tracker has the status of every article."
-  }
+  ]
 }
