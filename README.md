@@ -1,6 +1,6 @@
 # Winchester Fall Town Meeting live blog — 2026
 
-Live reporting from Winchester's 2026 Fall Town Meeting by Winchester News, kept separate from the [45-article warrant tracker](https://winchesternews.org/20261106_winchester-town-meeting-tracker-all-45-warrant-articles-explained/).
+Live reporting from Winchester's 2026 Fall Town Meeting by Winchester News, kept separate from the [45-article warrant tracker](https://winchesternews.org/20261106_track-every-winchester-town-meeting-vote-article-by-article/).
 
 Live page: https://wdowd-arch.github.io/winchester-fall-town-meeting-live-blog/ (embeddable with `?embed=1`).
 
