@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-09T21:38:00-05:00",
+  "updatedAt": "2026-11-09T22:00:00-05:00",
   "byline": "By Will Dowd · Nov. 9, 2026",
   "meeting": "7 p.m. Monday, Nov. 9 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting resumes at 7 p.m. tonight at Winchester High School for its second session. Tonight’s updates appear first, newest first. Night one’s summary, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -35,6 +35,32 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov9-2200-art26-debate2",
+      "at": "2026-11-09T22:00:00-05:00",
+      "article": 26,
+      "title": "Bettencourt cites ‘very low risk’ of lawsuit over Forest Ridge as others urge waiting",
+      "dek": "Sullivan points to Nahant case; assessor confirms $4.9 million valuation while debate continues",
+      "image": {
+        "src": "images/bettencourt-art26-nov9-1226.jpg",
+        "width": 1226,
+        "height": 920,
+        "srcset": [
+          {
+            "src": "images/bettencourt-art26-nov9-800.jpg",
+            "width": 800
+          },
+          {
+            "src": "images/bettencourt-art26-nov9-1226.jpg",
+            "width": 1226
+          }
+        ],
+        "alt": "A bearded man in glasses and a dark jacket speaks at a podium microphone beside an American flag while Town Meeting members sit in the foreground.",
+        "caption": "Select Board member Michael Bettencourt speaks on Article 26 at Town Meeting Monday.",
+        "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+      },
+      "body": "Town Meeting members kept debating Article 26 on the floor. Select Board member Michael Bettencourt defended the taking as low risk, while other members urged the town to wait until Bell Point buys the land.\n\n## Ending debate\nBrian Vernaglia of Precinct 4, who is clerk of the Planning Board, asked whether a vote to end debate needs a majority or two-thirds. Moderator Philip Frattaroli said two-thirds. A yes vote would end debate and send members straight to the vote on the article, he said.\n\n## A question: how can it go right?\nMichelle Bergstrom of Precinct 3 said she served on the Winchester Committee on Community Preservation when Forest Ridge first came before it. The Committee pressed the proponents to find other money, she said, and they came back with state grants. She said she is not sure any project has drawn more scrutiny. After a long discussion of what could go wrong, she asked the proponents to explain how eminent domain can go right.\n\n## Bettencourt: ‘very low risk’\nBettencourt said the Select Board has pursued Forest Ridge since 2021 and has spent thousands of dollars on legal work and appraisals. “Eminent domain is never our first option,” he said.\n• The model: He pointed to the Swanton and Washington streets taking, where the town was also told to expect a lawsuit. The town did its homework, he said, and the appraisals are what count in court. It first asked Town Meeting for $3 million, then explained why the price was $5 million, while the owners said it was worth $8 million. The appeals period has passed, he said, and the former owner can no longer challenge it.\n• The counsel: The Select Board hired eminent domain counsel, Rich Bowman, who advised on the Swanton and Washington streets taking, Bettencourt said. He said that counsel sees “very low risk of litigation” here, and that neither town counsel nor McGonigle claims to be an expert in eminent domain.\n• The risk of waiting: The real danger, he said, is losing federal and state money for land that will not come available again.\n• Bell Point: Bell Point did not buy the land outright, so a taking and any lawsuit would be with the property’s owners, not the developer. Developers do not buy outright, he said, because they can go bankrupt when permits fail, as happened at Converse Place.\nHe said the town can do both: more affordable housing in the town center and conservation here, as with Wright-Locke Farm.\n\n## Sullivan: wait for Bell Point\nMaura Sullivan of Precinct 1 said she wants the land kept undeveloped forever but is not comfortable acquiring it by eminent domain. “We could lose even if we win by locking ourselves into a price that we cannot afford,” she said.\n• The Nahant example: She said the town of Nahant took land from Northeastern University for a marine science center expansion, and the university challenged it. After an eight-year fight that reached the Supreme Judicial Court, Nahant prevailed, she said, but it paid for years of litigation and now owes whatever the court finds is fair market value. Nahant estimated $2.2 million, she said, and Northeastern believes it is closer to $6 million.\n• The agreement: The Select Board tried to negotiate with the owner more than a year ago, she said, and members have not seen the agreement between the owner and Bell Point or its terms. She said it would be more prudent to wait until Bell Point buys the land, so the town would know what was paid and whether the Conservation Commission’s appraisal was too high or too low.\n• The exposure: If the appraisal is too high, she said, the town overpays. If it is too low, the taking could be challenged, as the buyer has said it might be, and the town could owe more plus legal fees. “I don’t know where that money would come from,” she said.\n\n## Appraisals and the assessor\nA Precinct 5 member said the assessor’s database appeared to show the parcel assessed at $3.275 million. Frattaroli called on the town assessor, who said the figure is $4.9 million. The member noted that the owners pay taxes on a $4.9 million value, and asked how well it would go in court for the town to say the land is worth $2.85 million when it takes it.\n\nAnother member recalled that the Washington and Swanton streets parcel was appraised at $3.15 million in fall 2020 by T.H. Reenstierna, the firm that valued Forest Ridge at $3.27 million in February. A year later, he said, the firm put the Washington and Swanton streets value at $5.3 million, or $2.15 million more, and the town is now trying to sell it for $4 million. He called the town’s eminent domain experience a failure and asked the Select Board to negotiate a price and return with it.\n\n## How long would a yes last?\nThe same member asked Town Counsel Karis North how long a yes vote would remain active. North said no set limit exists, and neither case law nor statute addresses it. It is generally thought, she said, that an authorization not used within a couple of years goes stale and would have to return to Town Meeting. Frattaroli said follow-up questions would be limited, and reminded members that 16 articles remain.\n\n## ‘Wait for the spring’\nA member who referred to joining the Select Board after an earlier 40B proposal said most of the land is unbuildable and no one has proposed to build or to buy it. The question tonight is not conservation or development, he said, but whether to write a blank check for more than $4.9 million plus legal fees. If a developer buys it by spring, he said, the town will know the value, and no tree will come down before then. He said he considered moving to postpone indefinitely but would not, and favors waiting."
+    },
     {
       "id": "nov9-2138-art26-debate",
       "at": "2026-11-09T21:38:00-05:00",
