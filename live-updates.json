@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-09T19:47:00-05:00",
+  "updatedAt": "2026-11-09T19:52:00-05:00",
   "byline": "By Will Dowd · Nov. 9, 2026",
   "meeting": "7 p.m. Monday, Nov. 9 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting resumes at 7 p.m. tonight at Winchester High School for its second session. Tonight's updates appear first, newest first. Night one's summary, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -35,6 +35,14 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov9-1952-art24",
+      "at": "2026-11-09T19:52:00-05:00",
+      "article": 24,
+      "title": "Town Meeting approves police superiors contract, budget director post unanimously",
+      "dek": "Package adds top pay step and restores longevity pay; two transfers total $191,000",
+      "body": "Town Meeting approved Article 24 unanimously Monday, a package of four Personnel Board motions that ratifies a new contract for police superiors and creates a budget director position. Moderator Philip Frattaroli grouped the motions into one voice vote. Peter Cheimets of Precinct 5 presented the article. He said the Select Board and the Finance Committee each voted favorable action on all four motions. The Select Board had taken no vote on the article Nov. 2.\n\n## What the motions do\n• The contract: Police superiors get raises of 2.5 percent retroactive for fiscal 2026, 2.5 percent for fiscal 2027 and 1 percent for fiscal 2028. A new step at the top of the pay range, worth 4 percent, begins in fiscal 2028, which is why that year's raise is smaller. Many superior officers are at the top of the range now, Cheimets said, so the step gives them room to move up. In fiscal 2028, about $40,000 of the cost is the 1 percent raise and $84,000 is the new step, which keeps the total about where a 2.5 percent raise would have put it.\n• Stipends: The defensive tactics and Taser training officer and the technology officer each get 2 percent more. A police trainer for standards and training gets $500 in fiscal 2026 and $1,000 in fiscal 2027.\n• Longevity pay: The contract changes longevity pay for police superiors for the first time in eight years, Cheimets said. The last change was in 2017. The amounts will be set yearly through the contract.\n• $60,500 from free cash goes into the fiscal 2027 personal services budget to cover the retroactive pay.\n• $130,500 moves from the unallocated wage budget into the police personal services budget for fiscal 2027.\n• The budget director: The fourth motion creates the position but does not fund it. Cheimets said that is a separate process.\n\n## Why the money is split this way\nThe contract is being settled partway through the year. The town has to pay all of fiscal 2026 and about half of fiscal 2027 retroactively, Cheimets said, and cover higher costs for the rest of fiscal 2027. Fiscal 2028 will be handled in that year's appropriation. He said the unallocated wage budget exists for this purpose: the town sets money aside for contracts that are unsettled when the year begins, so the cost does not hit all at once when they are settled years later.\n\n“Of course all of you are jumping to the question of why 1% in FY 28, which was where I went immediately,” Cheimets said."
+    },
     {
       "id": "nov9-1947-art19",
       "at": "2026-11-09T19:47:00-05:00",
