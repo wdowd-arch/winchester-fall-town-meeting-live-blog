@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-09T22:06:00-05:00",
+  "updatedAt": "2026-11-09T22:12:00-05:00",
   "byline": "By Will Dowd · Nov. 9, 2026",
   "meeting": "7 p.m. Monday, Nov. 9 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting resumes at 7 p.m. tonight at Winchester High School for its second session. Tonight’s updates appear first, newest first. Night one’s summary, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -35,6 +35,14 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov9-2212-art26-debate4",
+      "at": "2026-11-09T22:12:00-05:00",
+      "article": 26,
+      "title": "Brady reads Bell Point letter urging Town Meeting to drop eminent domain authority",
+      "dek": "Bettencourt says he saw it only weeks ago; Cort cites unmet needs in schools and municipal buildings",
+      "body": "Debate on Article 26 has ended and members are voting. In the last stretch, Select Board Chair Anthea Brady read from a letter Bell Point LLC sent the Board and the Finance Committee, Select Board member Michael Bettencourt said he saw it only weeks ago, and Pamela Cort of Precinct 5 urged members to vote no.\n\n## The Bell Point letter\nA member asked whether the buyer has offered to put acres into deed-restricted conservation, and why the town would take by eminent domain something it is being offered.\nBrady said the buyer’s letter described earlier work and asked the Board and the Finance Committee to evaluate whether local controls, including the Residential Cluster Development Overlay District, could avoid eminent domain. She said the buyer described an earlier project in Essex, on a property of about 85 acres, where more than 50 acres were permanently preserved. The buyer has not offered to do that here, she said. It has said it has a history of doing so.\nLater, with the language in hand, Brady read the letter’s request: that the Board and the Finance Committee recommend amending the article to remove eminent domain authority while preserving the town’s ability to pursue a voluntary acquisition or conservation agreement.\n\n## Bettencourt: ‘withheld from us’\nBettencourt said the developer does not own the land and has no legal authority to make promises. He said “this letter from the developer was withheld from us,” that he received it only a couple of weeks ago, and that leadership decided not to provide it earlier. He said he takes the developer at its word that it would work with the town if it ever buys the land, and the town would be interested in a project with an owner who gets control.\nIt is more beneficial to the town to buy and preserve the land, he said. He said it is unlikely to be developed soon, but its value in Winchester makes development a growing prospect.\n\n## Cort: ‘harm is occurring now’\nFrattaroli reminded members that high school students were waiting for the decision.\nCort said she would love to see the land conserved but sees too many open questions and risks. She said she asked herself whether she would take on this risk for her own family, and her answer is no. She said she campaigned for an override with a promise to spend the town’s money responsibly, and does not see authorizing the taking as responsible.\nShe agreed that Washington and Swanton streets is a success, with a building going up, but said it cost the town more than it knew. She voted to postpone that project indefinitely because it was premature, she said, and was told environmental remediation was not necessary.\nDevelopment of Forest Ridge before spring is not a realistic prospect, Cort said, and she asked why members would authorize eminent domain. She said losing federal funds would be a real harm, as would development. A worse harm, she said, is tying up money the town needs for clean air in Town Hall for municipal employees and for a reasonable math curriculum. “Students are getting harmed right now,” she said.\n\n## The last speaker\nCarol Savage of Precinct 5, the last speaker the moderator took, said she agreed with earlier comments about how the decision could affect past and future overrides. She said she wished members had a crystal ball when they voted last spring."
+    },
     {
       "id": "nov9-2206-art26-debate3",
       "at": "2026-11-09T22:06:00-05:00",
