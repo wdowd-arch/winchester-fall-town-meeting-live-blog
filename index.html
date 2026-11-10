@@ -518,10 +518,17 @@
             var photo = renderImage(image);
             if (photo) article.appendChild(photo);
           });
-          article.appendChild(renderBody(item.body));
-
+          // A line reading [[documents]] places the attached documents there instead of at the end.
           var docs = renderDocuments(item.documents);
-          if (docs) article.appendChild(docs);
+          var bodyParts = String(item.body).split(/\n*\[\[documents\]\]\n*/);
+          if (docs && bodyParts.length === 2 && bodyParts[0].trim() && bodyParts[1].trim()) {
+            article.appendChild(renderBody(bodyParts[0]));
+            article.appendChild(docs);
+            article.appendChild(renderBody(bodyParts[1]));
+          } else {
+            article.appendChild(renderBody(bodyParts.join('\n\n')));
+            if (docs) article.appendChild(docs);
+          }
 
           var href = safeUrl(item.sourceUrl);
           if (href) {
