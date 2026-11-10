@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-09T20:39:00-05:00",
+  "updatedAt": "2026-11-09T20:59:00-05:00",
   "byline": "By Will Dowd · Nov. 9, 2026",
   "meeting": "7 p.m. Monday, Nov. 9 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting resumes at 7 p.m. tonight at Winchester High School for its second session. Tonight's updates appear first, newest first. Night one's summary, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -35,6 +35,52 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov9-2059-art26-open",
+      "at": "2026-11-09T20:59:00-05:00",
+      "article": 26,
+      "title": "Conservation chair makes case for Forest Ridge taking as Article 26 begins",
+      "dek": "Slide puts annual debt service at $85,000 to $135,000 depending on grants",
+      "image": {
+        "src": "images/olson-art26-nov9-1226.jpg",
+        "width": 1226,
+        "height": 920,
+        "srcset": [
+          {
+            "src": "images/olson-art26-nov9-800.jpg",
+            "width": 800
+          },
+          {
+            "src": "images/olson-art26-nov9-1226.jpg",
+            "width": 1226
+          }
+        ],
+        "alt": "A woman in a blue sweater stands at a podium with a microphone, reading from papers, while seated Town Meeting members listen and the moderator stands at a lectern on the stage.",
+        "caption": "Conservation Commission Chair Tracy Olson presents Article 26, the proposed Forest Ridge taking, at Town Meeting Monday.",
+        "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+      },
+      "inlineImages": [
+        {
+          "src": "images/art26-debt-slide-nov9-1226.jpg",
+          "width": 1226,
+          "height": 920,
+          "srcset": [
+            {
+              "src": "images/art26-debt-slide-nov9-800.jpg",
+              "width": 800
+            },
+            {
+              "src": "images/art26-debt-slide-nov9-1226.jpg",
+              "width": 1226
+            }
+          ],
+          "alt": "A projected slide titled Debt service estimates are lower than Spring TM shows two pie charts. With a state grant, a $2,175,000 bond, a $425,000 state LAND grant and a $250,000 legislative earmark, with estimated annual debt service of $135,000, or 6.6 percent. With state and federal grants, a $1,425,000 bond, a $425,000 state LAND grant and a $1,000,000 federal LWCF grant, with estimated annual debt service of $85,000, or 4.1 percent.",
+          "caption": "A slide shown during the Article 26 presentation estimates debt service with state and federal grants.",
+          "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+        }
+      ],
+      "body": "Town Meeting took up Article 26 Monday, the Conservation Commission's proposal to take the Forest Ridge parcel off Forest Circle by eminent domain. Commission Chair Tracy Olson is presenting the case. The article needs a two-thirds vote. The Select Board deadlocked 2-2 earlier in the evening on a motion to recommend favorable action.\n\n## The financing slide\n[[inline:1]]\nA slide titled “Debt service estimates are lower than Spring TM” showed two scenarios:\n• With a state grant: A $2,175,000 bond, after a $425,000 state LAND grant and a $250,000 legislative earmark, would cost an estimated $135,000 a year in debt service from community preservation money, or 6.6 percent of the fund.\n• With state and federal grants: A $1,425,000 bond, after the $425,000 state grant and a $1 million federal Land and Water Conservation Fund grant, would cost an estimated $85,000 a year, or 4.1 percent.\n\nIn both scenarios the pieces add up to $2.85 million, the amount of the town's June appraisal.\n\nWinchester News has reported that the federal grant is not in hand, and that federal rules allow it in an eminent domain taking only with the owner's agreement. Town Counsel Karis North's Nov. 3 memo says the town's offer is “the floor, not the ceiling,” and a jury would set the final price if the owner challenges it."
+    },
     {
       "id": "nov9-2039-recess",
       "at": "2026-11-09T20:39:00-05:00",
