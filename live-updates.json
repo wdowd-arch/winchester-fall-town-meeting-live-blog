@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-09T22:12:00-05:00",
+  "updatedAt": "2026-11-09T22:15:00-05:00",
   "byline": "By Will Dowd · Nov. 9, 2026",
   "meeting": "7 p.m. Monday, Nov. 9 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting resumes at 7 p.m. tonight at Winchester High School for its second session. Tonight’s updates appear first, newest first. Night one’s summary, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -35,6 +35,44 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov9-2215-art26-vote",
+      "at": "2026-11-09T22:15:00-05:00",
+      "article": 26,
+      "title": "Town Meeting rejects Forest Ridge taking 36-122",
+      "dek": "Measure falls far short of two-thirds, so Select Board lacks authority to take land",
+      "image": {
+        "src": "images/art26-vote-board-1226.jpg",
+        "width": 1226,
+        "height": 690,
+        "srcset": [
+          {
+            "src": "images/art26-vote-board-800.jpg",
+            "width": 800
+          },
+          {
+            "src": "images/art26-vote-board-1226.jpg",
+            "width": 1226
+          }
+        ],
+        "alt": "A projected vote board reads Article 26: Yes equals 36, No equals 122, Abstain equals 1.",
+        "caption": "A vote board shows Town Meeting’s result on Article 26: 36 yes, 122 no and one abstention.",
+        "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+      },
+      "documents": [
+        {
+          "title": "Article 26: motion and background",
+          "pdf": "docs/article-26.pdf",
+          "pages": [
+            "docs/article-26-p1.jpg",
+            "docs/article-26-p2.jpg",
+            "docs/article-26-p3.jpg"
+          ],
+          "note": "3 pages. Source: Town of Winchester."
+        }
+      ],
+      "body": "Town Meeting rejected Article 26 on a clicker vote Monday, 36 yes, 122 no and one abstention, falling far short of the two-thirds needed to authorize the Select Board to take Forest Ridge by eminent domain. The Conservation Commission had proposed the taking of the parcel off Forest Circle.\n\nUnder Town Counsel Karis North’s Nov. 3 memo, no taking can happen without a two-thirds Town Meeting vote and a Select Board majority, so the Board has no authority to take the land. The vote follows Town Meeting’s May rejection of a voluntary $3 million purchase, 105-59.\n\n## Where the boards stood\n• Select Board: Split 2-2, with no recommendation.\n• Finance Committee: Unfavorable action, with one member dissenting.\n• Winchester Committee on Community Preservation: Conditional support for conserving the land, with limits on funding.\n• Housing Partnership Board: Voted 7-3 to recommend that Town Meeting delay.\n\n## What happens next\nCommission Chair Tracy Olson said earlier that delay risks up to $1.7 million in grants and earmarks. The materials did not say what happens to that money now. Bell Point LLC, which has an agreement to buy the land, has not said what it plans next."
+    },
     {
       "id": "nov9-2212-art26-debate4",
       "at": "2026-11-09T22:12:00-05:00",
