@@ -41,7 +41,7 @@ Start with `status: "upcoming"` and an empty `updates` array. When the meeting o
 - An indented line starting with `– ` or `- ` (for example `  – item`) is a sub-bullet under the bullet above it.
 - Any other indented line continues the bullet above it as a new paragraph.
 
-A line reading `[[documents]]` in `body` places the entry's attached documents at that spot instead of at the end.
+A line reading `[[documents]]` in `body` places the entry's attached documents at that spot instead of at the end. A line reading `[[inline:1]]` places the first image in the entry's `inlineImages` list there (`[[inline:2]]` for the second, and so on); the image objects are the same as `image`.
 
 Everything is inserted as text, never as HTML, so entries cannot inject markup or scripts.
 

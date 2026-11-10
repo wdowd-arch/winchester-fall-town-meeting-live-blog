@@ -518,17 +518,23 @@
             var photo = renderImage(image);
             if (photo) article.appendChild(photo);
           });
-          // A line reading [[documents]] places the attached documents there instead of at the end.
+          // Markers in the body place attached material: [[documents]] puts the documents box there,
+          // and [[inline:N]] puts the Nth image from "inlineImages" there. Unplaced documents go at the end.
           var docs = renderDocuments(item.documents);
-          var bodyParts = String(item.body).split(/\n*\[\[documents\]\]\n*/);
-          if (docs && bodyParts.length === 2 && bodyParts[0].trim() && bodyParts[1].trim()) {
-            article.appendChild(renderBody(bodyParts[0]));
-            article.appendChild(docs);
-            article.appendChild(renderBody(bodyParts[1]));
-          } else {
-            article.appendChild(renderBody(bodyParts.join('\n\n')));
-            if (docs) article.appendChild(docs);
+          var inlineImgs = Array.isArray(item.inlineImages) ? item.inlineImages : [];
+          var pieces = String(item.body).split(/\n*\[\[(documents|inline:\d+)\]\]\n*/);
+          var docsPlaced = false;
+          for (var k = 0; k < pieces.length; k++) {
+            if (k % 2 === 0) {
+              if (pieces[k].trim()) article.appendChild(renderBody(pieces[k]));
+            } else if (pieces[k] === 'documents') {
+              if (docs) { article.appendChild(docs); docsPlaced = true; }
+            } else {
+              var inlinePhoto = renderImage(inlineImgs[Number(pieces[k].slice(7)) - 1]);
+              if (inlinePhoto) article.appendChild(inlinePhoto);
+            }
           }
+          if (docs && !docsPlaced) article.appendChild(docs);
 
           var href = safeUrl(item.sourceUrl);
           if (href) {
