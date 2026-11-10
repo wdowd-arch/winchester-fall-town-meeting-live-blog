@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-09T19:02:00-05:00",
+  "updatedAt": "2026-11-09T19:18:00-05:00",
   "byline": "By Will Dowd · Nov. 9, 2026",
   "meeting": "7 p.m. Monday, Nov. 9 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting resumes at 7 p.m. tonight at Winchester High School for its second session. Tonight's updates appear first, newest first. Night one's summary, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -35,6 +35,51 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov9-1918-housing-retirees",
+      "at": "2026-11-09T19:18:00-05:00",
+      "title": "Town Meeting opens with standing ovation for two retiring volunteers",
+      "dek": "Allan Rogers and John Suhrbier leave Housing Partnership Board after 70 combined years",
+      "images": [
+        {
+          "src": "images/ovation-nov9-1226.jpg",
+          "width": 1226,
+          "height": 920,
+          "srcset": [
+            {
+              "src": "images/ovation-nov9-800.jpg",
+              "width": 800
+            },
+            {
+              "src": "images/ovation-nov9-1226.jpg",
+              "width": 1226
+            }
+          ],
+          "alt": "Town Meeting members stand and applaud in the red-seated Winchester High School auditorium.",
+          "caption": "Town Meeting members stand and applaud Monday night.",
+          "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+        },
+        {
+          "src": "images/housing-retirees-slide-1226.jpg",
+          "width": 1226,
+          "height": 920,
+          "srcset": [
+            {
+              "src": "images/housing-retirees-slide-800.jpg",
+              "width": 800
+            },
+            {
+              "src": "images/housing-retirees-slide-1226.jpg",
+              "width": 1226
+            }
+          ],
+          "alt": "A projected slide shows two portraits above the names Allan Rogers and John Suhrbier beside the town seal.",
+          "caption": "A slide at Town Meeting honors Allan Rogers and John Suhrbier, retiring members of the Housing Partnership Board.",
+          "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+        }
+      ],
+      "body": "Town Meeting opened its second session Monday with a standing ovation for Allan Rogers and John Suhrbier, who are retiring from the Housing Partnership Board. Moderator Philip Frattaroli began the night by recognizing the two, who he said have served 70 years between them.\n\n## Allan Rogers\nRogers has lived in Winchester since 1962 and joined the board shortly after Town Meeting created it in 1987, Frattaroli said. He served as vice chair for most of that time. Frattaroli said Rogers has also been a Town Meeting member and officer and has served on boards for groups including ABC House, Winchester Housing Corporation, Winchester Seniors Association and Winchester Community Music School.\n\nFrattaroli also recalled Rogers' late wife, Sandy Rogers, a longtime Town Meeting member, a six-year School Committee member and a citizen of the year recipient.\n\n## John Suhrbier\nSuhrbier helped establish the Winchester Housing Corporation and served five years as then-Gov. Michael Dukakis's representative on the Winchester Housing Authority, beginning in 1989, Frattaroli said. The moderator at the time, John Sullivan, appointed him to the Housing Partnership Board shortly after.\n\nOn the board, Frattaroli said, Suhrbier helped create the Winchester Affordable Housing Trust and had a major role in designing, writing and implementing the town's inclusionary housing bylaw."
+    },
     {
       "id": "nov9-1852-art26-sb",
       "at": "2026-11-09T18:52:00-05:00",
