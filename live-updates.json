@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-09T22:00:00-05:00",
+  "updatedAt": "2026-11-09T22:06:00-05:00",
   "byline": "By Will Dowd · Nov. 9, 2026",
   "meeting": "7 p.m. Monday, Nov. 9 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting resumes at 7 p.m. tonight at Winchester High School for its second session. Tonight’s updates appear first, newest first. Night one’s summary, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -35,6 +35,34 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov9-2206-art26-debate3",
+      "at": "2026-11-09T22:06:00-05:00",
+      "article": 26,
+      "title": "Town counsel says town owes minimum payment at taking even if borrowing fails; Prior cites Wright-Locke debt",
+      "dek": "Cooney warns of schools’ needs and spring override uncertainty in Article 26 debate",
+      "inlineImages": [
+        {
+          "src": "images/cooney-art26-nov9-1226.jpg",
+          "width": 1226,
+          "height": 920,
+          "srcset": [
+            {
+              "src": "images/cooney-art26-nov9-800.jpg",
+              "width": 800
+            },
+            {
+              "src": "images/cooney-art26-nov9-1226.jpg",
+              "width": 1226
+            }
+          ],
+          "alt": "A woman in a white striped sweater holds a phone and speaks into a microphone at a balcony railing.",
+          "caption": "Norah Cooney of Precinct 5 speaks on Article 26 at Town Meeting Monday.",
+          "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+        }
+      ],
+      "body": "Town counsel told Town Meeting that the town would owe the owner a minimum payment the moment the Select Board takes Forest Ridge, even if members have not approved the borrowing. Select Board member Michelle Prior urged a yes vote, citing the town’s debt on Wright-Locke Farm, and Norah Cooney of Precinct 5 warned about the town’s school needs.\n\n## Who pays if borrowing fails?\nMark Feblowitz of Precinct 1 asked which body approves the borrowing, whether the Board could take the land before that approval and what happens if Town Meeting rejects the borrowing.\nTown Counsel Karis North said the authorization has to come from Town Meeting. If the Board takes the property and Town Meeting does not authorize the borrowing, she said, the town is still responsible. Eminent domain law requires it to offer the initial payment, known as the pro tanto amount, when the Board executes the order of taking and records it at the registry.\nNorth said she would expect the Board not to execute the order until funding is authorized, because the town would owe at least the pro tanto amount, and more if it is challenged. A judgment against the town would have to be paid from whatever funds are available, she said, and the general laws offer several ways to do that.\nFeblowitz said he strongly supports the environmental case but strongly opposes the “aspirational description” that follows the motion. He said he does not expect it to play out as planned, and that a fiscally moderate-to-conservative town should not rely on an aspirational plan to pay for it.\n\n## Prior: a funding source exists\nPrior said she wanted to explain why she supported a favorable recommendation, since a Board member who opposed it had spoken.\n• Funding: The Winchester Committee on Community Preservation has voted conditional support, as Christina Marshall read earlier. The Committee’s membership could change, Prior said, but it supports the article now.\n• Outside counsel: Prior said McGonigle told members the Board was informed that town counsel does not defend eminent domain cases. She did not know that until it came up, she said, but the town hires outside counsel for labor and other issues and would do so here. “So be it,” she said.\n• Wright-Locke Farm: Responding to an earlier speaker, Prior said the town was left with a $3.4 million balance after the land trust raised more than $8 million. The town still pays debt service on it from the operating budget, $226,000 this year, and will until 2035. There was no community preservation money then, she said. Now there is a dedicated source that does not touch the operating budget or the capital stabilization funds.\n“I think we ought to support this article,” Prior said.\n\n## Cooney: ‘incredibly irresponsible’\n[[inline:1]]\nCooney, at her first fall Town Meeting, said conservation is an important town value but that members’ primary role includes the town’s fiscal health. “The financial risks here seem incredibly irresponsible,” she said.\nShe noted that voters rejected an override in the spring, that no one knows whether another will be on the spring ballot, and that the Select Board has not given a clear indication. Members should know that before voting, she said.\nThe School Committee said its budget next year depends on an override that may or may not come, Cooney said. She said teachers lack support, special education needs are unmet and the schools have no math curriculum. Many outstanding capital needs also rely on community preservation money, she said, and tying that money up could pull from the free cash the schools will need."
+    },
     {
       "id": "nov9-2200-art26-debate2",
       "at": "2026-11-09T22:00:00-05:00",
