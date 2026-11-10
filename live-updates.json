@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-09T22:50:00-05:00",
+  "updatedAt": "2026-11-09T23:05:00-05:00",
   "byline": "By Will Dowd · Nov. 9, 2026",
   "meeting": "7 p.m. Monday, Nov. 9 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting adjourned at 10:44 p.m. Monday, Nov. 9, and resumes at 7 p.m. Thursday, Nov. 12, at Winchester High School. Members decided five articles Monday: 19, 24, 25, 26 and 29. Tonight’s updates appear first, newest first. Night one’s summary, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -12,7 +12,14 @@
     {
       "id": "night-2",
       "date": "2026-11-09",
-      "label": "Night two · Monday, Nov. 9"
+      "label": "Night two · Monday, Nov. 9",
+      "summary": {
+        "kicker": "Summary",
+        "title": "Town Meeting rejects Forest Ridge taking, funds special education reserve in full",
+        "dek": "Members also halve retiree health payment and approve seven of eight preservation projects before adjourning at 10:44 p.m.",
+        "at": "2026-11-09T23:05:00-05:00",
+        "body": "Winchester’s Fall Town Meeting rejected the proposed eminent domain taking of Forest Ridge on Monday night, put the full $400,000 into the schools’ special education reserve and cut a payment to the town’s retiree health trust in half. Members decided five articles before adjourning at 10:44 p.m. They resume at 7 p.m. Thursday, Nov. 12, at Winchester High School.\n\n## What members decided\n• Forest Ridge: Article 26 failed on a clicker vote at about 10:12 p.m., 36 yes, 122 no and one abstention, far short of the two-thirds needed. The Conservation Commission proposed the taking of the parcel off Forest Circle, and Commission Chair Tracy Olson said delay risks up to $1.7 million in grants and earmarks. Late in the debate, Select Board Chair Anthea Brady read a letter from Bell Point LLC, which has an agreement to buy the land, urging the town to drop eminent domain and pursue a voluntary deal. She said the letter described an earlier Bell Point project in Essex, not a firm offer for Forest Ridge. The Select Board split 2-2 on the article, and the Finance Committee recommended unfavorable action. In May, Town Meeting rejected a voluntary $3 million purchase of the land, 105-59.\n• Special education reserve: Article 29 passed in full on a voice vote after members rejected an amendment to cut it to $200,000. The School Committee chair said the reserve held $3,780.55 as of Sept. 30, down from a peak of about $413,000.\n• Retiree health: Members approved Select Board member Michelle Prior’s amendment to Article 19, 98-46, cutting the free cash transfer to the town’s other post-employment benefits trust from $350,000 to $175,000. The amended article then passed unanimously.\n• Personnel: Article 24 passed unanimously. It ratifies a new police superiors contract and creates a budget director position.\n• Community preservation: Seven of eight Article 25 projects passed, totaling $870,500. The $50,000 Nutile Field master plan failed 65-93 after members said the town should plan all its fields together.\n\n## Earlier in the evening\nThe session opened with a standing ovation for Allan Rogers and John Suhrbier, who are retiring from the Housing Partnership Board after 70 years of combined service. Before the meeting, the Select Board deadlocked on Forest Ridge and on the retiree health transfer and voted 3-1 to back making the Committee on Names a standing Town Meeting committee.\n\n## What comes Thursday\nStill to come are Articles 30 and 33 through 45. They include a study of the Sanborn Carriage House, the sidewalk snow removal bylaw, the Committee on Names, five citizen petitions and a fiscal 2027 tax levy reduction. Nov. 16 is held in reserve if members need a fourth night."
+      }
     },
     {
       "id": "night-1",
