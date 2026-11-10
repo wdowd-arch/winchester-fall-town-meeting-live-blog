@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-09T19:18:00-05:00",
+  "updatedAt": "2026-11-09T19:47:00-05:00",
   "byline": "By Will Dowd · Nov. 9, 2026",
   "meeting": "7 p.m. Monday, Nov. 9 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting resumes at 7 p.m. tonight at Winchester High School for its second session. Tonight's updates appear first, newest first. Night one's summary, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -35,6 +35,32 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov9-1947-art19",
+      "at": "2026-11-09T19:47:00-05:00",
+      "article": 19,
+      "title": "Town Meeting cuts retiree health payment to $175,000, then passes it unanimously",
+      "dek": "Prior's amendment halves $350,000 free cash request as officials say timing matters little",
+      "image": {
+        "src": "images/prior-amendment-nov9-1226.jpg",
+        "width": 1226,
+        "height": 920,
+        "srcset": [
+          {
+            "src": "images/prior-amendment-nov9-800.jpg",
+            "width": 800
+          },
+          {
+            "src": "images/prior-amendment-nov9-1226.jpg",
+            "width": 1226
+          }
+        ],
+        "alt": "A woman in a brown jacket holding papers speaks into a microphone from the upper-level railing of the auditorium while seated Town Meeting members look on.",
+        "caption": "Select Board member Michelle Prior speaks at Town Meeting Monday before moving to reduce the Article 19 transfer to $175,000.",
+        "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+      },
+      "body": "Town Meeting approved Article 19 unanimously Monday after cutting the transfer to the town's retiree health trust from $350,000 to $175,000. Members carried Select Board member Michelle Prior's amendment on a clicker vote and passed the amended motion by voice vote. The money comes from free cash and goes to the town's other post-employment benefits, or OPEB, trust. Moderator Philip Frattaroli took up the article first.\n\n## The presentation\nSelect Board Chair Anthea Brady presented the article.\n• The trust holds about $9.8 million against a total OPEB liability of about $119.7 million, leaving about $109.8 million unfunded. The funded share rose to 8.22 percent from 5.93 percent last year.\n• A change in retiree health benefit provisions cut the calculated liability by about $22.3 million. Brady said the drop came mainly from benefit and actuarial changes, not added contributions.\n• The fiscal 2026 actuarial report assumes the town contributes $350,000 a year beyond its pay-as-you-go costs until the pension system is fully funded, which she said should happen within a year or two. Pension money would then shift to OPEB.\n• The Select Board split 2-2 on a recommendation.\n\nFinance Committee Chair Kathryn Hughes said the committee voted favorable action on the full $350,000, with one member opposed. She said the committee treats the payment as a fixed expense that belongs in the annual budget, and that it agreed to leave the money out of the spring budget to hold down free cash use. With interest income up, she said, the money is there. Hughes called the vote a sympathetic one, saying members kept hearing that retirees worked hard for the town and are owed this.\n\n## The amendment\nPrior, who had asked that the article come off the consent agenda, said she is one of the two board members who voted against the full amount. She served on the Finance Committee when the town made its first $50,000 contribution, she said, noting the trust had no money in 2012 and holds $9.8 million today.\n\nThe town could spend $1.3 million in free cash before spring, she said, before it knows what fiscal 2028 looks like. “We are reducing the flexibility to fund next year's budget by taking out free cash in this and other articles,” Prior said. She said she asked Town Manager Christopher Senior at a pre-meeting Monday for options to fund the other half in the spring by repurposing funds, closing accounts or adjusting budgets.\n\nBrady said the board stayed split on the amendment: members opposed favor $350,000 as written, and those in favor support half.\n\n## Questions from the floor\n• Pensions: Brad McCarthy of Precinct 4 asked whether the actuarial assumptions count pension money flowing into OPEB. Brady said they do, and answered yes when he asked whether all of the money now going to the pension would move to OPEB once it is paid off.\n• Why now: Another member asked why the money goes in now instead of in the spring, and what waiting would cost. A town official said it matters little when the money goes in; the difference is where it comes from. The official said the interest impact would be negligible. The town put nothing in at spring Town Meeting, the official said, because the payment was taken out of the fiscal 2027 budget to balance it, so tonight is a catch-up.\n\n## The votes\n• Amendment to reduce the transfer from $350,000 to $175,000: carried on a clicker vote.\n• Main motion as amended, to transfer $175,000 from free cash to the OPEB trust to reduce the unfunded liability: carried unanimously by voice vote."
+    },
     {
       "id": "nov9-1918-housing-retirees",
       "at": "2026-11-09T19:18:00-05:00",
