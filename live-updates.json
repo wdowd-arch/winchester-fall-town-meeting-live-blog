@@ -4,7 +4,10 @@
   "byline": "By Will Dowd · Nov. 12, 2026",
   "meeting": "7 p.m. Thursday, Nov. 12 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting’s third session begins at 7 p.m. Thursday, Nov. 12, at Winchester High School. Members have decided 31 of the 45 articles, and 14 remain. Tonight’s updates appear first, newest first. Earlier nights’ summaries, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
-  "stream": null,
+  "stream": {
+    "youtubeId": "PYWPrqUF7R0",
+    "title": "Winchester Fall Town Meeting Session 3, Nov. 12, 2026"
+  },
   "sessions": [
     {
       "id": "night-3",
@@ -1245,5 +1248,5 @@
       "dek": "Members face 45 articles, from a Forest Ridge land taking to dog license fees"
     }
   ],
-  "streamPending": true
+  "streamPending": null
 }
