@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-12T19:24:00-05:00",
+  "updatedAt": "2026-11-12T19:30:00-05:00",
   "byline": "By Will Dowd · Nov. 12, 2026",
   "meeting": "7 p.m. Thursday, Nov. 12 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting’s third session began at 7:07 p.m. Thursday, Nov. 12, at Winchester High School, with 14 of the 45 articles left. Tonight’s updates appear first, newest first. Earlier nights’ summaries, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -52,6 +52,14 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov12-1930-art30-debate",
+      "at": "2026-11-12T19:30:00-05:00",
+      "article": 30,
+      "title": "Abutter calls Carriage House study ‘a want and not a need’ as historical society offers reluctant support",
+      "dek": "Cooney points to lost literacy, special education staff at Ambrose; Swanton says roof work waits on School Committee",
+      "body": "Town Meeting members began debating Article 30, the $50,000 Sanborn Carriage House study. Norah Cooney of Precinct 5 urged members to spend the money elsewhere. Bill Swanton of Precinct 5, a Winchester Historical Society board member, said the Society supports the study. Debate continues.\n\n## Cooney: ‘a want and not a need’\n• Cooney lives right next to the carriage house, and her child walks within 5 feet of it on the way to school every day. She said she supports historic preservation and respects the Historical Society’s work at the Sanborn House.\n• She said the study is “the very definition of a want and not a need.” What Ambrose needs, she said, is the half-time literacy coach position lost to budget cuts restored, a full-time literacy coach, or the special education teacher the school lost.\n• She said the town should spend no more money studying or maintaining the building until the Historical Society shows, with specific numbers and donors’ names, that it can privately fund what she called a project of $3 million or more. “I, for one, unfortunately, just doubt that they do,” she said.\n• She said she was dismayed that the Society applied for community preservation money right after spring Town Meeting, after pledging to save the town money.\n\n## Swanton: support, ‘somewhat reluctantly’\n• Swanton said the Society’s board wants to partner with the School Committee to save the building and keep the Sanborn estate together. It supports the article “somewhat reluctantly,” he said, because the study delays work. The Society had hoped to seek bids to fix the roof after Town Meeting.\n• He urged the School Committee to hire a consultant with historic preservation experience. He said the study should also examine who would govern the building, because donors and grant makers want the group running it to have long-term control.\n• He called it a 3,500-square-foot building, smaller than many Ambrose families’ homes. Bellaire had put it at roughly 3,000 square feet.\n\n## Jerius: ‘an embarrassment’\nDiab Jerius of Precinct 8 said that during his time on the Capital Planning Committee, the roof repeatedly came up as needing repair. “This thing is an embarrassment to the town because we haven’t gotten our act together to save it,” he said. He asked why the School Committee did not seek community preservation money for the study.\n\nSchool Committee Chair Timothy Matthews said the idea was not on the Committee’s radar at the time. Town Meeting had just rejected the demolition, which the School Committee had backed 5-0. He said he could not speak for how the Committee would view applying."
+    },
     {
       "id": "nov12-1924-art30",
       "at": "2026-11-12T19:24:00-05:00",
