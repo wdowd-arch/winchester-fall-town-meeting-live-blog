@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-12T20:20:00-05:00",
+  "updatedAt": "2026-11-12T20:50:00-05:00",
   "byline": "By Will Dowd · Nov. 12, 2026",
   "meeting": "7 p.m. Thursday, Nov. 12 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting’s third session began at 7:07 p.m. Thursday, Nov. 12, at Winchester High School, with 14 of the 45 articles left. Tonight’s updates appear first, newest first. Earlier nights’ summaries, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -52,6 +52,42 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov12-2050-art34",
+      "at": "2026-11-12T20:50:00-05:00",
+      "article": 34,
+      "title": "Disability panel seeks wider snow clearing, higher fines on downtown sidewalks",
+      "dek": "Bylaw change would require 36-inch path and clear curb ramps; business owner asks town to share the work",
+      "body": "After a short recess, Town Meeting took up Article 34, which would amend the town’s sidewalk snow removal bylaw to spell out access requirements for people with disabilities. Deborah Johnson presented it for the Disability Access Commission.\n\n## What it would change\nProperty owners, or tenants they make responsible, would have to clear snow and ice to at least 36 inches wide, including the full width of adjoining curb cuts and ramps, and keep the path slip-resistant. Johnson said those requirements already exist in state and federal law. “It is already state and federal law,” she said. “This is already the law. The problem is, is that it doesn’t state it in our bylaw.”\n\nFines, now at most $10, would rise to $25 for a first offense, $50 for a second and $75 for each one after, as Police Chief Daniel O’Connell recommended. Johnson said Burlington charges $200 per violation per day and Lexington $25 per violation.\n\nOn the recommendation of Department of Public Works Director Robert LaBossiere, the bylaw would favor calcium chloride over sand, which Johnson said turns slippery once snow melts and washes into storm drains. Where permanent obstacles, such as lampposts on narrow Thompson Street, leave less than 36 inches, the bylaw allows as much clearance as possible. The deadlines for clearing after a storm would not change. Johnson said the town’s own sidewalk plow clears 40 inches.\n\n## Where the boards stand\nThe Select Board voted unanimously for favorable action. So did the Committee on Government Regulations, which found no legal, administrative or operational concerns.\n\n## The debate so far\nHeidi Rutstein DiLeo of Precinct 4, who owns Sweet Surprise on Thompson Street, said she supports the idea, but most downtown businesses do not open until about 10 a.m. and some spots are hard to clear. The work should not fall only on owners, she said, and the town should partner with businesses.\n\nDorothy Simboli of Precinct 6 asked whether ice melt is safe for brick sidewalks. LaBossiere said the town uses calcium chloride on brick and has not noticed problems. He said the town will keep plowing downtown sidewalks and hauling snow away after heavy storms, as it did twice last winter.\n\nJoshua Bers of Precinct 7 said the change seems to shift work that should be centralized onto individual owners. Debate continues.",
+      "image": {
+        "src": "images/n3-johnson-1226.jpg",
+        "width": 1226,
+        "height": 1635,
+        "srcset": [
+          {
+            "src": "images/n3-johnson-800.jpg",
+            "width": 800
+          },
+          {
+            "src": "images/n3-johnson-1226.jpg",
+            "width": 1226
+          }
+        ],
+        "alt": "Deborah Johnson speaks at a podium in front of a screen showing a Disability Access Commission slide.",
+        "caption": "Deborah Johnson presents Article 34 for the Disability Access Commission on Thursday.",
+        "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+      },
+      "documents": [
+        {
+          "title": "Article 34: motion and background",
+          "pdf": "docs/article-34.pdf",
+          "pages": [
+            "docs/article-34-p1.jpg"
+          ],
+          "note": "Source: Town of Winchester."
+        }
+      ]
+    },
     {
       "id": "nov12-2020-art33",
       "at": "2026-11-12T20:20:00-05:00",
