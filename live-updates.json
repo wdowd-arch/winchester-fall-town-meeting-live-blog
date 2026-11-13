@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-12T19:30:00-05:00",
+  "updatedAt": "2026-11-12T19:47:00-05:00",
   "byline": "By Will Dowd · Nov. 12, 2026",
   "meeting": "7 p.m. Thursday, Nov. 12 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting’s third session began at 7:07 p.m. Thursday, Nov. 12, at Winchester High School, with 14 of the 45 articles left. Tonight’s updates appear first, newest first. Earlier nights’ summaries, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -52,6 +52,24 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov12-1947-art30-amend",
+      "at": "2026-11-12T19:47:00-05:00",
+      "article": 30,
+      "title": "Sullivan moves to cut Carriage House study to $25,000 as backers cite $1.8 million estimate",
+      "dek": "Amendment would use mostly leftover money and require collaboration among town, schools and historical society; Matthews says cost data is years old",
+      "body": "Maura Sullivan of Precinct 1 moved to amend Article 30, cutting the Sanborn Carriage House study from $50,000 to $25,000. Members are now debating the amendment.\n\n## The amendment\n• The money: $19,463.32 left over from free cash previously appropriated for carriage house consulting, plus $5,536.68 in available free cash.\n• The scope: A consultant, preferably with historic preservation experience, would study ways to refurbish the building, as a collaboration among the town, Winchester Public Schools and the Winchester Historical Society. The original motion covered refurbishment, replacement or demolition.\n• Her case: Sullivan said the study should be narrow. It should price fixing the roof, sealing the building, clearing it out and removing hazardous materials, and renovating the first floor alone or the other levels too. “If we say no, I expect we will see another demolition request in the spring,” she said.\n\n## The debate so far\n• Matthews: School Committee Chair Timothy Matthews said the Historical Society submitted three versions of its community preservation application over the summer, each with a different amount. He said cost information on the building is at least five years old, and in some cases more than 15. The Committee learned of the application from the Winchester Committee on Community Preservation, not from the Society, he said, and has explained its reasoning in memos to that Committee’s chair, Christina Marshall, and to the Society.\n• Roeder: Jason Roeder of Precinct 5 is part of a group that has worked on the building since spring Town Meeting. He said the group, with School Committee support, put up a security fence and lights. It also has early builder estimates of $1.8 million and $2.9 million for renovating only the first floor; he stressed they are estimates, not bids. “We think the initial evidence suggests there is a bright future for the carriage house, a viable future,” he said.\n• Hopcroft: Tom Hopcroft of Precinct 7, a School Committee member speaking for himself, said the schools can grant only a 10-year lease by right, while donors and grant makers want longer terms. He asked that the study weigh options, including a home rule petition for a long-term lease, as Acton, Holden and Tewksbury have done.\n• Staudt: Caroline Staudt of Precinct 5 asked what happens if members vote no. Bellaire said that would be a future School Committee decision. He said a no vote could signal either that Town Meeting sees no future for the building or that it wants the work privately funded.\n• Galvin: Michael Galvin of Precinct 2 asked how many buildings the town maintains, and whether the Society could match the leftover $19,000 instead of the town using free cash. Department of Public Works Director Robert LaBossiere said the town maintains more than 20 buildings. Frattaroli said he was not aware of any Society money being offered.\n• Johnson: Members voted to let Deborah Johnson of Precinct 4, who is not a Town Meeting member, speak. She said she worked in the building from summer 1994 until the winter of 1997-98, for a Deaconess Waltham Hospital early intervention program with two classrooms and about 16 staff members upstairs. That is later than the 1994 date on Bellaire’s slide. She said the ceiling still holds the mechanism once used to cool down horses.\n• Wilson: Roger Wilson of Precinct 1 asked whether the roof is leaking. Frattaroli said he would come back to the question.",
+      "documents": [
+        {
+          "title": "Article 30: motion and background",
+          "pdf": "docs/article-30.pdf",
+          "pages": [
+            "docs/article-30-p1.jpg"
+          ],
+          "note": "Source: Town of Winchester."
+        }
+      ]
+    },
     {
       "id": "nov12-1930-art30-debate",
       "at": "2026-11-12T19:30:00-05:00",
