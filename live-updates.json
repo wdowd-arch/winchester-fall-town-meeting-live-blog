@@ -1,18 +1,27 @@
 {
-  "status": "live",
-  "updatedAt": "2026-11-12T21:42:00-05:00",
+  "status": "ended",
+  "updatedAt": "2026-11-13T00:30:00-05:00",
   "byline": "By Will Dowd · Nov. 12, 2026",
   "meeting": "7 p.m. Thursday, Nov. 12 · Winchester High School auditorium, 80 Skillings Road",
-  "note": "Town Meeting’s third session began at 7:07 p.m. Thursday, Nov. 12, at Winchester High School, with 14 of the 45 articles left. Tonight’s updates appear first, newest first. Earlier nights’ summaries, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
-  "stream": {
-    "youtubeId": "PYWPrqUF7R0",
-    "title": "Winchester Fall Town Meeting Session 3, Nov. 12, 2026"
-  },
+  "note": "Town Meeting finished its 45-article warrant Thursday, Nov. 12, adjourning at about 10:56 p.m. after three nights. The reserve date, Monday, Nov. 16, is not needed. Thursday’s updates appear first, newest first, followed by each night’s summary, full video and coverage. The warrant tracker has the final result for every article.",
+  "stream": null,
   "sessions": [
     {
       "id": "night-3",
       "date": "2026-11-12",
-      "label": "Night three · Thursday, Nov. 12"
+      "label": "Night three · Thursday, Nov. 12",
+      "summary": {
+        "kicker": "Summary",
+        "title": "Town Meeting finishes warrant, funds $25,000 Carriage House study",
+        "dek": "Members approve Ledges lot, sidewalk snow rules and permitting software before adjourning at 10:56 p.m.",
+        "at": "2026-11-13T00:30:00-05:00",
+        "body": "Winchester’s Fall Town Meeting finished its 45-article warrant Thursday, its third night, approving a narrowed $25,000 study of the Sanborn Carriage House and a lot for one house at the Ledges before adjourning at about 10:56 p.m. The reserve date, Monday, Nov. 16, is not needed.\n\n## What members decided\n• Carriage House (Article 30): Members cut the study to $25,000 and limited it to refurbishment, 99-54, then approved it 85-68. It will be a collaboration among the town, the schools and the Winchester Historical Society.\n• Software (Article 33): $173,724 from old Eversource project accounts to expand OpenGov permitting, unanimously. The budget software motion was withdrawn.\n• Sidewalk snow (Article 34): A 36-inch clear path, cleared curb ramps and fines of $25, $50 and $75, unanimously, with sand struck as an approved treatment.\n• Land (Articles 35 through 37): A station parcel conveyed to the Massachusetts Bay Transportation Authority, unanimously; easements on the Waterfield lot, by two-thirds; and the 16-acre Vale conservation parcel, 98-46, clearing two-thirds by a single vote.\n• Committee on Names (Article 38): Made a standing committee after an amendment to remove the moderator’s seat failed 62-75.\n• Rezonings (Articles 40 through 42): The Christopher Columbus Society’s Raymond Place property, unanimously, and the Ledges lot, released 97-31 and rezoned 97-32 over the Planning Board’s opposition.\n\n## Not acted on\nArticles 39, a rezoning of 114 Church St., and 43, a call for separate override ballot votes, were not properly before Town Meeting. Articles 44 and 45 were indefinitely postponed.\n\n## Earlier in the evening\nThe session opened with standing ovations for Margie Labedz, 100, who has led the Veterans Day parade for almost 50 years; Detective Steven Fields, who is retiring after 44 years with the Police Department; and Helen Philliou, who is leaving Town Meeting after 40 years."
+      },
+      "video": {
+        "youtubeId": "PYWPrqUF7R0",
+        "title": "Winchester Fall Town Meeting Session 3, Nov. 12, 2026",
+        "caption": "WinCAM’s full recording of night three."
+      }
     },
     {
       "id": "night-2",
@@ -52,6 +61,90 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov12-2256-adjourn",
+      "at": "2026-11-12T22:56:00-05:00",
+      "article": 43,
+      "title": "Town Meeting finishes fall warrant in three nights",
+      "dek": "Override petition ruled out of order; levy and committee articles postponed before 10:56 p.m. adjournment",
+      "body": "Town Meeting adjourned at about 10:56 p.m. Thursday after acting on the last of the fall warrant’s 45 articles, finishing in three nights. The reserve date, Monday, Nov. 16, is not needed.\n\nFrattaroli ruled Article 43, a citizens’ petition calling for separate ballot votes on unrelated parts of future Proposition 2½ overrides, not properly before Town Meeting, saying the legislative body cannot bind the executive that way. He read a corrected version of its wording into the record.\n\nArticle 44, to use available funds to reduce the fiscal 2027 tax levy, and Article 45, on committee reports and new committees, were indefinitely postponed without debate.\n\nThe warrant tracker has every article’s final result.",
+      "documents": [
+        {
+          "title": "Article 43: motion and background",
+          "pdf": "docs/article-43.pdf",
+          "pages": [
+            "docs/article-43-p1.jpg"
+          ],
+          "note": "Source: Town of Winchester."
+        }
+      ]
+    },
+    {
+      "id": "nov12-2254-art41-42",
+      "at": "2026-11-12T22:54:00-05:00",
+      "article": 42,
+      "title": "Town Meeting lets Ledges sell lot for one house, overriding Planning Board",
+      "dek": "Members release open space 97-31 and rezone it 97-32 after condominium trustees pledge up to $100,000 toward affordable homes",
+      "body": "Town Meeting voted 97-31 to release about 20,000 square feet of common open space at 7 Wainwright Road from the Ledges condominiums’ 1985 special permit, then 97-32, with two abstentions, to rezone it for a single-family home. Article 41 needed a majority and Article 42 two-thirds. Members revoted on Article 41 after confusion over which threshold applied.\n\nGloria Korta, chair of the Ledges condominium board, said the lot would bring about $36,000 a year in property tax and about $28,000 in one-time permit fees. Proceeds from the sale of the land, appraised at about $1.1 million once rezoned, would go to the complex’s roads and infrastructure, she said. In a letter this week, the board offered up to $100,000 from the sale for affordable housing. North said the offer is not legally binding.\n\n## Where the boards stood\n• Select Board: Favorable action, 3-1, in part because of the letter.\n• Planning Board: Unfavorable on both, 3-2. LeMenager said the open space was set aside in exchange for the 110 units, and one large house does not benefit the town.\n• Housing Partnership Board: Support for Article 41 with one dissent, opposition to Article 42, saying a lot for one large house does not meet the town’s housing needs.\n• Affordable Housing Trust: Unfavorable on Article 42, 5-0 with one abstention, before the $100,000 offer, Chair Marty Jones said.\n\n## The debate\nBrian Vernaglia of Precinct 4 urged members to keep the 1985 bargain, when the developer got 110 units in exchange for preserving the rest of the land. “We owe it to the town boards and residents who negotiated that agreement 40 years ago to keep the promise that we made to Winchester,” he said. Pamela Cort of Precinct 5 said reversing such conditions erodes trust in town boards.\n\nJanet Boswell of Precinct 3 said the lot is too small to matter environmentally while the tax revenue does. Terence Tirella of Precinct 2 said one new home is an appropriate use of the land. Alan McDonald, a former Town Meeting member who spoke with members’ consent, said the 1985 approval barred building on the parcel only as part of the Ledges, not forever.\n\nSelect Board member Michael Bettencourt of Precinct 6 said he switched his vote to support the articles. “The Ledges are not an outside developer that’s trying to get one up on the town. They are residents. They are us,” he said. Mariano Goluboff of Precinct 5 asked how the $100,000 would be secured and suggested waiting until it was guaranteed.",
+      "documents": [
+        {
+          "title": "Article 41: motion and background",
+          "pdf": "docs/article-41.pdf",
+          "pages": [
+            "docs/article-41-p1.jpg",
+            "docs/article-41-p2.jpg"
+          ],
+          "note": "Source: Town of Winchester."
+        },
+        {
+          "title": "Article 42: motion and background",
+          "pdf": "docs/article-42.pdf",
+          "pages": [
+            "docs/article-42-p1.jpg",
+            "docs/article-42-p2.jpg"
+          ],
+          "note": "Source: Town of Winchester."
+        }
+      ]
+    },
+    {
+      "id": "nov12-2212-art40",
+      "at": "2026-11-12T22:12:00-05:00",
+      "article": 40,
+      "title": "Raymond Place club site rezoned for housing; Article 39 never reaches floor",
+      "dek": "Christopher Columbus Society plans to sell and relocate after unanimous vote; Planning Board withheld required recommendation on 114 Church St.",
+      "body": "Town Meeting unanimously approved Article 40, rezoning the Christopher Columbus Society’s property at 18 Raymond Place from an institutional district to a residential one. The rezoning needed two-thirds. Members voted the article as printed in the warrant, which names the district RB-6.5; the warrant’s map and background use RG-6.5.\n\nThomas Cavaretta, presenting for the society with his daughter Brooke, said a buyer plans to build a new home there and the society wants to relocate. The Select Board and the Planning Board recommended it unanimously.\n\nDorothy Simboli of Precinct 6 asked whether rezoning by citizens’ petition sets a precedent. Town Counsel Karis North said nothing bars it and it is common in other communities. Town Planner Taylor Herman said it hasn’t happened in Winchester in about 10 years but was common before that.\n\nArticle 39, the citizens’ petition to rezone 114 Church St., was not before Town Meeting. Frattaroli said the proponents asked the Planning Board not to make a recommendation, which state zoning law requires, so members could not take it up. Because Town Meeting took no action, he said, it does not count as a rejection that would block the petition from returning within two years.",
+      "documents": [
+        {
+          "title": "Article 40: motion and background",
+          "pdf": "docs/article-40.pdf",
+          "pages": [
+            "docs/article-40-p1.jpg",
+            "docs/article-40-p2.jpg"
+          ],
+          "note": "Source: Town of Winchester."
+        }
+      ]
+    },
+    {
+      "id": "nov12-2201-art38-vote",
+      "at": "2026-11-12T22:01:00-05:00",
+      "article": 38,
+      "title": "Town Meeting makes Committee on Names a standing committee, keeps moderator's seat",
+      "dek": "Von Mering amendment to replace presiding officer with appointee fails 62-75",
+      "body": "Town Meeting approved Article 38 on a voice vote, making the Committee on Names a standing Town Meeting committee with seven voting members, including the moderator or a designee. Members first rejected, 62-75, an amendment by Heather von Mering of Precinct 8 to replace the moderator’s seat with a registered voter appointed by the moderator.\n\nVon Mering, a former moderator, said a moderator who helps shape a proposal cannot shed that role when presiding over its debate. “A resident shouldn’t have to approach the microphone, wondering whether challenging a proposal also means challenging the person who controls the floor,” she said.\n\nPlanning Board Chair Jack LeMenager and Select Board member Michelle Prior, who both sit on the Committee, urged members to reject the amendment. LeMenager said the moderator, who faces re-election every year, is best placed to represent the whole town. Prior said the Committee debated the question and voted to keep the language.\n\nMeredith Mason-Crowley of Precinct 1 said nothing in town law bars a moderator from serving on a standing committee, but moderators in neighboring towns serve only on committees about Town Meeting procedure. Committee Chair Raegan McCain said no other volunteer came forward for a year before Moderator Philip Frattaroli joined as an at-large member.\n\nSchool Committee Chair Timothy Matthews said his Committee voted unanimously for the article once the advisory clause was restored.",
+      "documents": [
+        {
+          "title": "Article 38: motion and background",
+          "pdf": "docs/article-38.pdf",
+          "pages": [
+            "docs/article-38-p1.jpg",
+            "docs/article-38-p2.jpg"
+          ],
+          "note": "2 pages. Section 4.9.7 was restored on the floor. Source: Town of Winchester."
+        }
+      ]
+    },
     {
       "id": "nov12-2142-art38",
       "at": "2026-11-12T21:42:00-05:00",
