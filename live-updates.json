@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-12T21:00:00-05:00",
+  "updatedAt": "2026-11-12T21:42:00-05:00",
   "byline": "By Will Dowd · Nov. 12, 2026",
   "meeting": "7 p.m. Thursday, Nov. 12 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting’s third session began at 7:07 p.m. Thursday, Nov. 12, at Winchester High School, with 14 of the 45 articles left. Tonight’s updates appear first, newest first. Earlier nights’ summaries, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -52,6 +52,61 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov12-2142-art38",
+      "at": "2026-11-12T21:42:00-05:00",
+      "article": 38,
+      "title": "Committee on Names seeks standing status, seven members and petition rule",
+      "dek": "Select Board backs bylaw 3-1, ending its unanimous streak over moderator's seat; Town Meeting restores advisory clause",
+      "body": "Raegan McCain of Precinct 8, chair of the Committee on Names, presented Article 38, which would make the Committee, created by Town Meeting in 1977, a standing Town Meeting committee.\n\nThe bylaw would expand the Committee from five voting members to seven, add street names to the places it reviews, require published naming guidelines and require the signatures of 50 registered voters for any proposal. McCain cited Bellino Park, McDonald Field and O’Connell Memorial Plaza as names that tell the town’s story, and Boaty McBoatface, the winner of a 2016 British ship-naming poll, as a warning that popularity alone should not decide.\n\nMembers unanimously waived the seven-day notice rule so McCain could restore Section 4.9.7, left out of the warrant, which says the Committee is advisory and does not override the School Committee’s authority to name facilities in its custody.\n\nThe Select Board voted 3-1 for favorable action, breaking what Chair Anthea Brady had called its streak of unanimous recommendations. The dissenting member preferred that the moderator appoint a Committee member rather than serve on it, she said. The Committee on Government Regulations supported the article unanimously. Debate continues.",
+      "documents": [
+        {
+          "title": "Article 38: motion and background",
+          "pdf": "docs/article-38.pdf",
+          "pages": [
+            "docs/article-38-p1.jpg",
+            "docs/article-38-p2.jpg"
+          ],
+          "note": "2 pages. Section 4.9.7 was restored on the floor. Source: Town of Winchester."
+        }
+      ]
+    },
+    {
+      "id": "nov12-2126-art37",
+      "at": "2026-11-12T21:26:00-05:00",
+      "article": 37,
+      "title": "Town Meeting narrowly accepts 16 acres of Vale conservation land",
+      "dek": "Members question old wells on Washington Street parcel before 98-46 tally barely clears two-thirds",
+      "body": "Town Meeting voted 98-46, with one abstention, to accept the deed to Parcel 1-36, about 16 acres of forested land off Washington Street known as the Vale parcel. The article needed two-thirds and barely cleared it. After a voice vote was doubted, members voted by clicker at about 9:26 p.m. The moderator first counted 145 votes cast with 97 needed, then, after one member’s vote was corrected at the clerk’s table, 144 cast with 96 needed.\n\nSelect Board Vice Chair Bill McGonigle said the land was promised to the town in a settlement with the Vale development over the line in Woburn. The town takes it at no cost, with a conservation restriction, and the Conservation Commission will clean up debris on it. The Select Board recommended it unanimously, which Chair Anthea Brady noted was the Board’s fifth unanimous recommendation in a row Thursday.\n\nMichael Galvin of Precinct 2 and Catherine Tomey of Precinct 6 asked about contamination. Tomey said the land appears close to the wells and the stretch of the Aberjona River at the center of the case told in “A Civil Action.” Town Counsel Karis North said some old wells must be decommissioned and the town will receive the developer’s environmental reports.\n\nSusan Verdicchio of Precinct 1, a former Select Board member, said the wells once supplied a gelatin factory in Woburn, and the town agreed to take title only after cleanup under state oversight was complete.\n\nSelect Board member Michelle Prior asked whether the parcel has a clean bill of health and what decommissioning the wells will cost. Ryan Assarian of Precinct 2 asked why the town shouldn’t wait for a clean bill of health. Town Engineer Matt Shuman said the reports he recalls show no significant hazardous materials, and an analysis of the three well buildings found nothing significant beyond what may be asbestos roof shingles.",
+      "documents": [
+        {
+          "title": "Article 37: motion and background",
+          "pdf": "docs/article-37.pdf",
+          "pages": [
+            "docs/article-37-p1.jpg"
+          ],
+          "note": "Source: Town of Winchester."
+        }
+      ]
+    },
+    {
+      "id": "nov12-2115-art36",
+      "at": "2026-11-12T21:15:00-05:00",
+      "article": 36,
+      "title": "Town Meeting authorizes Waterfield easements despite questions over scope",
+      "dek": "Calabrese calls grant overly broad; McGonigle says developer's utility plans come after December closing",
+      "body": "Town Meeting approved Article 36 on a voice vote at about 9:15 p.m., with the two-thirds majority it needed. The article lets the Select Board grant easements, at no cost to the town, to utilities, public authorities and property owners on the town-owned Waterfield lot, which is under a long-term ground lease for a multifamily housing project.\n\nSelect Board Vice Chair Bill McGonigle said the town hopes the project closes in December, possibly January, with construction to follow. After closing, he said, utilities such as Eversource, Comcast and Verizon will seek easements to run their lines, and the details won’t be known until then. Those requests will come before the Select Board at noticed hearings. The town will not charge for the easements, and town counsel’s review will cost a nominal amount, he said. The Select Board recommended the article unanimously.\n\nJeffrey Calabrese of Precinct 6 said he supports the project but called the authorization overly broad. The 2022 form ground lease limited easements to public authorities and utilities, he said, while this motion adds property owners, and he questioned the motion’s “at no cost to the town” language. Town Counsel Karis North said lenders have asked for changes to the lease, which is about 95% the same, and adding property owners is one change the developers requested. McGonigle said the private interests are businesses and residences behind the lot whose access must be preserved.\n\nDonna Ashton of Precinct 5 asked how businesses that use the back of the lot for deliveries and trash pickup will be protected. McGonigle said everyone at town hall wants those businesses to stay open throughout construction. Eric Keough of Precinct 5 asked what happens if Town Meeting says no. North said the utility work could not happen, so neither could the project, unless the article returned in the spring.",
+      "documents": [
+        {
+          "title": "Article 36: motion and background",
+          "pdf": "docs/article-36.pdf",
+          "pages": [
+            "docs/article-36-p1.jpg"
+          ],
+          "note": "Source: Town of Winchester."
+        }
+      ]
+    },
     {
       "id": "nov12-2100-art35",
       "at": "2026-11-12T21:00:00-05:00",
@@ -139,6 +194,24 @@
             "docs/article-34-p1.jpg"
           ],
           "note": "Source: Town of Winchester."
+        }
+      ]
+    },
+    {
+      "id": "nov12-2022-art33-vote",
+      "at": "2026-11-12T20:22:00-05:00",
+      "article": 33,
+      "title": "Town Meeting unanimously backs $173,724 permitting software expansion",
+      "dek": "OpenGov platform will reach conservation, planning, health and fire after building and zoning",
+      "body": "Town Meeting unanimously approved Article 33 on a voice vote at about 8:22 p.m., spending $173,724 to expand the town’s OpenGov permitting and licensing software beyond the building and zoning departments.\n\nThe money is left over from three earlier free cash appropriations for Eversource projects: $38,900, $44,654 and $90,170. Town Manager Christopher Senior withdrew a second motion, for budget management software, before the debate. The Select Board, the Finance Committee and the Planning Board each recommended the article unanimously.",
+      "documents": [
+        {
+          "title": "Article 33: motions and background (motion book version)",
+          "pdf": "docs/article-33.pdf",
+          "pages": [
+            "docs/article-33-p1.jpg"
+          ],
+          "note": "Printed before the second motion was withdrawn and the first revised. Source: Town of Winchester."
         }
       ]
     },
