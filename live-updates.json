@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-12T19:47:00-05:00",
+  "updatedAt": "2026-11-12T20:04:00-05:00",
   "byline": "By Will Dowd · Nov. 12, 2026",
   "meeting": "7 p.m. Thursday, Nov. 12 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting’s third session began at 7:07 p.m. Thursday, Nov. 12, at Winchester High School, with 14 of the 45 articles left. Tonight’s updates appear first, newest first. Earlier nights’ summaries, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -52,6 +52,24 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov12-2004-art30-amend-vote",
+      "at": "2026-11-12T20:04:00-05:00",
+      "article": 30,
+      "title": "Town Meeting cuts Carriage House study to $25,000, 99-54",
+      "dek": "Members back Sullivan amendment after clickers fail; vote on amended article still ahead",
+      "body": "Town Meeting voted 99-54 to adopt Maura Sullivan’s amendment, cutting the Article 30 study of the Sanborn Carriage House to $25,000 and recasting it as a collaboration among the town, Winchester Public Schools and the Winchester Historical Society. Members still must vote on the article as amended.\n\nThe count came after the electronic clickers failed. Moderator Philip Frattaroli called a voice vote and declared that the amendment carried, then counted the room when members doubted the call. Members had earlier voted to end debate.\n\nThe Select Board voted 3-1 to recommend the amendment. Chair Anthea Brady said the Board was more comfortable with it than with the original $50,000 request, which the Board opposed unanimously.\n\n## The debate on the amendment\nSamantha Allison of Precinct 3 asked whether $25,000 would be enough for a sound study. School Committee member John Bellaire said $50,000 was the Committee’s estimate of what it would take to feel confident in the results. “You get what you pay for,” he said, adding that bids would show the real cost.\n\nChris Nixon of Precinct 1 traced the building’s recent history: a 2015 School Committee study that drew four proposals from groups interested in using it, a 2017 facilities master plan that recommended moving the schools’ central office there and a 2021 proposal for that move, which Town Meeting rejected in favor of leasing modular classrooms. Answering Roger Wilson’s earlier question, Nixon said the roof has leaked for about six years. The water runs through to the basement, and architects and engineers found it has not affected the structure, he said.\n\nCatherine Bauer of Precinct 8 asked whether private donations could add to the study money. Town Comptroller Stacie Ward said the Select Board can accept donations, and that a gift for a general public purpose could qualify as a tax deduction.\n\nSusan DeLeo of Precinct 5 asked whether the Historical Society would cover the $5,536.68 in free cash or the whole $25,000. Bill Swanton said the Society’s board would have to vote and could not commit. DeLeo said that if the Society cannot cover that much, she doubts it can fund a full renovation, and she would vote no.\n\nAsked by Allison about private fundraising so far, Swanton said the Society raised a small amount from a few people for the fence, lights, an investigation of the roof leak and an architect’s floor plan. Donors will not give for the building itself without a long-term lease, he said.\n\nMichelle McCarthy of Precinct 7, a Historical Commission member, said grant applications must be signed by the property’s owner, which is the School Committee. She said that after she promised at spring Town Meeting to save the town money, she learned no one had applied for the historic share of community preservation money, which led to the Society’s application.",
+      "documents": [
+        {
+          "title": "Article 30: motion and background",
+          "pdf": "docs/article-30.pdf",
+          "pages": [
+            "docs/article-30-p1.jpg"
+          ],
+          "note": "Source: Town of Winchester."
+        }
+      ]
+    },
     {
       "id": "nov12-1947-art30-amend",
       "at": "2026-11-12T19:47:00-05:00",
