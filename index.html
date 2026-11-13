@@ -599,7 +599,8 @@
           }
         };
         if ('ResizeObserver' in window) new ResizeObserver(function () { send(false); }).observe(document.body);
-        else setInterval(function () { send(false); }, 1000);
+        // Also re-check every second: some browsers skip resize callbacks in cross-origin frames.
+        setInterval(function () { send(false); }, 1000);
         window.addEventListener('load', function () { send(true); });
         window.addEventListener('resize', function () { send(false); });
         window.addEventListener('message', function (event) {
