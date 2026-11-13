@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-12T20:04:00-05:00",
+  "updatedAt": "2026-11-12T20:20:00-05:00",
   "byline": "By Will Dowd · Nov. 12, 2026",
   "meeting": "7 p.m. Thursday, Nov. 12 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting’s third session began at 7:07 p.m. Thursday, Nov. 12, at Winchester High School, with 14 of the 45 articles left. Tonight’s updates appear first, newest first. Earlier nights’ summaries, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -52,6 +52,62 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov12-2020-art33",
+      "at": "2026-11-12T20:20:00-05:00",
+      "article": 33,
+      "title": "Town manager drops budget software, seeks to expand online permitting",
+      "dek": "Select Board, Finance Committee, Planning Board back OpenGov plan; annual license cost would climb near $100,000",
+      "body": "Town Manager Christopher Senior presented Article 33, now a single motion to expand the town’s OpenGov permitting and licensing software. He withdrew the second motion, for budget management software.\n\nThe motion on screen calls for $173,724.19, drawn from money left over in three older free cash accounts for Eversource projects. The motion book had listed $233,359.39 from eight accounts.\n\n[[inline:1]]\n\nOnly the building and zoning departments use OpenGov now, Senior said. Before 2022, everything was on paper. The expansion would add conservation, planning, health and fire, and would let the Department of Public Works, the town clerk and the Select Board join. Senior said a slide he did not get to show would have taken the town “from the Flintstones literally to the Jetsons.”\n\n## Where the boards stand\n• Select Board: Unanimous favorable action. Chair Anthea Brady said the efficiencies help town staff and anyone who uses permitting. “For anybody keeping score at home, that’s twice in a row that the select board agreed unanimously,” Frattaroli said.\n• Finance Committee: Unanimous favorable action. Chair Kathryn Hughes said the Committee supports the town manager’s vision of using technology to streamline town operations.\n• Planning Board: Unanimous support. Jack LeMenager said the software will speed permitting for development review and subdivision applications, improve coordination between departments and capture fees that may not be collected now.\n\n## Questions\nDiab Jerius of Precinct 8 asked how much the annual license will cost and whether the town could switch vendors if the software does not work out. Senior said the town now pays about $30,000 a year for building and zoning, which would rise to about $100,000 in a full year.",
+      "documents": [
+        {
+          "title": "Article 33: motions and background (motion book version)",
+          "pdf": "docs/article-33.pdf",
+          "pages": [
+            "docs/article-33-p1.jpg"
+          ],
+          "note": "Printed before the second motion was withdrawn and the first revised. Source: Town of Winchester."
+        }
+      ],
+      "inlineImages": [
+        {
+          "src": "images/n3-art33-screen-1226.jpg",
+          "width": 1226,
+          "height": 920,
+          "srcset": [
+            {
+              "src": "images/n3-art33-screen-800.jpg",
+              "width": 800
+            },
+            {
+              "src": "images/n3-art33-screen-1226.jpg",
+              "width": 1226
+            }
+          ],
+          "alt": "The Winchester High School auditorium screen shows the revised Article 33 motion for $173,724.19 as Town Meeting members sit in the seats below.",
+          "caption": "The revised Article 33 motion, shown on screen Thursday, draws $173,724.19 from three Eversource project accounts.",
+          "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+        }
+      ]
+    },
+    {
+      "id": "nov12-2012-art30-vote",
+      "at": "2026-11-12T20:12:00-05:00",
+      "article": 30,
+      "title": "Town Meeting approves $25,000 Carriage House study, 85-68",
+      "dek": "Narrowed motion drops demolition option; Matthews expects review to price only basic restoration",
+      "body": "Town Meeting approved Article 30 as amended, 85-68, on a clicker vote, putting $25,000 toward a study of refurbishing the Sanborn Carriage House as a collaboration among the town, Winchester Public Schools and the Winchester Historical Society. Most of the money, $19,463.32, is left over from earlier carriage house consulting. The other $5,536.68 comes from free cash. The article needed a majority.\n\nThe Select Board and the Finance Committee had opposed the original $50,000 request, citing the use of free cash. The Select Board backed the amended version 3-1.\n\n## What the study will cover\nHeather von Mering of Precinct 8 asked whether the study would test the Historical Society’s plan or gather ideas for the building.\n\nSchool Committee Chair Timothy Matthews said the Committee mainly wants a 2026 cost estimate for a basic restoration. He said contractors hired without public bidding have estimated the work in the high $1 million range and in the mid-$2 million range, while the 2021 central office plan, a very different project, came in between $5 million and $6 million. With $25,000, he said, the study will likely establish only the base cost of making the building minimally usable. If that cost is high, the next question is how much the Society could raise privately and how much it would seek in community preservation money, he said.\n\nJohn Miller of Precinct 6 said he voted against the amendment because it drops demolition from the study. “This article is no longer neutral,” he said. Frattaroli agreed the amended motion no longer mentions demolition.\n\n## For and against\nDoug Marmon of Precinct 1 said the School Committee has no vision for the building and the Historical Society does. “We have the time. We don’t have to do it all at once. The only thing that’s really urgent is fixing the roof,” he said.\n\nElizabeth Schreiber of Precinct 7 said she read the spring vote differently: members spared the building because of a convincing plan to save it with private money, and six months later there is no private funding and a new request for public money. “That’s 10 individuals donating $5,000,” she said of the original $50,000.\n\nMiller said Winchester Youth Basketball raised $120,000 in about a week to refurbish what are now the Bigelow Courts. “If there’s an appetite to do something like this, I think the money is there,” he said.\n\nSelect Board member Michael Bettencourt of Precinct 6 noted that historic preservation is one of the purposes of community preservation money, which he said now totals $1.8 million and will soon top $2 million. He said demolishing the building would cost $300,000, and that narrowing a study too far can leave it unproductive or draw no bidders.",
+      "documents": [
+        {
+          "title": "Article 30: motion and background",
+          "pdf": "docs/article-30.pdf",
+          "pages": [
+            "docs/article-30-p1.jpg"
+          ],
+          "note": "Source: Town of Winchester."
+        }
+      ]
+    },
     {
       "id": "nov12-2004-art30-amend-vote",
       "at": "2026-11-12T20:04:00-05:00",
