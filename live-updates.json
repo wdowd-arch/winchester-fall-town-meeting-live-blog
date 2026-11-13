@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-12T20:50:00-05:00",
+  "updatedAt": "2026-11-12T21:00:00-05:00",
   "byline": "By Will Dowd · Nov. 12, 2026",
   "meeting": "7 p.m. Thursday, Nov. 12 · Winchester High School auditorium, 80 Skillings Road",
   "note": "Town Meeting’s third session began at 7:07 p.m. Thursday, Nov. 12, at Winchester High School, with 14 of the 45 articles left. Tonight’s updates appear first, newest first. Earlier nights’ summaries, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
@@ -52,6 +52,60 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov12-2100-art35",
+      "at": "2026-11-12T21:00:00-05:00",
+      "article": 35,
+      "title": "Town Meeting agrees to hand station parcel to state transit authority",
+      "dek": "McGonigle says transfer of about 1,380 square feet fulfills obligation from Winchester Center rebuild",
+      "body": "Town Meeting unanimously approved Article 35 on a voice vote. It conveys a parcel of about 1,380 square feet next to the Winchester Center commuter rail station to the Massachusetts Bay Transportation Authority. The article needed two-thirds.\n\nSelect Board Vice Chair Bill McGonigle presented the first of three land articles. He said the town agreed to give up the land as part of the station’s reconstruction so the authority can maintain it. “We don’t want to incur any more liabilities or certainly make the MBTA angry,” he said.\n\nThe Select Board recommended it unanimously. Members asked no questions.",
+      "documents": [
+        {
+          "title": "Article 35: motion and background",
+          "pdf": "docs/article-35.pdf",
+          "pages": [
+            "docs/article-35-p1.jpg"
+          ],
+          "note": "Source: Town of Winchester."
+        }
+      ]
+    },
+    {
+      "id": "nov12-2058-art34-vote",
+      "at": "2026-11-12T20:58:00-05:00",
+      "article": 34,
+      "title": "Town Meeting backs tougher sidewalk snow rules unanimously",
+      "dek": "Members strike sand from approved treatments; fines climb to $25, $50 and $75",
+      "body": "Town Meeting unanimously approved Article 34 on a voice vote. The change to the sidewalk snow removal bylaw requires at least 36 inches of cleared, slip-resistant path, including the full width of curb cuts and ramps, and raises fines to $25, $50 and $75.\n\nMembers first agreed, without objection, to a friendly amendment striking “sanding” from the list of approved treatments. Deborah Johnson of the Disability Access Commission said the mailed motion book had failed to show the word crossed out. Calcium chloride takes its place.\n\nDiab Jerius of Precinct 8 asked what counts as a second offense. Johnson pointed to the bylaw’s existing language, which makes each day a violation continues a separate offense. Police Chief Daniel O’Connell said that in practice, an owner who already has one ticket gets the $50 fine on the next, whether in the same storm or another, and the $75 fine after that.\n\nJoshua Bers of Precinct 7 asked whether residents should call police or public works when a downtown sidewalk is not cleared. “You can always call us. We would be happy to help out,” said Department of Public Works Director Robert LaBossiere.\n\nA Precinct 8 member urged the town to tell businesses and residents ahead of time how enforcement will work. Johnson said the Commission plans to meet with the Chamber of Commerce. “We’re not changing anything,” she said. “This is already federal and state law.”",
+      "image": {
+        "src": "images/n3-art34-wide-1226.jpg",
+        "width": 1226,
+        "height": 920,
+        "srcset": [
+          {
+            "src": "images/n3-art34-wide-800.jpg",
+            "width": 800
+          },
+          {
+            "src": "images/n3-art34-wide-1226.jpg",
+            "width": 1226
+          }
+        ],
+        "alt": "Wide view of the Winchester High School auditorium as Deborah Johnson speaks at a podium below a slide on snow removal rules.",
+        "caption": "Deborah Johnson walks Town Meeting through state snow removal rules for sidewalks and curb cuts on Thursday.",
+        "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+      },
+      "documents": [
+        {
+          "title": "Article 34: motion and background",
+          "pdf": "docs/article-34.pdf",
+          "pages": [
+            "docs/article-34-p1.jpg"
+          ],
+          "note": "The mailed version does not show “sanding” struck, as amended. Source: Town of Winchester."
+        }
+      ]
+    },
     {
       "id": "nov12-2050-art34",
       "at": "2026-11-12T20:50:00-05:00",
