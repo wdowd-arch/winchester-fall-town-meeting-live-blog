@@ -1,9 +1,9 @@
 {
   "status": "live",
-  "updatedAt": "2026-11-12T18:10:00-05:00",
+  "updatedAt": "2026-11-12T19:24:00-05:00",
   "byline": "By Will Dowd · Nov. 12, 2026",
   "meeting": "7 p.m. Thursday, Nov. 12 · Winchester High School auditorium, 80 Skillings Road",
-  "note": "Town Meeting’s third session begins at 7 p.m. Thursday, Nov. 12, at Winchester High School. Members have decided 31 of the 45 articles, and 14 remain. Tonight’s updates appear first, newest first. Earlier nights’ summaries, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
+  "note": "Town Meeting’s third session began at 7:07 p.m. Thursday, Nov. 12, at Winchester High School, with 14 of the 45 articles left. Tonight’s updates appear first, newest first. Earlier nights’ summaries, full video and coverage follow. The warrant tracker has details on every article and the results as they are recorded.",
   "stream": {
     "youtubeId": "PYWPrqUF7R0",
     "title": "Winchester Fall Town Meeting Session 3, Nov. 12, 2026"
@@ -52,6 +52,57 @@
     }
   ],
   "updates": [
+    {
+      "id": "nov12-1924-art30",
+      "at": "2026-11-12T19:24:00-05:00",
+      "article": 30,
+      "title": "Schools make case for $50,000 Sanborn Carriage House study",
+      "dek": "Bellaire says town has wrestled with vacant building over three decades; Select Board and Finance Committee oppose request",
+      "body": "School Committee member John Bellaire of Precinct 2 presented Article 30, which asks for $50,000 to hire a consultant to study refurbishing, replacing or demolishing the Sanborn Carriage House. The money would combine $19,000 left over from earlier carriage house efforts with $31,000 in free cash. The study itself would not choose an option.\n\n## Where the boards stand\n• Select Board: Unanimous unfavorable action. Chair Anthea Brady said the main concern was using free cash for the study.\n• Finance Committee: Unanimous unfavorable action. Chair Kathryn Hughes cited Town Meeting’s spring vote, which left the historical society room to pursue other funding, and said the study is not a good use of free cash now.\n• Historical Commission: Unanimous support, subject to reasonable costs. Michelle McCarthy of Precinct 7 said the Commission supports adaptive reuse and preservation of the building.\n\n## The building\nBellaire said the carriage house is a two-story building of roughly 3,000 square feet from the early 20th century, at 15 High St. It sits between Ambrose School and the Sanborn House and is under the School Committee’s control. It has been empty since 1994, and the town pays about $3,000 a year to insure it. A 2004 estimate put renovation at $873,000.\n\n“Whether you want to see it knocked down and paved over, or whether you want to see it saved, none of us, I would contend, are happy with the current state of the building,” Bellaire said.\n\n## How it got here\nTown Meeting overwhelmingly rejected a $5.9 million plan to move the schools’ central office into the building. This spring, it rejected a School Committee and Select Board article to demolish it. Over the summer, the School Committee declined to back a Winchester Historical Society application to the Winchester Committee on Community Preservation for roof repairs. As of Nov. 2, the Society reports verbal interest in donations of $200,000 to $300,000, Bellaire said.\n\nDebate is under way.",
+      "image": {
+        "src": "images/n3-bellaire-1226.jpg",
+        "width": 1226,
+        "height": 1635,
+        "srcset": [
+          {
+            "src": "images/n3-bellaire-800.jpg",
+            "width": 800
+          },
+          {
+            "src": "images/n3-bellaire-1226.jpg",
+            "width": 1226
+          }
+        ],
+        "alt": "School Committee member John Bellaire speaks at a podium on the Winchester High School stage.",
+        "caption": "School Committee member John Bellaire presents Article 30 on Thursday.",
+        "credit": "WINCHESTER NEWS STAFF PHOTO / WILL DOWD"
+      }
+    },
+    {
+      "id": "nov12-1912-opening",
+      "at": "2026-11-12T19:12:00-05:00",
+      "title": "Town Meeting honors 100-year-old parade leader, retiring detective and longtime capital planner",
+      "dek": "Lipper-Garabedian, elected to state Senate, pledges open door as third session opens with 129 of 192 members present",
+      "body": "Town Meeting opened its third session at 7:07 p.m. Thursday at Winchester High School. By 7:09 p.m., 129 of the 192 members had checked in.\n\nState Rep. Kate Lipper-Garabedian, who was elected Nov. 3 to the 5th Middlesex state Senate seat, told members she will keep an open-door policy when she takes office Jan. 6. “As a former city councilor in Melrose, I know how important the local-state partnerships really are,” she said.\n\nModerator Philip Frattaroli then led three recognitions, each met with a standing ovation:\n• Margie Labedz, 100, who Frattaroli said has run the Veterans Day parade and the Veterans of Foreign Wars lodge for almost 50 years.\n• Detective Steven Fields, who is retiring from the Winchester Police Department after 44 years. He began as a patrol officer in 1983 and served on the department’s honor guard and motorcycle unit. He also served on the Northeast Law Enforcement Council’s mountain bike unit, working presidential inaugurations, Boston Marathons and Red Sox World Series games, Frattaroli said. “I have been told that Detective Fields has issued over 10,000 traffic tickets. In his distinguished career, it’s unclear how many of those were town meeting members,” Frattaroli said.\n• Helen Philliou of Precinct 5, who is stepping down after 40 years in Town Meeting. She served more than 20 years on the Capital Planning Committee, more than a decade as chair. Frattaroli credited her with bringing institutional knowledge and historical perspective to the Committee.\n\nFrattaroli showed a football graphic placing Town Meeting at the 32-yard line of the warrant and said members might still finish in three nights with some cooperation.",
+      "image": {
+        "src": "images/n3-lipper-garabedian-1226.jpg",
+        "width": 1226,
+        "height": 690,
+        "srcset": [
+          {
+            "src": "images/n3-lipper-garabedian-800.jpg",
+            "width": 800
+          },
+          {
+            "src": "images/n3-lipper-garabedian-1226.jpg",
+            "width": 1226
+          }
+        ],
+        "alt": "State Rep. Kate Lipper-Garabedian speaks at a microphone in the Winchester High School auditorium.",
+        "caption": "State Rep. Kate Lipper-Garabedian, elected Nov. 3 to the 5th Middlesex state Senate seat, addresses Town Meeting on Thursday.",
+        "credit": "WINCAM GOVERNMENT"
+      }
+    },
     {
       "id": "nov12-1810-preview",
       "at": "2026-11-12T18:10:00-05:00",
